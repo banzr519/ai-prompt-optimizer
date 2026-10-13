@@ -1,0 +1,25 @@
+# Credentials and local environment
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+secrets.*
+
+# OS, editor and private workspace files
+.DS_Store
+._*
+.vscode/
+.idea/
+.codex/
+.agents/
+.codegraph/
+
+# Generated caches and dependencies
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+.venv/
+venv/
+node_modules/

@@ -1,0 +1,148 @@
+{
+  "documentation_version": "2.1.0",
+  "review_date": "2026-10-13",
+  "scope": "Natural-language prompt portability for text/chat/instruction-following variants, not certified integrations or all versions.",
+  "model_api_adapters_shipped": false,
+  "models": [
+    {
+      "id": "gpt",
+      "family": "GPT",
+      "provider": "OpenAI",
+      "official_reference": "https://developers.openai.com/api/docs/guides/prompt-engineering",
+      "portability": "documented_candidate",
+      "model_specific_validation": "not_run",
+      "native_skill_loading": "host_dependent",
+      "api_adapter": "not_shipped"
+    },
+    {
+      "id": "deepseek",
+      "family": "DeepSeek",
+      "provider": "DeepSeek",
+      "official_reference": "https://api-docs.deepseek.com/",
+      "portability": "documented_candidate",
+      "model_specific_validation": "not_run",
+      "native_skill_loading": "host_dependent",
+      "api_adapter": "not_shipped"
+    },
+    {
+      "id": "claude",
+      "family": "Claude",
+      "provider": "Anthropic",
+      "official_reference": "https://platform.claude.com/docs/en/models/overview",
+      "portability": "documented_candidate",
+      "model_specific_validation": "not_run",
+      "native_skill_loading": "host_dependent",
+      "api_adapter": "not_shipped"
+    },
+    {
+      "id": "gemini",
+      "family": "Gemini",
+      "provider": "Google",
+      "official_reference": "https://ai.google.dev/gemini-api/docs/text-generation/",
+      "portability": "documented_candidate",
+      "model_specific_validation": "not_run",
+      "native_skill_loading": "host_dependent",
+      "api_adapter": "not_shipped"
+    },
+    {
+      "id": "qwen",
+      "family": "Qwen / 通义千问",
+      "provider": "Alibaba / 阿里巴巴",
+      "official_reference": "https://help.aliyun.com/zh/model-studio/models",
+      "portability": "documented_candidate",
+      "model_specific_validation": "not_run",
+      "native_skill_loading": "host_dependent",
+      "api_adapter": "not_shipped"
+    },
+    {
+      "id": "doubao",
+      "family": "Doubao / 豆包",
+      "provider": "ByteDance / 字节跳动",
+      "official_reference": "https://docs.volcengine.com/docs/ark?lang=zh",
+      "portability": "documented_candidate",
+      "model_specific_validation": "not_run",
+      "native_skill_loading": "host_dependent",
+      "api_adapter": "not_shipped"
+    },
+    {
+      "id": "hunyuan",
+      "family": "Hunyuan / 腾讯混元",
+      "provider": "Tencent / 腾讯",
+      "official_reference": "https://cloud.tencent.com/document/product/1729/101848",
+      "portability": "documented_candidate",
+      "model_specific_validation": "not_run",
+      "native_skill_loading": "host_dependent",
+      "api_adapter": "not_shipped"
+    },
+    {
+      "id": "ernie",
+      "family": "ERNIE / 文心",
+      "provider": "Baidu / 百度",
+      "official_reference": "https://cloud.baidu.com/doc/qianfan/index.html",
+      "portability": "documented_candidate",
+      "model_specific_validation": "not_run",
+      "native_skill_loading": "host_dependent",
+      "api_adapter": "not_shipped"
+    },
+    {
+      "id": "glm",
+      "family": "GLM",
+      "provider": "Z.ai / 智谱",
+      "official_reference": "https://docs.bigmodel.cn/cn/guide/models/text/glm-4",
+      "portability": "documented_candidate",
+      "model_specific_validation": "not_run",
+      "native_skill_loading": "host_dependent",
+      "api_adapter": "not_shipped"
+    },
+    {
+      "id": "kimi",
+      "family": "Kimi",
+      "provider": "Moonshot AI / 月之暗面",
+      "official_reference": "https://github.com/MoonshotAI/Kimi-K2",
+      "portability": "documented_candidate",
+      "model_specific_validation": "not_run",
+      "native_skill_loading": "host_dependent",
+      "api_adapter": "not_shipped"
+    },
+    {
+      "id": "minimax",
+      "family": "MiniMax",
+      "provider": "MiniMax",
+      "official_reference": "https://platform.minimax.cn/docs/guides/models-intro",
+      "portability": "documented_candidate",
+      "model_specific_validation": "not_run",
+      "native_skill_loading": "host_dependent",
+      "api_adapter": "not_shipped"
+    },
+    {
+      "id": "grok",
+      "family": "Grok",
+      "provider": "xAI",
+      "official_reference": "https://docs.x.ai/overview",
+      "portability": "documented_candidate",
+      "model_specific_validation": "not_run",
+      "native_skill_loading": "host_dependent",
+      "api_adapter": "not_shipped"
+    },
+    {
+      "id": "mistral",
+      "family": "Mistral",
+      "provider": "Mistral AI",
+      "official_reference": "https://docs.mistral.ai/",
+      "portability": "documented_candidate",
+      "model_specific_validation": "not_run",
+      "native_skill_loading": "host_dependent",
+      "api_adapter": "not_shipped"
+    },
+    {
+      "id": "llama",
+      "family": "Llama",
+      "provider": "Meta",
+      "official_reference": "https://github.com/meta-llama/llama-models",
+      "portability": "documented_candidate",
+      "model_specific_validation": "not_run",
+      "native_skill_loading": "host_dependent",
+      "api_adapter": "not_shipped"
+    }
+  ]
+}

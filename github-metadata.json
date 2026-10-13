@@ -1,0 +1,27 @@
+{
+  "release_version": "2.1.0",
+  "repository_name": "ai-prompt-optimizer",
+  "description": "AI prompt optimizer & prompt engineering skill. AI 提示词优化、需求澄清。Portable guidance for GPT, DeepSeek, Claude, Gemini, Qwen, Kimi, GLM, Doubao, Hunyuan, ERNIE, MiniMax, Grok, Mistral & Llama; integrations depend on the host.",
+  "topics": [
+    "prompt-optimizer",
+    "prompt-engineering",
+    "prompt-optimization",
+    "ai-prompts",
+    "agent-skills",
+    "codex",
+    "ai-tools",
+    "llm",
+    "gpt",
+    "deepseek",
+    "requirements-engineering",
+    "claude",
+    "gemini",
+    "qwen",
+    "kimi",
+    "glm",
+    "llama",
+    "mistral"
+  ],
+  "publication_status": "prepared-not-published",
+  "note": "Planning metadata only. GitHub does not automatically apply this file to repository About or Topics."
+}
