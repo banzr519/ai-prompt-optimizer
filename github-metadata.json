@@ -24,6 +24,7 @@
     "multilingual",
     "i18n"
   ],
-  "publication_status": "prepared-not-published",
-  "note": "Planning metadata only. GitHub does not automatically apply this file to repository About or Topics."
+  "publication_status": "published",
+  "note": "Publication verified on GitHub. GitHub does not automatically apply this file to repository About or Topics.",
+  "repository_url": "https://github.com/banzr519/ai-prompt-optimizer"
 }
