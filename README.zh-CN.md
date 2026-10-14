@@ -1,12 +1,24 @@
 # AI Prompt Optimizer · AI 提示词优化助手
 
-[English](README.md) | **简体中文**
+<!-- language-navigation:start -->
+[English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Türkçe](README.tr.md)
+
+[Русский](README.ru.md) · [Tiếng Việt](README.vi.md) · [ไทย](README.th.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [Français](README.fr.md)
+
+[Українська](README.uk.md) · [Polski](README.pl.md) · [Português (Brasil)](README.pt-BR.md) · [Pāli](README.pi.md) · [Bahasa Indonesia](README.id.md) · [Italiano](README.it.md)
+
+[Ελληνικά](README.el.md) · [العربية](README.ar.md) · [हिन्दी](README.hi.md) · [বাংলা](README.bn.md) · [فارسی](README.fa.md) · [עברית](README.he.md)
+
+[Nederlands](README.nl.md) · [Svenska](README.sv.md) · [Português (Portugal)](README.pt-PT.md) · [Bahasa Melayu](README.ms.md) · [Filipino](README.fil.md) · [Kiswahili](README.sw.md)
+
+[Language coverage / 语言覆盖](docs/LANGUAGES.md)
+<!-- language-navigation:end -->
 
 **把模糊描述转成明确、可执行的 AI 指令，同时保留你的原意。**
 
 AI Prompt Optimizer 是一个用于 **AI 提示词优化、Prompt Engineering 和需求澄清的 Agent Skill**。你可以用它改进提示词、检查指令冲突，也可以让它先理清任务，再交给 AI 执行。覆盖开发、设计、写作、分析和日常规划。
 
-**v2.1.0 · MIT 许可 · 纯指令技能 · 技能本身无需 API Key**
+**v2.3.0 · MIT 许可 · 纯指令技能 · 技能本身无需 API Key**
 
 [快速开始](#快速开始) · [详细使用指南](docs/USER_GUIDE.zh-CN.md) · [English guide](docs/USER_GUIDE.md) · [评测记录](evals/RESULTS.md) · [GitHub 发布指南](docs/PUBLISHING.zh-CN.md)
 
@@ -34,6 +46,18 @@ AI Prompt Optimizer 是一个用于 **AI 提示词优化、Prompt Engineering �
 | “理解后直接做” | 最小化澄清，然后继续完成已授权工作。 |
 
 它会保留数字、名称、否定条件和范围，区分事实与假设，识别矛盾要求，并让已经清楚的请求保持简短。包含34类语义模式、10类任务场景和8个教学示例，参考资料按需读取。
+
+## v2.3.0：多语言
+
+提供30个语言／地区入口，可切换到对应README和入门指南。新增规则分别处理说明、优化后提示词和下游产出的语言，保留简繁体、地区用语、变量及原有限制。巴利语为实验双语入门页。新增翻译由AI编写，尚未经母语专业审校；文档覆盖不代表模型语言能力保证。
+
+[语言目录与覆盖范围](docs/LANGUAGES.md) · [语言验证记录](evals/RESULTS-v2.3.0.md)
+
+## v2.2.0 新增
+
+根据失败回答修订提示词；保留复用变量和输出格式；有依据地比较；整理长对话交接；转译图像与视频需求。简单任务保持简短，不默认增加模型调用，也不用记住新命令。
+
+[进阶用法](docs/USER_GUIDE.zh-CN.md#进阶用法) · [开源研究与改进决策](docs/RESEARCH.zh-CN.md) · [本次验证记录](evals/RESULTS-v2.2.0.md)
 
 ## 快速开始
 
@@ -95,7 +119,7 @@ $ai-prompt-optimizer 只优化下面这段提示词：把我的报告写得专�
 
 ## 验证情况与边界
 
-v1.0.0 完成8个独立代理任务试用，包括一次合成 Python 代码的实际修复，现有4项测试通过。截至v2.1.0，核心流程保持不变。v2.0.0 调整名称；v2.1.0 补充模型系列的复用说明，未新增API集成。详见[评测记录与局限](evals/RESULTS.md)。仓库提供16个评测用例，其中8个尚未运行。这些结果不等于跨模型基准，也不能证明固定比例的提效或成本下降。
+v1.0.0 完成8个独立代理任务试用，包括一次合成 Python 代码的实际修复，现有4项测试通过。截至v2.1.0，核心流程保持不变。v2.0.0 调整名称；v2.1.0 补充模型系列的复用说明，未新增API集成。详见[评测记录与局限](evals/RESULTS.md)。原有16个评测用例中8个尚未运行。v2.2.0 新增行为案例及实际观察单独记录于[本次验证记录](evals/RESULTS-v2.2.0.md)。这些结果不等于跨模型基准，也不能证明固定比例的提效或成本下降。
 
 ## 从旧版升级
 

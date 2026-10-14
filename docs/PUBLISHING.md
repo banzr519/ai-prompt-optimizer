@@ -13,7 +13,7 @@ This guide prepares a standalone public repository. The files alone do not creat
 | Chinese title | AI 提示词优化助手 |
 | Skill identifier | `ai-prompt-optimizer` |
 | Invocation | `$ai-prompt-optimizer` |
-| Suggested release tag | `v2.1.0` |
+| Suggested release tag | `v2.3.0` |
 | Previous name | `clarify-intent` / 意图精炼器 |
 
 The name uses recognizable category words—AI, prompt, optimizer—while the subtitle explains requirements clarification and faithful task instructions. This is a naming judgment based on the task and observed public naming, not a keyword-volume study. Other owners may use similar repository names; do not claim uniqueness or affiliation. Repository availability still depends on the chosen owner's namespace.
@@ -49,9 +49,11 @@ kimi
 glm
 llama
 mistral
+multilingual
+i18n
 ```
 
-Do not add unsupported clients or unrelated trending topics. GitHub currently permits up to 20 topics, with lowercase letters, numbers and hyphens and a 50-character limit per topic. These 18 follow those rules. See [GitHub's topic documentation](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics).
+Do not add unsupported clients or unrelated trending topics. GitHub currently permits up to 20 topics, with lowercase letters, numbers and hyphens and a 50-character limit per topic. These 20 follow those rules. See [GitHub's topic documentation](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics).
 
 [github-metadata.json](../github-metadata.json) stores the proposed name, description and topics for reuse. **GitHub does not automatically import that file.** Apply the settings in GitHub's UI or through your own authorized API workflow.
 
@@ -63,7 +65,7 @@ Do not add unsupported clients or unrelated trending topics. GitHub currently pe
 4. Upload the standalone files or push a clean standalone repository. Do not add the public GitHub remote to the private managed Skills workspace.
 5. Set the About description and Topics above. Leave Website blank unless a real project site exists. Update `publication_status` in `github-metadata.json` only after the repository is actually public, and record its verified URL if useful.
 6. Open the root README and click **简体中文 → English**. Repeat for both user guides and publishing guides. Test installation from the public source in a clean temporary environment and invoke the new skill name.
-7. If publishing a release, tag the verified commit `v2.1.0`. Explain the new model portability documentation and state that the invocation was previously renamed from `$clarify-intent`, that core behavior is unchanged and that separate model API benchmarks have not been performed.
+7. If publishing a release, tag the verified commit `v2.3.0`. Describe the 30 language/locale entries, starter guides, cross-language rules and reproducible documentation renderer; Pāli is an experimental bilingual starter. Invocation remains `$ai-prompt-optimizer`; retain the earlier rename migration note and disclose that separate model API comparisons have not been performed. Report issues and recheck scope from the new validation record.
 
 The repository root is already an installable skill directory; no build process is needed. `evals/fixtures/label.py` intentionally retains a bug for regression evaluation—it is not runtime production code. Keep the original MIT copyright notice.
 
@@ -100,3 +102,7 @@ Discovery tests are not ranking guarantees; indexing may not be immediate and re
 - Distinguish “ready to publish” from “published”, and “designed for reuse” from “tested integration”.
 
 Sources checked on 2026-10-13: [GitHub README documentation](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes), the search/topic documentation above and [Codex skill documentation](https://learn.chatgpt.com/docs/build-skills).
+
+## v2.3.0 multilingual release checks
+
+Run `python3 scripts/build_localized_docs.py --check` and check all 30 entries and relative links. Distinguish primary full documents, localized starter guides and the experimental bilingual Pāli entry. Do not claim full translation of every document, professional native review or tested support in every model. Preserve technical identifiers.

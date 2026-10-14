@@ -1,5 +1,5 @@
 {
-  "release_version": "2.1.0",
+  "release_version": "2.3.0",
   "repository_name": "ai-prompt-optimizer",
   "description": "AI prompt optimizer & prompt engineering skill. AI 提示词优化、需求澄清。Portable guidance for GPT, DeepSeek, Claude, Gemini, Qwen, Kimi, GLM, Doubao, Hunyuan, ERNIE, MiniMax, Grok, Mistral & Llama; integrations depend on the host.",
   "topics": [
@@ -20,9 +20,10 @@
     "kimi",
     "glm",
     "llama",
-    "mistral"
+    "mistral",
+    "multilingual",
+    "i18n"
   ],
-  "publication_status": "published",
-  "note": "Publication verified on GitHub. GitHub does not automatically apply this file to repository About or Topics.",
-  "repository_url": "https://github.com/banzr519/ai-prompt-optimizer"
+  "publication_status": "prepared-not-published",
+  "note": "Planning metadata only. GitHub does not automatically apply this file to repository About or Topics."
 }

@@ -1,5 +1,5 @@
 {
-  "documentation_version": "2.1.0",
+  "documentation_version": "2.3.0",
   "review_date": "2026-10-13",
   "scope": "Natural-language prompt portability for text/chat/instruction-following variants, not certified integrations or all versions.",
   "model_api_adapters_shipped": false,

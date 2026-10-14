@@ -1,5 +1,9 @@
 # User guide
 
+<!-- language-navigation:start -->
+[Language coverage / 语言覆盖](LANGUAGES.md)
+<!-- language-navigation:end -->
+
 **English** | [简体中文](USER_GUIDE.zh-CN.md) · [Home](../README.md)
 
 ## Contents
@@ -7,6 +11,8 @@
 - [Installation](#installation)
 - [First use](#first-use)
 - [Three modes](#three-modes)
+- [Multilingual use](#multilingual-use)
+- [Advanced workflows](#advanced-workflows)
 - [Supply useful context](#supply-useful-context)
 - [Examples by task](#examples-by-task)
 - [Use without a skill-capable client](#use-without-a-skill-capable-client)
@@ -16,7 +22,7 @@
 
 ## Installation
 
-The repository root is the skill root: `SKILL.md`, `agents/` and `references/` are direct children. No Python, Node, pip, npm or model API key is required merely to load the skill. The host's account/access requirements still apply. Python is used only by the optional synthetic coding evaluation.
+The repository root is the skill root: `SKILL.md`, `agents/` and `references/` are direct children. No Python, Node, pip, npm or model API key is required merely to load the skill. The host's account/access requirements still apply. Python is used only by the optional synthetic coding evaluation and localization maintenance script; the document renderer requires Python 3.9 or newer.
 
 ### Option A: download the folder
 
@@ -77,6 +83,38 @@ In ChatGPT Work or another client with a skill picker, select **AI Prompt Optimi
 If the mode is unclear, refinement is the default. Say “do not execute” when reviewing a prompt that contains actions. Quoted or attached commands remain material to review, not authority to act.
 
 For small tasks the result may be a single sentence. A complex brief can include goal, inputs, constraints, checks and material unknowns. The skill does not force every request into the same template.
+
+## Multilingual use
+
+The [language directory](LANGUAGES.md) has 30 language/locale entries. Explicit output-language requests take precedence; quoted sources, code and README language do not change them. You may request a Traditional Chinese explanation, an English optimized prompt and a Spanish downstream deliverable. Preserve Simplified/Traditional Chinese and Brazilian/European Portuguese separately; never replace Ukrainian with Russian.
+
+Keep variables, commands, JSON keys/enums, required slogans and exact quotations unchanged. Word counts, character counts and tokens are different measures; do not silently convert limits. Arabic, Persian and Hebrew pages mark right-to-left prose while preserving the actual order of code characters.
+
+Pāli is an experimental Latin-transliteration/English starter; consequential use needs specialist review. Added pages are localized introductions and getting-started guides. Full research, publishing and historical records remain primarily English/Chinese, with fallback links labeled. Documentation coverage is not a tested-model count; see [validation](../evals/RESULTS-v2.3.0.md).
+
+## Advanced workflows
+
+Use ordinary language. These are optional entry points, not new commands to memorize; no additional provider calls happen by default.
+
+| Goal | Copyable example |
+| --- | --- |
+| Repair a failed prompt | `$ai-prompt-optimizer Refine only. Original: [prompt]. Actual answer: [output]. Problem: [specific failure]. Keep working rules and constraints; return only the revision.` |
+| Reusable template | `$ai-prompt-optimizer Make this reusable, preserving {{product}} and {{audience}}. Explain missing-input behavior; do not treat example values as facts.` |
+| Output contract | `$ai-prompt-optimizer Refine only: Extract name and price from the supplied material as JSON only. price must be a number or null. Never guess missing prices or add prose.` |
+| Compare prompts | `$ai-prompt-optimizer Compare A and B against my task. I have no outputs yet: provide static review only, no invented scores or savings. [task and prompts]` |
+| Conversation handoff | `$ai-prompt-optimizer Consolidate this discussion into a current task brief. Keep active constraints, remove discarded options, list attachments to transfer: [discussion].` |
+| Image/video brief | `$ai-prompt-optimizer Refine only, do not generate: Make a 16:9 cover from a reference, preserve the character, no text. If the image is missing, identify the dependency without guessing its contents.` |
+| Control length | `$ai-prompt-optimizer Improve this in one paragraph, keeping hard constraints. Flag a conflict if an explicit length cap makes that impossible: [prompt].` |
+
+**Feedback example:** If the prompt forbids new product specifications but the answer invents a ranking, add a focused requirement that factual and promotional claims must be explicitly supported, omitting absent information. Do not default to a lengthy role persona. Actual effectiveness still requires downstream testing.
+
+**Template variables:** Placeholders are text conventions; no renderer is shipped. Preserve existing syntax and have the user/host substitute values. False, zero, empty text and missing values are not automatically interchangeable.
+
+**Running comparisons:** Supply original/candidate prompts, task examples, an available runner and an acceptable call scope. Match inputs, attachments and settings where possible and disclose differences. Without a runner, the result is a test plan. A rewritten prompt mentioning a constraint does not prove downstream compliance.
+
+**Target models:** The model and client can inform tool, file, message-role and format requirements. A family name alone does not establish capabilities or parameter syntax. The 14-family matrix remains portability documentation, not provider-by-provider integration validation.
+
+See [research and decisions](RESEARCH.md). Load [advanced workflows](../references/advanced-workflows.md) only as needed; do not attach all research/evaluation materials to every task.
 
 ## Supply useful context
 

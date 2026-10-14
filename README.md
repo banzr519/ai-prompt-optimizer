@@ -1,6 +1,18 @@
 # AI Prompt Optimizer
 
-**English** | [简体中文](README.zh-CN.md)
+<!-- language-navigation:start -->
+[English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Türkçe](README.tr.md)
+
+[Русский](README.ru.md) · [Tiếng Việt](README.vi.md) · [ไทย](README.th.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [Français](README.fr.md)
+
+[Українська](README.uk.md) · [Polski](README.pl.md) · [Português (Brasil)](README.pt-BR.md) · [Pāli](README.pi.md) · [Bahasa Indonesia](README.id.md) · [Italiano](README.it.md)
+
+[Ελληνικά](README.el.md) · [العربية](README.ar.md) · [हिन्दी](README.hi.md) · [বাংলা](README.bn.md) · [فارسی](README.fa.md) · [עברית](README.he.md)
+
+[Nederlands](README.nl.md) · [Svenska](README.sv.md) · [Português (Portugal)](README.pt-PT.md) · [Bahasa Melayu](README.ms.md) · [Filipino](README.fil.md) · [Kiswahili](README.sw.md)
+
+[Language coverage / 语言覆盖](docs/LANGUAGES.md)
+<!-- language-navigation:end -->
 
 **Turn vague requests into clear, actionable AI instructions—while preserving what you meant.**
 
@@ -8,7 +20,7 @@ AI Prompt Optimizer is a **prompt optimization and requirements clarification Ag
 
 AI 提示词优化助手：优化 Prompt、澄清需求、明确任务边界与验收标准，保留原意。
 
-**v2.1.0 · MIT · Instruction-only · No API key required by the skill**
+**v2.3.0 · MIT · Instruction-only · No API key required by the skill**
 
 [Get started](#quick-start) · [User guide](docs/USER_GUIDE.md) · [中文使用指南](docs/USER_GUIDE.zh-CN.md) · [Evaluation record](evals/RESULTS.md) · [Publishing guide](docs/PUBLISHING.md)
 
@@ -36,6 +48,18 @@ This is an illustrative translation, not a fixed template or performance claim.
 | “Clarify it and do it” | Minimal clarification followed by authorized execution. |
 
 The skill preserves numbers, names, exclusions and scope. It separates known information from assumptions, detects conflicting requirements and keeps already-clear tasks short. It includes 34 semantic patterns, 10 domain guides and 8 teaching examples, loaded only when useful.
+
+## New in v2.3.0: languages
+
+30 language/locale entries with clickable README and getting-started guides. Added language rules distinguish the explanation, optimized prompt and downstream output; preserve scripts, variables and exact constraints. Pāli has an experimental bilingual starter. Added translations are AI-authored and not professionally native-reviewed; documentation coverage is not a model-quality guarantee.
+
+[Language directory and coverage](docs/LANGUAGES.md) · [Language validation](evals/RESULTS-v2.3.0.md)
+
+## New in v2.2.0
+
+Repair prompts from failed outputs; preserve reusable variables and output contracts; compare evidence without inventing scores; consolidate multi-turn context; refine image/video briefs. Simple requests remain short, and provider calls are not added by default. Use natural language—no new command syntax.
+
+[Advanced usage](docs/USER_GUIDE.md#advanced-workflows) · [Research and decisions](docs/RESEARCH.md) · [New validation record](evals/RESULTS-v2.2.0.md)
 
 ## Quick start
 
@@ -97,7 +121,7 @@ The language links switch between maintained Markdown documents. They do not cha
 
 ## Validation and limitations
 
-Eight independent agent tasks were observed in v1.0.0, including a real repair of a synthetic Python function with four existing tests. The core workflow is unchanged through v2.1.0. v2.0.0 renamed the skill; v2.1.0 adds model-family portability documentation without new API integrations. See [validation details and limitations](evals/RESULTS.md). Sixteen evaluation cases are included; eight remain unrun. These are not cross-model benchmarks or proof of reduced cost or follow-up count.
+Eight independent agent tasks were observed in v1.0.0, including a real repair of a synthetic Python function with four existing tests. The core workflow is unchanged through v2.1.0. v2.0.0 renamed the skill; v2.1.0 adds model-family portability documentation without new API integrations. See [validation details and limitations](evals/RESULTS.md). The original suite contains sixteen cases, eight unrun. New v2.2.0 behavior cases and their actual observations are recorded separately in [the new evaluation record](evals/RESULTS-v2.2.0.md). These are not cross-model benchmarks or proof of reduced cost or follow-up count.
 
 ## Upgrading from Clarify Intent
 

@@ -13,7 +13,7 @@
 | 中文名称 | AI 提示词优化助手 |
 | 技能标识 | `ai-prompt-optimizer` |
 | 调用方式 | `$ai-prompt-optimizer` |
-| 建议版本标签 | `v2.1.0` |
+| 建议版本标签 | `v2.3.0` |
 | 旧名称 | `clarify-intent` / 意图精炼器 |
 
 名称使用容易理解的类别词 AI、Prompt、Optimizer，副标题再说明需求澄清和任务指令优化。这是结合用途与公开项目命名作出的判断，不是搜索量研究。其他所有者也可能使用类似仓库名，不声称独占或关联关系；能否创建还要看你所选账号下是否已有同名仓库。
@@ -49,9 +49,11 @@ kimi
 glm
 llama
 mistral
+multilingual
+i18n
 ```
 
-不要加入未支持客户端或无关热门词。GitHub 当前允许最多20个 Topic，每个最多50个字符，使用小写字母、数字与连字符；这里的18个标签符合规则。见 [GitHub Topics 官方说明](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics)。
+不要加入未支持客户端或无关热门词。GitHub 当前允许最多20个 Topic，每个最多50个字符，使用小写字母、数字与连字符；这里的20个标签符合规则。见 [GitHub Topics 官方说明](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics)。
 
 [github-metadata.json](../github-metadata.json) 保存了推荐仓库名、简介和标签，方便复制。**GitHub 不会自动读取该文件设置 About 或 Topics**，需要在界面或你授权的 API 流程中应用。
 
@@ -63,7 +65,7 @@ mistral
 4. 上传独立文件，或从全新独立仓库推送。不要把公共 GitHub remote 加到私人托管 Skills 工作区上。
 5. 在 About 中填入上面的简介和 Topics；没有真实项目网站时，Website 留空。公开成功后，再更新 `github-metadata.json` 中的 `publication_status`，需要时记录已核实的真实地址。
 6. 打开首页，点击 **简体中文 → English** 检查双向切换；对使用指南、发布指南也各检查一次。在干净临时环境从公开源安装并调用新技能名。
-7. 如需发布 Release，给已验证的提交添加 `v2.1.0` 标签，说明新增的模型复用文档，以及调用名此前从 `$clarify-intent` 改为 `$ai-prompt-optimizer`、核心流程未变，以及未开展独立的模型 API 对照测试。
+7. 如需发布 Release，给已验证的提交添加 `v2.3.0` 标签，说明新增30个语言／地区入口、入门指南、跨语言规则和可复现的文档生成脚本；其中巴利语是实验双语入门页。调用仍为 `$ai-prompt-optimizer`；保留此前改名的迁移说明，并明确尚未开展独立模型 API 对照测试。新试用中的问题与复查范围见本次验证记录。
 
 仓库根目录本身就是技能目录，无需编译。`evals/fixtures/label.py` 特意保留了用于评测的原始 Bug，不属于运行时业务代码。保留 MIT 原有版权声明。
 
@@ -100,3 +102,7 @@ prompt optimization in:readme
 - 明确区分“已准备发布”和“已经发布”、“按可复用设计”和“已验证集成”。
 
 资料核对日期：2026-10-13。来源包括 [GitHub README 文档](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)、上述搜索和 Topics 文档，以及 [Codex 技能文档](https://learn.chatgpt.com/docs/build-skills)。
+
+## v2.3.0 多语言发布检查
+
+运行 `python3 scripts/build_localized_docs.py --check`，检查30个入口及相对链接。发布说明要区分完整主维护文档、本地化入门指南和巴利语实验双语入口。不要声称所有文档均全文翻译、母语审校或所有模型均已实测。不要修改语言目录中的技术标识符。
