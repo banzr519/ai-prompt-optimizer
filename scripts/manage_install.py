@@ -172,7 +172,9 @@ def source(args):
             require(re.fullmatch('[0-9a-f]{40}', ref), 'Invalid resolved commit')
         with tempfile.TemporaryDirectory(prefix='apo-download-') as tmp:
             archive = request('https://codeload.github.com/' + REPO + '/zip/' + ref)
-            root = extract_archive(archive, Path(tmp))
+            # System temp roots may be aliases (for example /var on macOS).
+            # Canonicalize only our own temporary directory, not user-supplied sources.
+            root = extract_archive(archive, Path(tmp).resolve())
             yield root, {'kind': 'github', 'commit': ref, 'archive_sha256': digest(archive)}
 
 

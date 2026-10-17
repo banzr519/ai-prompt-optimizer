@@ -308,6 +308,26 @@ class InstallTests(unittest.TestCase):
         self.install()
         self.assertFalse((self.manager.target / '.env').exists())
 
+    def test_online_install_with_symlinked_system_temp_root(self):
+        real_temp = self.base / 'system-temp'
+        real_temp.mkdir()
+        alias = self.base / 'temp-alias'
+        alias.symlink_to(real_temp, target_is_directory=True)
+        data = io.BytesIO()
+        with zipfile.ZipFile(data, 'w') as z:
+            for rel in m.inventory(self.source, public_only=True):
+                z.writestr('root/' + rel, (self.source / rel).read_bytes())
+        original_temp = tempfile.TemporaryDirectory
+        def temporary(**kwargs):
+            kwargs.setdefault('dir', str(alias))
+            return original_temp(**kwargs)
+        args = type('Args', (), {'source': None, 'ref': 'a' * 40})()
+        with patch.object(m, 'request', return_value=data.getvalue()), patch.object(m.tempfile, 'TemporaryDirectory', side_effect=temporary):
+            with m.source(args) as (root, provenance):
+                result = self.manager.install(root, provenance)
+                self.assertEqual(result['problems'], [])
+                self.assertEqual(root, root.resolve())
+
 
 if __name__ == '__main__':
     unittest.main()
