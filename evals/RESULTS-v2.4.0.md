@@ -61,6 +61,16 @@ The local Codex CLI could not start because its platform runtime dependency was 
 client discovery/invocation result is claimed. Docker was present but its daemon was unavailable;
 Windows/Linux native execution remains outside this run.
 
+## Public-main verification
+
+After fast-forward publication of commit `108a8c8` on 2026-10-17, anonymous GitHub API and archive
+requests confirmed the public owner/repository, main commit and byte equality of all 105 tracked files.
+The repository description and 20 topics matched `github-metadata.json`; Website remained empty.
+A fresh isolated home then passed install, status, update, configure host mode and uninstall using the
+public main source. Install/update resolved main through the real GitHub API; the recorded source commit
+matched the published commit. Subsequent operations ran the downloaded installer. Publication metadata
+was changed to `published` only after these public checks. No tag or GitHub Release was created.
+
 ## Remaining limits
 
 - Windows PowerShell and Linux have not been executed on their native platforms; launchers are supplied for review.
@@ -68,8 +78,11 @@ Windows/Linux native execution remains outside this run.
 - Real GitHub archive download/update passed on macOS as described above; power loss/SIGKILL recovery and adversarial concurrent external edits remain unverified.
 - No fresh Codex client discovery/implicit invocation or native plugin onboarding test was run.
 - No new provider API comparison, language performance trial, native-speaker review or measured user-effort reduction.
-- No automatic GitHub publication, tag or Release is performed by the build. Publication status stays prepared until separately verified.
+- No automatic GitHub publication, tag or Release is performed by the build. Publication status is recorded separately after public verification.
 
 中文摘要：本版验证安装与配置行为，不新增模型效果结论。35 项自动化检查通过，独立检查者完成
 16 次 CLI 操作及 4 个补充场景。发现并修正“已有用户规则需审核”的结果提示及 macOS 在线下载临时路径误判；真实 GitHub 固定提交下载的 6 项安装维护操作通过。Windows、Linux、
 真实客户端发现和原生插件安装等范围仍待验证；历史语言试用和故意错误样例未重跑或修复。
+
+公开主分支核验：匿名读取确认 105 个文件一致，简介与 20 个 Topics 匹配，Website 为空；
+从公开 main 自动解析提交的 5 项安装维护操作通过，随后才记录 published 状态。未创建标签或 Release。
