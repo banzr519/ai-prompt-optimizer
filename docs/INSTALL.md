@@ -2,8 +2,8 @@
 
 [简体中文](INSTALL.zh-CN.md) · [Home](../README.md)
 
-**v2.4.0 local candidate.** Use the supplied archive/checkout. Consult
-[publication metadata](../github-metadata.json); an existing repository URL does not mean this version is published.
+**v2.4.0.** Clone this repository or select **Code → Download ZIP** on GitHub and extract it.
+Check [publication metadata](../github-metadata.json) for this version’s publication status.
 
 ## Recommended: ask Codex
 
@@ -79,8 +79,8 @@ python3 scripts/manage_install.py uninstall
 
 Repeat the same `--project` and `--codex-home` options when applicable. Online updates resolve this repository's
 `main` once to an immutable commit and download that archive. `--ref <full-40-character-SHA>` pins a commit;
-no nonexistent release tag is assumed. Downloaded code is not executed as the installer. Until v2.4.0 is
-published, public main may still be too old and will be rejected. Offline update: `update --source <new-folder>`.
+no nonexistent release tag is assumed. Downloaded code is not executed as the installer. Sources older than
+v2.4.0 are rejected. Offline update: `update --source <new-folder>`.
 There is no background update, telemetry or token request.
 
 Updates refuse modified/added/missing installed files, newly added Git history and version downgrades. Backups

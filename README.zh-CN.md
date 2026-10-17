@@ -73,7 +73,7 @@ AI Prompt Optimizer 是一个用于 **AI 提示词优化、Prompt Engineering �
 
 > 请阅读 docs/INSTALL.zh-CN.md，为我的个人 Codex 安装 AI Prompt Optimizer 并启用按需优化。使用项目自带安装器，保留已有配置与本地修改，完成后报告实际验证结果。
 
-本地候选版使用当前文件包；公开状态见 [github-metadata.json](github-metadata.json)。完整操作、Python 要求、旧版迁移及仅安装选项见[安装指南](docs/INSTALL.zh-CN.md)。
+克隆本仓库，或使用 GitHub 的 **Code → Download ZIP** 下载并解压，再将目录交给 Codex。公开状态见 [github-metadata.json](github-metadata.json)。完整操作、Python 要求、旧版迁移及仅安装选项见[安装指南](docs/INSTALL.zh-CN.md)。
 
 <details>
 <summary>手动安装与 Git 安装</summary>

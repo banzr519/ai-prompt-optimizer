@@ -12,8 +12,8 @@ or claim success just to bypass a missing dependency. Explain the actual gap.
    project. Honor `CODEX_HOME` or an explicit `--codex-home`. Inspect `status` first.
 2. Installation uses a reviewed source directory: `install --source <source>`; online
    installation/update can use `--ref <full-40-character-commit>` or resolve main once.
-   Until v2.4.0 is actually published, use the supplied local v2.4.0 package. Do not invent
-   a release, download URL or native installation deep link.
+   Check publication metadata and use a reviewed source with the maintenance scripts. Do not
+   invent a release, download URL or native installation deep link.
 3. Default preference: `--mode on-demand`. `--mode host` adds no custom guidance; it does
    NOT disable the host's implicit skill matching. Explain this distinction accurately.
 4. `--yes` means the user has authorized the displayed installation/configuration scope.

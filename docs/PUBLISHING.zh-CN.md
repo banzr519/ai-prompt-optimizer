@@ -110,4 +110,4 @@ prompt optimization in:readme
 
 ## v2.4.0 安装分发检查
 
-本版是本地候选版。发布前运行 `python3 -B -m unittest discover -s tests -v`、文档生成检查和 `python3 scripts/build_distribution.py --output <仓库外的新目录>`。核验两个 ZIP 与 SHA256SUMS；插件仍标为原生客户端未验证。保留此前评测原文，明确 Python 依赖与平台测试范围。公开成功后再更新本版 publication_status；本次构建不自动创建标签或 Release。
+发布 v2.4.0 前运行 `python3 -B -m unittest discover -s tests -v`、文档生成检查和 `python3 scripts/build_distribution.py --output <仓库外的新目录>`。核验两个 ZIP 与 SHA256SUMS；插件仍标为原生客户端未验证。保留此前评测原文，明确 Python 依赖与平台测试范围。公开成功后再更新本版 publication_status；本次构建不自动创建标签或 Release。

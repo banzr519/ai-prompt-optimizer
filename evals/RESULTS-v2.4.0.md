@@ -4,7 +4,7 @@ Date: 2026-10-17. Scope: local installation tooling and packaging; no new model/
 
 ## Automated filesystem checks
 
-`python3 -B -m unittest discover -s tests -v` passed 34 tests on macOS with Python 3.13.
+`python3 -B -m unittest discover -s tests -v` passed 35 tests on macOS with Python 3.13.
 Tests use temporary home/config/project directories and do not alter the real installed skill or global rules.
 
 Coverage includes first/repeated installation, CRLF preservation, user/project scope, custom Codex home,
@@ -43,15 +43,33 @@ under an isolated home containing spaces/non-ASCII text. The extracted plugin co
 and removal without deleting plugin files; the setup skill passed structural validation. Two independent
 builds produced byte-identical archives. These are package/filesystem checks, not native client installation.
 
+## Pre-publication network verification
+
+On 2026-10-17, the initial real GitHub download exposed a macOS temporary-directory issue:
+`/var` is a system alias, and source validation rejected the installer’s own downloaded temporary path.
+The installer now canonicalizes only its internally created download directory. User-supplied symlink
+sources and archive symlinks remain refused. A regression test covers a symlinked system temp root.
+
+Candidate commit `e667c5b` then passed six CLI operations using anonymous GitHub archive downloads in
+an isolated home with spaces and non-ASCII characters: install pinned to the full commit, status, online
+update to that commit, configure host mode, configure on-demand mode and uninstall. After installation,
+the subsequent operations used the downloaded installer. The recorded source commit matched the requested
+commit; the installed directory and managed guidance were removed on uninstall. No GitHub token was used
+by the installer. This is a real macOS transport/filesystem check, not a model behavior trial.
+
+The local Codex CLI could not start because its platform runtime dependency was missing, so no new
+client discovery/invocation result is claimed. Docker was present but its daemon was unavailable;
+Windows/Linux native execution remains outside this run.
+
 ## Remaining limits
 
 - Windows PowerShell and Linux have not been executed on their native platforms; launchers are supplied for review.
 - Python 3.9 is the minimum intended runtime; this run used Python 3.13, not a Python-version compatibility matrix.
-- Real GitHub download/update transport, power loss/SIGKILL recovery and adversarial concurrent external edits are not certified.
+- Real GitHub archive download/update passed on macOS as described above; power loss/SIGKILL recovery and adversarial concurrent external edits remain unverified.
 - No fresh Codex client discovery/implicit invocation or native plugin onboarding test was run.
 - No new provider API comparison, language performance trial, native-speaker review or measured user-effort reduction.
 - No automatic GitHub publication, tag or Release is performed by the build. Publication status stays prepared until separately verified.
 
-中文摘要：本版验证安装与配置行为，不新增模型效果结论。34 项自动化检查通过，独立检查者完成
-16 次 CLI 操作及 4 个补充场景。发现并修正一处“已有用户规则需审核”的结果提示。Windows、Linux、
+中文摘要：本版验证安装与配置行为，不新增模型效果结论。35 项自动化检查通过，独立检查者完成
+16 次 CLI 操作及 4 个补充场景。发现并修正“已有用户规则需审核”的结果提示及 macOS 在线下载临时路径误判；真实 GitHub 固定提交下载的 6 项安装维护操作通过。Windows、Linux、
 真实客户端发现和原生插件安装等范围仍待验证；历史语言试用和故意错误样例未重跑或修复。

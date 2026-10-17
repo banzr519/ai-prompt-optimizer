@@ -75,7 +75,7 @@ Give Codex this package and send:
 
 > Read docs/INSTALL.md, install AI Prompt Optimizer for my personal Codex and enable on-demand refinement. Use the included installer, preserve existing configuration and local edits, and report actual verification.
 
-Use the supplied package for this local candidate; see [publication status](github-metadata.json). For requirements, old-version migration and install-only mode, see the [installation guide](docs/INSTALL.md).
+Clone this repository or use GitHub’s **Code → Download ZIP**, then supply the extracted folder to Codex. See [publication status](github-metadata.json). For requirements, old-version migration and install-only mode, see the [installation guide](docs/INSTALL.md).
 
 <details>
 <summary>Manual and Git installation</summary>

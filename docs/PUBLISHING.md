@@ -110,4 +110,4 @@ Run `python3 scripts/build_localized_docs.py --check` and check all 30 entries a
 
 ## v2.4.0 installation distribution checks
 
-This version is a local candidate. Run `python3 -B -m unittest discover -s tests -v`, the documentation check and `python3 scripts/build_distribution.py --output <new-directory-outside-repo>`. Verify both ZIPs and SHA256SUMS; keep native plugin integration labeled untested. Preserve historical evaluations and disclose Python requirements and platform coverage. Update this version’s publication_status only after verified publication; builds do not create tags or Releases.
+For v2.4.0, run `python3 -B -m unittest discover -s tests -v`, the documentation check and `python3 scripts/build_distribution.py --output <new-directory-outside-repo>`. Verify both ZIPs and SHA256SUMS; keep native plugin integration labeled untested. Preserve historical evaluations and disclose Python requirements and platform coverage. Update this version’s publication_status only after verified publication; builds do not create tags or Releases.
