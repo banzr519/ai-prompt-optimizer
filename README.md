@@ -20,7 +20,7 @@ AI Prompt Optimizer is a **prompt optimization and requirements clarification Ag
 
 AI 提示词优化助手：优化 Prompt、澄清需求、明确任务边界与验收标准，保留原意。
 
-**v2.3.0 · MIT · Instruction-only · No API key required by the skill**
+**v2.4.0 · MIT · Instruction-based skill + optional installer · No API key required by the skill**
 
 [Get started](#quick-start) · [User guide](docs/USER_GUIDE.md) · [中文使用指南](docs/USER_GUIDE.zh-CN.md) · [Evaluation record](evals/RESULTS.md) · [Publishing guide](docs/PUBLISHING.md)
 
@@ -61,20 +61,28 @@ Repair prompts from failed outputs; preserve reusable variables and output contr
 
 [Advanced usage](docs/USER_GUIDE.md#advanced-workflows) · [Research and decisions](docs/RESEARCH.md) · [New validation record](evals/RESULTS-v2.2.0.md)
 
+## New in v2.4.0: installation and setup
+
+Deterministic personal/project installation, optional on-demand guidance, status checks, safe updates and backed-up removal. Ask local Codex to install the supplied package. The installer requires Python 3.9+; everyday skill use does not. Native plugin packaging is an unverified preview.
+
+[Recommended installation and maintenance](docs/INSTALL.md) · [Validation and platform limits](evals/RESULTS-v2.4.0.md)
+
 ## Quick start
 
 ### 1. Install
 
-Download this repository using GitHub's **Code → Download ZIP**, unzip it, and name the resulting skill folder `ai-prompt-optimizer`.
+Give Codex this package and send:
 
-Place it in **one** of these Codex locations:
+> Read docs/INSTALL.md, install AI Prompt Optimizer for my personal Codex and enable on-demand refinement. Use the included installer, preserve existing configuration and local edits, and report actual verification.
 
-| Scope | Folder |
-| --- | --- |
-| Your local account | `~/.agents/skills/ai-prompt-optimizer/` |
-| One project | `<project-root>/.agents/skills/ai-prompt-optimizer/` |
+Use the supplied package for this local candidate; see [publication status](github-metadata.json). For requirements, old-version migration and install-only mode, see the [installation guide](docs/INSTALL.md).
 
-The folder must directly contain `SKILL.md`, `agents/`, and `references/`; avoid an extra nested folder. If it is already installed, follow the [update instructions](docs/USER_GUIDE.md#update-uninstall-and-migrate) instead of overwriting local changes. For Git-based installation and Windows paths, see the [user guide](docs/USER_GUIDE.md#installation).
+<details>
+<summary>Manual and Git installation</summary>
+
+Download ZIP, extract and name the skill directory `ai-prompt-optimizer`, then place it in `~/.agents/skills/` or the project's `.agents/skills/`. It must directly contain `SKILL.md`, `agents/` and `references/`. Manual copying does not configure a default preference. See [Git/Windows instructions](docs/USER_GUIDE.md#installation) and [existing-installation migration](docs/INSTALL.md#existing-installations).
+
+</details>
 
 ### 2. Invoke
 

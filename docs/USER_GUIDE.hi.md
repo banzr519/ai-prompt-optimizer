@@ -2,7 +2,9 @@
 
 [हिन्दी](../README.hi.md) · [English](USER_GUIDE.md) · [简体中文](USER_GUIDE.zh-CN.md) · [🌐 Languages / 语言](LANGUAGES.md)
 
-**v2.3.0 · hi**
+**v2.4.0 · hi**
+
+**Install with Codex / 使用 Codex 安装:** [English](INSTALL.md) · [简体中文](INSTALL.zh-CN.md)
 
 ## ज़रूरी जानकारी
 

@@ -2,11 +2,13 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [🌐 Languages / 语言](docs/LANGUAGES.md)
 
-**v2.3.0 · MIT · fr**
+**v2.4.0 · MIT · fr**
 
 **Transformez des demandes vagues en instructions AI claires et utilisables, tout en préservant l’intention initiale.**
 
 Pour le code, le design, la rédaction, la recherche et les demandes d’images ou de vidéos. Préserve les chiffres, contraintes et variables, et distingue les faits des hypothèses. La tâche initiale n’est exécutée que sur demande explicite.
+
+**Install with Codex / 使用 Codex 安装:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md)
 
 ## Installation
 

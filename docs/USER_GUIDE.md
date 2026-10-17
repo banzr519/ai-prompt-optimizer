@@ -22,7 +22,9 @@
 
 ## Installation
 
-The repository root is the skill root: `SKILL.md`, `agents/` and `references/` are direct children. No Python, Node, pip, npm or model API key is required merely to load the skill. The host's account/access requirements still apply. Python is used only by the optional synthetic coding evaluation and localization maintenance script; the document renderer requires Python 3.9 or newer.
+For v2.4.0, start with [installation and configuration](INSTALL.md). Codex can use the deterministic installer. Manual copying/Git cloning below remains available and does not add default guidance.
+
+The repository root is the skill root: `SKILL.md`, `agents/` and `references/` are direct children. No Python, Node, pip, npm or model API key is required merely to load the skill. The host's account/access requirements still apply. Python is used by the optional installer, synthetic coding evaluation and localization maintenance script; the document renderer requires Python 3.9 or newer.
 
 ### Option A: download the folder
 

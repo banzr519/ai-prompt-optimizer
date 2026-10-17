@@ -18,7 +18,7 @@
 
 AI Prompt Optimizer 是一个用于 **AI 提示词优化、Prompt Engineering 和需求澄清的 Agent Skill**。你可以用它改进提示词、检查指令冲突，也可以让它先理清任务，再交给 AI 执行。覆盖开发、设计、写作、分析和日常规划。
 
-**v2.3.0 · MIT 许可 · 纯指令技能 · 技能本身无需 API Key**
+**v2.4.0 · MIT 许可 · 指令技能与可选安装器 · 技能本身无需 API Key**
 
 [快速开始](#快速开始) · [详细使用指南](docs/USER_GUIDE.zh-CN.md) · [English guide](docs/USER_GUIDE.md) · [评测记录](evals/RESULTS.md) · [GitHub 发布指南](docs/PUBLISHING.zh-CN.md)
 
@@ -59,20 +59,28 @@ AI Prompt Optimizer 是一个用于 **AI 提示词优化、Prompt Engineering �
 
 [进阶用法](docs/USER_GUIDE.zh-CN.md#进阶用法) · [开源研究与改进决策](docs/RESEARCH.zh-CN.md) · [本次验证记录](evals/RESULTS-v2.2.0.md)
 
+## v2.4.0：安装与配置
+
+新增确定性的安装维护程序：个人／项目安装、按需偏好、状态检查、安全更新与备份卸载。可将文件包交给 Codex 完成安装。安装器需要 Python 3.9+；技能日常使用不需要。原生插件包为待验证预览。
+
+[推荐安装与维护](docs/INSTALL.zh-CN.md) · [本版验证及平台边界](evals/RESULTS-v2.4.0.md)
+
 ## 快速开始
 
 ### 1. 安装
 
-在本 GitHub 仓库点击 **Code → Download ZIP**，解压后将技能文件夹命名为 `ai-prompt-optimizer`。
+把本文件包提供给 Codex，并发送：
 
-放到以下 **一个** Codex 技能目录中：
+> 请阅读 docs/INSTALL.zh-CN.md，为我的个人 Codex 安装 AI Prompt Optimizer 并启用按需优化。使用项目自带安装器，保留已有配置与本地修改，完成后报告实际验证结果。
 
-| 使用范围 | 目录 |
-| --- | --- |
-| 个人所有项目 | `~/.agents/skills/ai-prompt-optimizer/` |
-| 仅当前项目 | `<项目根目录>/.agents/skills/ai-prompt-optimizer/` |
+本地候选版使用当前文件包；公开状态见 [github-metadata.json](github-metadata.json)。完整操作、Python 要求、旧版迁移及仅安装选项见[安装指南](docs/INSTALL.zh-CN.md)。
 
-该目录下应直接看到 `SKILL.md`、`agents/` 和 `references/`，不要再多套一层文件夹。已经安装过的用户，请先阅读[更新说明](docs/USER_GUIDE.zh-CN.md#更新卸载与旧版迁移)，不要直接覆盖自己的改动。Git 安装命令与 Windows 路径见[详细指南](docs/USER_GUIDE.zh-CN.md#安装方式)。
+<details>
+<summary>手动安装与 Git 安装</summary>
+
+下载 ZIP，解压并将技能目录命名为 `ai-prompt-optimizer`，放入 `~/.agents/skills/` 或项目的 `.agents/skills/`。目录直接包含 `SKILL.md`、`agents/` 和 `references/`。手动复制不会自动配置默认偏好。Git 命令及 Windows 路径见[详细指南](docs/USER_GUIDE.zh-CN.md#安装方式)。已有安装先阅读[更新说明](docs/INSTALL.zh-CN.md#位置旧版与既有偏好)。
+
+</details>
 
 ### 2. 调用
 

@@ -1,0 +1,15 @@
+{
+  "name": "ai-prompt-optimizer",
+  "version": "2.4.0",
+  "description": "Faithful prompt refinement with optional local Codex setup. Native plugin packaging preview; client integration not yet validated.",
+  "author": {"name": "banzr519"},
+  "repository": "https://github.com/banzr519/ai-prompt-optimizer",
+  "license": "MIT",
+  "keywords": ["prompt-optimization", "agent-skills", "multilingual"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "AI Prompt Optimizer",
+    "shortDescription": "Refine prompts and preserve intent",
+    "defaultPrompt": ["Use ai-prompt-optimizer-setup to configure this plugin's on-demand preference."]
+  }
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "release_version": "2.3.0",
-  "last_updated": "2026-10-14",
+  "release_version": "2.4.0",
+  "last_updated": "2026-10-17",
   "scope": "Documentation entries include languages and regional/script variants; not a runtime allowlist or a guarantee of model proficiency.",
   "locales": [
     {
@@ -1129,5 +1129,11 @@
         "troubleshooting": "Ikiwa ujuzi hauonekani, kagua muundo wa folda, eneo na uwezo wa programu, kisha fungua gumzo jipya. Hifadhi mabadiliko yako kabla ya kusasisha. Omba aya moja ikiwa jibu ni refu sana."
       }
     }
-  ]
+  ],
+  "installation_entry": {
+    "label": "Install with Codex / 使用 Codex 安装",
+    "readme_links": "[English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md)",
+    "guide_links": "[English](INSTALL.md) · [简体中文](INSTALL.zh-CN.md)",
+    "coverage": "English/Simplified Chinese fallback; not newly translated into all locales."
+  }
 }

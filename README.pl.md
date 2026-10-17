@@ -2,11 +2,13 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [🌐 Languages / 语言](docs/LANGUAGES.md)
 
-**v2.3.0 · MIT · pl**
+**v2.4.0 · MIT · pl**
 
 **Zamieniaj niejasne prośby w zrozumiałe instrukcje dla AI, zachowując pierwotny zamiar.**
 
 Do programowania, projektowania, pisania, badań oraz poleceń dotyczących obrazów i filmów. Zachowuje liczby, ograniczenia i zmienne oraz oddziela fakty od założeń. Właściwe zadanie wykonuje tylko na wyraźną prośbę.
+
+**Install with Codex / 使用 Codex 安装:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md)
 
 ## Instalacja
 

@@ -1,0 +1,26 @@
+---
+name: ai-prompt-optimizer-setup
+description: Configure or inspect the local Codex on-demand preference for the installed AI Prompt Optimizer plugin when the user requests setup. Does not install a second skill or update plugin files. Not for ordinary prompt refinement.
+---
+
+# Configure AI Prompt Optimizer
+
+Use only for local Codex environments with filesystem and execution tools. If unavailable,
+explain that local setup cannot run in this environment; do not claim configuration success.
+
+Locate the sibling `../ai-prompt-optimizer/` skill relative to this skill folder.
+Read that skill's `references/installation.md` for the maintained workflow and the actual
+command flags. Use its `scripts/manage_install.py`; never write a new installer ad hoc.
+
+Offer one recommended choice: enable on-demand guidance for ambiguous/complex tasks;
+the alternative is to keep the host's normal skill selection without adding guidance.
+State that enabling guidance writes a bounded preference in the active Codex guidance file.
+If the user already requested this setting, proceed under that authorization.
+
+For plugin setup, run `configure --plugin-path <absolute-sibling-skill-path>` with
+`--mode on-demand` or `--mode host`, and `--yes` only for an authorized choice.
+Do not run `install`: the host already installed the plugin. Resolve duplicate standalone
+copies without deleting user edits. The host owns plugin updates and removal.
+
+Report installation/configuration checks separately from actual client discovery. Do not
+claim the plugin is registered, auto-onboarded or invoked just because files exist.

@@ -2,7 +2,7 @@
 
 [English](../README.md) · [简体中文](../README.zh-CN.md)
 
-**v2.3.0 · 30 documentation entries / 个语言及地区入口**
+**v2.4.0 · 30 documentation entries / 个语言及地区入口**
 
 Choose a local introduction and starter guide below. Full research, publishing and historical evaluations remain English/Chinese unless otherwise stated. Pāli is an experimental bilingual starter. Added translations are AI-authored and have not received professional native-speaker review.
 

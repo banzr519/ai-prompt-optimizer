@@ -28,6 +28,7 @@ def render(catalog):
     version = catalog["release_version"]
     locales = catalog["locales"]
     output = {}
+    install = catalog["installation_entry"]
     links = [f'[{x["native"]}]({x["readme"]})' for x in locales]
     nav = "\n\n".join(" · ".join(links[i:i + 6]) for i in range(0, len(links), 6))
     nav += "\n\n[Language coverage / 语言覆盖](docs/LANGUAGES.md)"
@@ -42,6 +43,7 @@ def render(catalog):
         readme = f'# AI Prompt Optimizer · {loc["native"]}\n\n'
         readme += f'[English](README.md) · [简体中文](README.zh-CN.md) · [🌐 Languages / 语言](docs/LANGUAGES.md)\n\n'
         readme += f'**v{version} · MIT · {tag}**\n\n**{t["tagline"]}**\n\n{t["overview"]}\n\n'
+        readme += f'**{install["label"]}:** {install["readme_links"]}\n\n'
         readme += f'## {h["install"]}\n\n{t["install"]}\n\n'
         paths = ('```text\n~/.agents/skills/ai-prompt-optimizer/\n'
                  '<project>/.agents/skills/ai-prompt-optimizer/\n'
@@ -57,6 +59,7 @@ def render(catalog):
         guide = f'# {h["guide"]} · AI Prompt Optimizer\n\n'
         guide += f'[{loc["native"]}](../{loc["readme"]}) · [English](USER_GUIDE.md) · [简体中文](USER_GUIDE.zh-CN.md) · [🌐 Languages / 语言](LANGUAGES.md)\n\n'
         guide += f'**v{version} · {tag}**\n\n'
+        guide += f'**{install["label"]}:** {install["guide_links"]}\n\n'
         for k in ["inputs", "advanced", "language", "fallback", "troubleshooting", "limits"]:
             guide += f'## {h[k]}\n\n{t[k]}\n\n'
         guide += f'## {h["docs"]}\n\n'

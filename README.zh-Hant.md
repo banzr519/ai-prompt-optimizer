@@ -2,11 +2,13 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [🌐 Languages / 语言](docs/LANGUAGES.md)
 
-**v2.3.0 · MIT · zh-Hant**
+**v2.4.0 · MIT · zh-Hant**
 
 **保留原意，將模糊需求整理成清楚、可執行的 AI 指令。**
 
 可用於開發、設計、寫作、研究及圖像／影片需求。保留數字、限制與變數，區分事實和假設；只在你明確要求時執行原任務。
+
+**Install with Codex / 使用 Codex 安装:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md)
 
 ## 安裝
 

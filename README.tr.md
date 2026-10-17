@@ -2,11 +2,13 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [🌐 Languages / 语言](docs/LANGUAGES.md)
 
-**v2.3.0 · MIT · tr**
+**v2.4.0 · MIT · tr**
 
 **Belirsiz istekleri, asıl niyeti koruyarak açık ve uygulanabilir AI talimatlarına dönüştürün.**
 
 Kodlama, tasarım, yazım, araştırma, görsel ve video isteklerinde kullanılabilir. Sayıları, kısıtları ve değişkenleri korur; olgularla varsayımları ayırır. Asıl görev yalnızca açıkça istendiğinde yürütülür.
+
+**Install with Codex / 使用 Codex 安装:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md)
 
 ## Kurulum
 

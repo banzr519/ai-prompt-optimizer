@@ -13,7 +13,7 @@ This guide prepares a standalone public repository. The files alone do not creat
 | Chinese title | AI 提示词优化助手 |
 | Skill identifier | `ai-prompt-optimizer` |
 | Invocation | `$ai-prompt-optimizer` |
-| Suggested release tag | `v2.3.0` |
+| Suggested release tag | `v2.4.0` |
 | Previous name | `clarify-intent` / 意图精炼器 |
 
 The name uses recognizable category words—AI, prompt, optimizer—while the subtitle explains requirements clarification and faithful task instructions. This is a naming judgment based on the task and observed public naming, not a keyword-volume study. Other owners may use similar repository names; do not claim uniqueness or affiliation. Repository availability still depends on the chosen owner's namespace.
@@ -65,7 +65,7 @@ Do not add unsupported clients or unrelated trending topics. GitHub currently pe
 4. Upload the standalone files or push a clean standalone repository. Do not add the public GitHub remote to the private managed Skills workspace.
 5. Set the About description and Topics above. Leave Website blank unless a real project site exists. Update `publication_status` in `github-metadata.json` only after the repository is actually public, and record its verified URL if useful.
 6. Open the root README and click **简体中文 → English**. Repeat for both user guides and publishing guides. Test installation from the public source in a clean temporary environment and invoke the new skill name.
-7. If publishing a release, tag the verified commit `v2.3.0`. Describe the 30 language/locale entries, starter guides, cross-language rules and reproducible documentation renderer; Pāli is an experimental bilingual starter. Invocation remains `$ai-prompt-optimizer`; retain the earlier rename migration note and disclose that separate model API comparisons have not been performed. Report issues and recheck scope from the new validation record.
+7. If separately authorized to publish a Release, use `v2.4.0` for the verified commit. Describe the Python requirement, actually tested platforms, plugin-preview status and on-demand configuration boundaries. Preserve the earlier 30-entry language coverage and historical trial limits; installation checks are not cross-model benchmarks.
 
 The repository root is already an installable skill directory; no build process is needed. `evals/fixtures/label.py` intentionally retains a bug for regression evaluation—it is not runtime production code. Keep the original MIT copyright notice.
 
@@ -106,3 +106,8 @@ Sources checked on 2026-10-13: [GitHub README documentation](https://docs.github
 ## v2.3.0 multilingual release checks
 
 Run `python3 scripts/build_localized_docs.py --check` and check all 30 entries and relative links. Distinguish primary full documents, localized starter guides and the experimental bilingual Pāli entry. Do not claim full translation of every document, professional native review or tested support in every model. Preserve technical identifiers.
+
+
+## v2.4.0 installation distribution checks
+
+This version is a local candidate. Run `python3 -B -m unittest discover -s tests -v`, the documentation check and `python3 scripts/build_distribution.py --output <new-directory-outside-repo>`. Verify both ZIPs and SHA256SUMS; keep native plugin integration labeled untested. Preserve historical evaluations and disclose Python requirements and platform coverage. Update this version’s publication_status only after verified publication; builds do not create tags or Releases.
