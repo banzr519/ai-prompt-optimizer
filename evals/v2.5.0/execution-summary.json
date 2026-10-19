@@ -1,0 +1,17 @@
+{
+  "queued_jobs": 64,
+  "started_jobs": 64,
+  "completed_jobs": 64,
+  "valid_output_files": 64,
+  "unique_agent_identities": 64,
+  "actual_start_order_matches_queue": true,
+  "completion_job_set_matches_queue": true,
+  "complete_start_finish_identity_pairs": true,
+  "infrastructure_failures": 0,
+  "retries": 0,
+  "recovered_writes": 0,
+  "content_evaluation_performed": false,
+  "wrapper_sha256": "4b43d21b5e00f32dfe2e267da6571d5b4e1f0faed5a34e7fd48b432593d6e1b2",
+  "first_record_error_field": null,
+  "timestamp_utc": "2026-10-19T15:23:33.666814+00:00"
+}

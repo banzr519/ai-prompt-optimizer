@@ -1,5 +1,5 @@
 {
-  "release_version": "2.4.0",
+  "release_version": "2.5.0",
   "repository_name": "ai-prompt-optimizer",
   "description": "AI prompt optimizer & prompt engineering skill. AI 提示词优化、需求澄清。Portable guidance for GPT, DeepSeek, Claude, Gemini, Qwen, Kimi, GLM, Doubao, Hunyuan, ERNIE, MiniMax, Grok, Mistral & Llama; integrations depend on the host.",
   "topics": [
@@ -24,7 +24,10 @@
     "multilingual",
     "i18n"
   ],
-  "publication_status": "published",
-  "note": "v2.4.0 published to public main on 2026-10-17. Anonymous GitHub API and archive checks verified repository visibility, owner, commit 108a8c8 and all 105 tracked files before recording this status. Native plugin packaging remains a preview; see evals/RESULTS-v2.4.0.md for verified scope and limits.",
-  "repository_url": "https://github.com/banzr519/ai-prompt-optimizer"
+  "publication_status": "prepared-not-published",
+  "note": "v2.5.0 candidate is prepared but not yet published. Original inherited-host comparisons were saturated. The explicitly requested medium follow-up observed Luna15/16→14/16 (1 recovery,2 regressions) and Sol16/16→13/16 (0 recoveries,3 regressions,2 candidate critical cases). Both practical gates failed. Candidate branch review is planned; stable main and the active user installation are not upgraded. Native plugin packaging remains an unvalidated preview. See evals/RESULTS-v2.5.0.md.",
+  "repository_url": "https://github.com/banzr519/ai-prompt-optimizer",
+  "candidate_status": "not-accepted-regressions-observed",
+  "publication_channel": "candidate-branch",
+  "publication_ref": "feature/v2.5.0-intent"
 }

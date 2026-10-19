@@ -2,13 +2,13 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [🌐 Languages / 语言](docs/LANGUAGES.md)
 
-**v2.4.0 · MIT · sw**
+**v2.5.0 · MIT · sw**
 
 **Geuza maombi yasiyo wazi kuwa maagizo ya AI yanayoeleweka na kutekelezeka, huku ukihifadhi kusudi la awali.**
 
 Kwa uandishi wa programu, usanifu, uandishi, utafiti na maombi ya picha au video. Huhifadhi namba, masharti na vigeu (variables), na kutenganisha ukweli na dhana. Kazi ya awali hufanywa tu ikiombwa wazi.
 
-**Install with Codex / 使用 Codex 安装:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md)
+**Install with Codex / 使用 Codex 安装:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md) · [v2.5.0 candidate: regressions observed / 候选版：已观察到回退](evals/RESULTS-v2.5.0.md)
 
 ## Usakinishaji
 

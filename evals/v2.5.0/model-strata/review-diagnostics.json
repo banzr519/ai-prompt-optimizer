@@ -1,0 +1,30 @@
+{
+  "gpt-5.6-luna": {
+    "reviewer_a": {
+      "verbosity": {
+        "proportionate": 32
+      },
+      "unnecessary_clarification": 0
+    },
+    "reviewer_b": {
+      "verbosity": {
+        "proportionate": 32
+      },
+      "unnecessary_clarification": 0
+    }
+  },
+  "gpt-5.6-sol": {
+    "reviewer_a": {
+      "verbosity": {
+        "proportionate": 32
+      },
+      "unnecessary_clarification": 0
+    },
+    "reviewer_b": {
+      "verbosity": {
+        "proportionate": 32
+      },
+      "unnecessary_clarification": 0
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "planned_total": 64,
+  "spawn_accepted": 64,
+  "completed": 64,
+  "by_model": {
+    "gpt-5.6-luna": {
+      "planned": 32,
+      "started": 32,
+      "completed": 32,
+      "fidelity": {
+        "equal": 21,
+        "whitespace_only": 8,
+        "different": 3
+      }
+    },
+    "gpt-5.6-sol": {
+      "planned": 32,
+      "started": 32,
+      "completed": 32,
+      "fidelity": {
+        "equal": 30,
+        "whitespace_only": 2
+      }
+    }
+  },
+  "failures": [],
+  "reruns": 0,
+  "fidelity": {
+    "equal": 51,
+    "whitespace_only": 10,
+    "different": 3,
+    "unverified": 0
+  },
+  "backend_build": "not exposed; accepted requested configuration only",
+  "utc_time": "2026-10-19T16:46:01.273878+00:00",
+  "start_order_matches_frozen_prefix": true,
+  "missing": [],
+  "status": "complete",
+  "failure_count": 0,
+  "infrastructure_failures": 0,
+  "configuration_rejections": 0,
+  "unverified_finals": 0,
+  "json_parseable_count": 64,
+  "response_schema_valid_count": 64,
+  "independent_sessions": 64,
+  "maximum_concurrent_executors": 2,
+  "final_capture_method": "Exact text copied from actual FINAL_ANSWER notifications; no normalization or JSON envelope unwrapping",
+  "timestamp_note": "UTC timestamps are runner receipt-recording times after observed tool returns/notifications, not backend start/end telemetry",
+  "requested_configurations": [
+    {
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium"
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "medium"
+    }
+  ],
+  "backend_id": "unknown",
+  "sampling_parameters": "not exposed",
+  "verification": {
+    "unique_start_and_finish_per_job": true,
+    "start_order_matches_frozen": true,
+    "all_saved_response_and_final_hashes_unchanged": true,
+    "fidelity_recomputed": true
+  },
+  "different_job_ids": [
+    "gpt-5.6-luna-H15-variant-c",
+    "gpt-5.6-luna-H08-variant-f",
+    "gpt-5.6-luna-H05-variant-c"
+  ],
+  "finished_at_utc": "2026-10-19T16:46:31.523962+00:00"
+}

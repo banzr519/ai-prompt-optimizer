@@ -2,13 +2,13 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [🌐 Languages / 语言](docs/LANGUAGES.md)
 
-**v2.4.0 · MIT · sv**
+**v2.5.0 · MIT · sv**
 
 **Gör vaga önskemål till tydliga AI-instruktioner som går att använda, utan att ändra avsikten.**
 
 För programmering, design, skrivande, forskning samt bild- och videouppdrag. Bevarar siffror, begränsningar och variabler och skiljer fakta från antaganden. Grunduppgiften utförs bara när du uttryckligen ber om det.
 
-**Install with Codex / 使用 Codex 安装:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md)
+**Install with Codex / 使用 Codex 安装:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md) · [v2.5.0 candidate: regressions observed / 候选版：已观察到回退](evals/RESULTS-v2.5.0.md)
 
 ## Installation
 

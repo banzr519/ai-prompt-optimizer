@@ -2,13 +2,13 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [🌐 Languages / 语言](docs/LANGUAGES.md)
 
-**v2.4.0 · MIT · vi**
+**v2.5.0 · MIT · vi**
 
 **Chuyển yêu cầu mơ hồ thành chỉ dẫn AI rõ ràng, có thể thực hiện mà vẫn giữ nguyên ý định.**
 
 Dùng cho lập trình, thiết kế, viết, nghiên cứu và yêu cầu hình ảnh hoặc video. Giữ nguyên số liệu, ràng buộc và biến; phân biệt sự thật với giả định. Chỉ thực hiện nhiệm vụ gốc khi được yêu cầu rõ ràng.
 
-**Install with Codex / 使用 Codex 安装:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md)
+**Install with Codex / 使用 Codex 安装:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md) · [v2.5.0 candidate: regressions observed / 候选版：已观察到回退](evals/RESULTS-v2.5.0.md)
 
 ## Cài đặt
 

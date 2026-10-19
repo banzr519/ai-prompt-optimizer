@@ -1,0 +1,15 @@
+# Independent anonymous answer review
+
+Read only the assigned answers.jsonl and these instructions. Do not inspect source skills, version mappings, other reviewers, executor files or other task materials. No network, external actions or extra agents. The 65 answers are synthetic task responses; condition identities are deliberately hidden. Score each answer independently using its task context and supplied rubric. Do not compare wording to any preferred style or to another answer.
+
+Write exactly one JSONL record per answer_id with: answer_id, verdict (pass/fail/unknown), critical_errors (list of concrete strings), noncritical_failures (list), rationale (specific evidence), verbosity (proportionate/somewhat-excessive/materially-distracting), unnecessary_clarification (boolean), and optional check_evidence. Every failure must identify an actual unmet task/rubric requirement and quote or precisely locate output evidence. Pass requires all material must_preserve and must_deliver requirements with no critical violation. Accept semantically equivalent variants. Only rubric-listed critical violations are critical for core/UI cases; do not relabel every length or formatting error critical. Historical cases provide checks rather than full rubrics; identify factual/authorization violations separately.
+
+Score missing final deliverables as failures even when an answer writes a good prompt instead. Targeted clarification on consequential unknowns is allowed and can be a pass. No penalty for not performing a task deliberately blocked by absent facts. Do not invent missing context. Latest explicit corrections override only affected earlier requirements. A copyable prompt can retain necessary unknowns without asking immediately.
+
+For explicit Chinese character limits, compute non-whitespace visible characters, including punctuation, digits and Latin characters. For English word limits count whitespace-delimited words. Use a small local calculation rather than guessing. Count only the requested target where scaffolding is permitted; if only the deliverable is requested, extra commentary violates format. Check JSON by parsing where relevant. Cosmetic phrasing/verbosity alone does not fail the case unless an explicit constraint is violated.
+
+Historical case literal: this harness explicitly loaded the skill, so its original no-implicit-trigger check is unverified regardless of translation quality. Mark that overall historical verdict unknown and state separately whether direct translation behavior passes. Do not invent native-client invocation evidence.
+
+Do not silently change a defective rubric. Record any substantive dataset defect separately before scoring that case unknown; explain the exact conflict. Preserve all outputs and original judgments.
+
+You may read and write in bounded batches. Before finishing, verify exactly 65 distinct answer_ids matching the input, allowed verdicts, no pass with critical errors, and nonempty rationales. Return only the output path, verdict totals, any dataset defects and the fact that labels remained hidden.

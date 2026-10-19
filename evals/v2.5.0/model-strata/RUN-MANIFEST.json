@@ -1,0 +1,617 @@
+{
+  "date": "2026-10-20",
+  "status": "completed-reviewed",
+  "experiment": "frozen supplemental set reused across two explicitly requested model configurations",
+  "requested_models": [
+    "gpt-5.6-luna",
+    "gpt-5.6-sol"
+  ],
+  "requested_reasoning_effort": "medium",
+  "model_selection_authorization": "User explicitly selected Luna + Sol (medium) on 2026-10-20.",
+  "runtime_snapshots": {
+    "baseline": {
+      "files": {
+        "SKILL.md": "1e7cce73882849a47dcbdec6625bf6836949f2f0066476d2021922c497fb737f",
+        "references/examples.md": "e834935986866bb81a803a771ebc34bc2101d7544dc588625a6839e179c24392",
+        "references/semantic-patterns.md": "23b4df5f53c6c1a12f10e29694a2cd4c7a573f51c7a97ff5561acfafa223dd7e",
+        "references/languages.md": "12bfef927f60bfa38e938e125db23462798916ed0652d8d388aa326426a0a775",
+        "references/advanced-workflows.md": "459496d0d466f656891d996b9d89f057ed2b132999a506a718592eb13a21af63",
+        "references/domain-guides.md": "cd005713eef3c0ee48642c1927d33e3552229c0fb89674f2ec2268f4bd588f36",
+        "references/installation.md": "0d9f9d96afd948e044719992dd73bcb8501710ddd9d3b14f3a81bdf4226516dd",
+        "agents/openai.yaml": "022b2ac390de2d57823f0819d9fe485e4423c334538864a528862a39418448f3"
+      },
+      "sha256": "28bb782ee1852bedbfdc00948c69a93e85d11d353bfa905c8ea6c4bb42c80898"
+    },
+    "candidate": {
+      "files": {
+        "SKILL.md": "f14cf2706f718f050b1f2f458c7fb301fd70ed860091cf06a4a8334f5417dd46",
+        "references/examples.md": "e834935986866bb81a803a771ebc34bc2101d7544dc588625a6839e179c24392",
+        "references/semantic-patterns.md": "23b4df5f53c6c1a12f10e29694a2cd4c7a573f51c7a97ff5561acfafa223dd7e",
+        "references/languages.md": "12bfef927f60bfa38e938e125db23462798916ed0652d8d388aa326426a0a775",
+        "references/advanced-workflows.md": "d5e14102e095fc298b8456fd9cac58f58f85e05e4bd0b9a219bf7c4bfd75d910",
+        "references/domain-guides.md": "cd005713eef3c0ee48642c1927d33e3552229c0fb89674f2ec2268f4bd588f36",
+        "references/installation.md": "0d9f9d96afd948e044719992dd73bcb8501710ddd9d3b14f3a81bdf4226516dd",
+        "references/intent-and-continuity.md": "b96889466049f6575a0cc69e1303b6d25f0b564ca6a2be0668982b736f5ff870",
+        "agents/openai.yaml": "299a7ef47202181e5524d988d7b64147d171f2e2b4cfea8369ad5c2a0e233a3b"
+      },
+      "sha256": "bdafd928e9b9afb8acfb07f69308ca7bedb67a7e5475f1eee7ac73f4f553d8f4"
+    }
+  },
+  "dataset_manifest_sha256": "0d038b9aca8137ee808c90b7e7833879cf28e69c03bae1f51f44f1017793ffa9",
+  "dataset_directory": "../supplemental",
+  "execution_wrapper_sha256": "4b43d21b5e00f32dfe2e267da6571d5b4e1f0faed5a34e7fd48b432593d6e1b2",
+  "randomization_seed": "intent-model-strata-20261020-v1",
+  "review_shuffle_seed": 20261023,
+  "planned_responses": 64,
+  "pairs_per_model": 16,
+  "repetitions_per_condition_per_case": 1,
+  "model_build": "not exposed; record requested model and accepted spawn configuration, not a backend attestation",
+  "sampling_parameters": "not exposed",
+  "history_mode": "role-labeled data in a task packet; not native conversational turns",
+  "native_discovery": "not tested; explicit skill load",
+  "new_independent_holdout": false,
+  "runtime_changed_since_original_supplement": false,
+  "run_order": [
+    {
+      "sequence": 1,
+      "job_id": "gpt-5.6-sol-H10-variant-c",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "medium",
+      "case_id": "H10",
+      "condition": "baseline"
+    },
+    {
+      "sequence": 2,
+      "job_id": "gpt-5.6-sol-H10-variant-f",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "medium",
+      "case_id": "H10",
+      "condition": "candidate"
+    },
+    {
+      "sequence": 3,
+      "job_id": "gpt-5.6-luna-H10-variant-f",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "case_id": "H10",
+      "condition": "candidate"
+    },
+    {
+      "sequence": 4,
+      "job_id": "gpt-5.6-luna-H10-variant-c",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "case_id": "H10",
+      "condition": "baseline"
+    },
+    {
+      "sequence": 5,
+      "job_id": "gpt-5.6-sol-H04-variant-c",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "medium",
+      "case_id": "H04",
+      "condition": "baseline"
+    },
+    {
+      "sequence": 6,
+      "job_id": "gpt-5.6-sol-H04-variant-f",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "medium",
+      "case_id": "H04",
+      "condition": "candidate"
+    },
+    {
+      "sequence": 7,
+      "job_id": "gpt-5.6-luna-H04-variant-c",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "case_id": "H04",
+      "condition": "baseline"
+    },
+    {
+      "sequence": 8,
+      "job_id": "gpt-5.6-luna-H04-variant-f",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "case_id": "H04",
+      "condition": "candidate"
+    },
+    {
+      "sequence": 9,
+      "job_id": "gpt-5.6-sol-H01-variant-c",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "medium",
+      "case_id": "H01",
+      "condition": "baseline"
+    },
+    {
+      "sequence": 10,
+      "job_id": "gpt-5.6-sol-H01-variant-f",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "medium",
+      "case_id": "H01",
+      "condition": "candidate"
+    },
+    {
+      "sequence": 11,
+      "job_id": "gpt-5.6-luna-H01-variant-c",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "case_id": "H01",
+      "condition": "baseline"
+    },
+    {
+      "sequence": 12,
+      "job_id": "gpt-5.6-luna-H01-variant-f",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "case_id": "H01",
+      "condition": "candidate"
+    },
+    {
+      "sequence": 13,
+      "job_id": "gpt-5.6-luna-H07-variant-c",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "case_id": "H07",
+      "condition": "baseline"
+    },
+    {
+      "sequence": 14,
+      "job_id": "gpt-5.6-luna-H07-variant-f",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "case_id": "H07",
+      "condition": "candidate"
+    },
+    {
+      "sequence": 15,
+      "job_id": "gpt-5.6-sol-H07-variant-f",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "medium",
+      "case_id": "H07",
+      "condition": "candidate"
+    },
+    {
+      "sequence": 16,
+      "job_id": "gpt-5.6-sol-H07-variant-c",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "medium",
+      "case_id": "H07",
+      "condition": "baseline"
+    },
+    {
+      "sequence": 17,
+      "job_id": "gpt-5.6-luna-H16-variant-f",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "case_id": "H16",
+      "condition": "candidate"
+    },
+    {
+      "sequence": 18,
+      "job_id": "gpt-5.6-luna-H16-variant-c",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "case_id": "H16",
+      "condition": "baseline"
+    },
+    {
+      "sequence": 19,
+      "job_id": "gpt-5.6-sol-H16-variant-c",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "medium",
+      "case_id": "H16",
+      "condition": "baseline"
+    },
+    {
+      "sequence": 20,
+      "job_id": "gpt-5.6-sol-H16-variant-f",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "medium",
+      "case_id": "H16",
+      "condition": "candidate"
+    },
+    {
+      "sequence": 21,
+      "job_id": "gpt-5.6-luna-H02-variant-f",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "case_id": "H02",
+      "condition": "candidate"
+    },
+    {
+      "sequence": 22,
+      "job_id": "gpt-5.6-luna-H02-variant-c",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "case_id": "H02",
+      "condition": "baseline"
+    },
+    {
+      "sequence": 23,
+      "job_id": "gpt-5.6-sol-H02-variant-f",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "medium",
+      "case_id": "H02",
+      "condition": "candidate"
+    },
+    {
+      "sequence": 24,
+      "job_id": "gpt-5.6-sol-H02-variant-c",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "medium",
+      "case_id": "H02",
+      "condition": "baseline"
+    },
+    {
+      "sequence": 25,
+      "job_id": "gpt-5.6-sol-H11-variant-c",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "medium",
+      "case_id": "H11",
+      "condition": "baseline"
+    },
+    {
+      "sequence": 26,
+      "job_id": "gpt-5.6-sol-H11-variant-f",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "medium",
+      "case_id": "H11",
+      "condition": "candidate"
+    },
+    {
+      "sequence": 27,
+      "job_id": "gpt-5.6-luna-H11-variant-c",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "case_id": "H11",
+      "condition": "baseline"
+    },
+    {
+      "sequence": 28,
+      "job_id": "gpt-5.6-luna-H11-variant-f",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "case_id": "H11",
+      "condition": "candidate"
+    },
+    {
+      "sequence": 29,
+      "job_id": "gpt-5.6-luna-H14-variant-f",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "case_id": "H14",
+      "condition": "candidate"
+    },
+    {
+      "sequence": 30,
+      "job_id": "gpt-5.6-luna-H14-variant-c",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "case_id": "H14",
+      "condition": "baseline"
+    },
+    {
+      "sequence": 31,
+      "job_id": "gpt-5.6-sol-H14-variant-c",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "medium",
+      "case_id": "H14",
+      "condition": "baseline"
+    },
+    {
+      "sequence": 32,
+      "job_id": "gpt-5.6-sol-H14-variant-f",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "medium",
+      "case_id": "H14",
+      "condition": "candidate"
+    },
+    {
+      "sequence": 33,
+      "job_id": "gpt-5.6-luna-H09-variant-c",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "case_id": "H09",
+      "condition": "baseline"
+    },
+    {
+      "sequence": 34,
+      "job_id": "gpt-5.6-luna-H09-variant-f",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "case_id": "H09",
+      "condition": "candidate"
+    },
+    {
+      "sequence": 35,
+      "job_id": "gpt-5.6-sol-H09-variant-c",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "medium",
+      "case_id": "H09",
+      "condition": "baseline"
+    },
+    {
+      "sequence": 36,
+      "job_id": "gpt-5.6-sol-H09-variant-f",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "medium",
+      "case_id": "H09",
+      "condition": "candidate"
+    },
+    {
+      "sequence": 37,
+      "job_id": "gpt-5.6-sol-H13-variant-c",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "medium",
+      "case_id": "H13",
+      "condition": "baseline"
+    },
+    {
+      "sequence": 38,
+      "job_id": "gpt-5.6-sol-H13-variant-f",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "medium",
+      "case_id": "H13",
+      "condition": "candidate"
+    },
+    {
+      "sequence": 39,
+      "job_id": "gpt-5.6-luna-H13-variant-f",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "case_id": "H13",
+      "condition": "candidate"
+    },
+    {
+      "sequence": 40,
+      "job_id": "gpt-5.6-luna-H13-variant-c",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "case_id": "H13",
+      "condition": "baseline"
+    },
+    {
+      "sequence": 41,
+      "job_id": "gpt-5.6-sol-H15-variant-c",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "medium",
+      "case_id": "H15",
+      "condition": "baseline"
+    },
+    {
+      "sequence": 42,
+      "job_id": "gpt-5.6-sol-H15-variant-f",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "medium",
+      "case_id": "H15",
+      "condition": "candidate"
+    },
+    {
+      "sequence": 43,
+      "job_id": "gpt-5.6-luna-H15-variant-f",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "case_id": "H15",
+      "condition": "candidate"
+    },
+    {
+      "sequence": 44,
+      "job_id": "gpt-5.6-luna-H15-variant-c",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "case_id": "H15",
+      "condition": "baseline"
+    },
+    {
+      "sequence": 45,
+      "job_id": "gpt-5.6-luna-H08-variant-f",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "case_id": "H08",
+      "condition": "candidate"
+    },
+    {
+      "sequence": 46,
+      "job_id": "gpt-5.6-luna-H08-variant-c",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "case_id": "H08",
+      "condition": "baseline"
+    },
+    {
+      "sequence": 47,
+      "job_id": "gpt-5.6-sol-H08-variant-f",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "medium",
+      "case_id": "H08",
+      "condition": "candidate"
+    },
+    {
+      "sequence": 48,
+      "job_id": "gpt-5.6-sol-H08-variant-c",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "medium",
+      "case_id": "H08",
+      "condition": "baseline"
+    },
+    {
+      "sequence": 49,
+      "job_id": "gpt-5.6-sol-H12-variant-f",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "medium",
+      "case_id": "H12",
+      "condition": "candidate"
+    },
+    {
+      "sequence": 50,
+      "job_id": "gpt-5.6-sol-H12-variant-c",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "medium",
+      "case_id": "H12",
+      "condition": "baseline"
+    },
+    {
+      "sequence": 51,
+      "job_id": "gpt-5.6-luna-H12-variant-f",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "case_id": "H12",
+      "condition": "candidate"
+    },
+    {
+      "sequence": 52,
+      "job_id": "gpt-5.6-luna-H12-variant-c",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "case_id": "H12",
+      "condition": "baseline"
+    },
+    {
+      "sequence": 53,
+      "job_id": "gpt-5.6-sol-H06-variant-c",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "medium",
+      "case_id": "H06",
+      "condition": "baseline"
+    },
+    {
+      "sequence": 54,
+      "job_id": "gpt-5.6-sol-H06-variant-f",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "medium",
+      "case_id": "H06",
+      "condition": "candidate"
+    },
+    {
+      "sequence": 55,
+      "job_id": "gpt-5.6-luna-H06-variant-c",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "case_id": "H06",
+      "condition": "baseline"
+    },
+    {
+      "sequence": 56,
+      "job_id": "gpt-5.6-luna-H06-variant-f",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "case_id": "H06",
+      "condition": "candidate"
+    },
+    {
+      "sequence": 57,
+      "job_id": "gpt-5.6-sol-H03-variant-f",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "medium",
+      "case_id": "H03",
+      "condition": "candidate"
+    },
+    {
+      "sequence": 58,
+      "job_id": "gpt-5.6-sol-H03-variant-c",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "medium",
+      "case_id": "H03",
+      "condition": "baseline"
+    },
+    {
+      "sequence": 59,
+      "job_id": "gpt-5.6-luna-H03-variant-f",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "case_id": "H03",
+      "condition": "candidate"
+    },
+    {
+      "sequence": 60,
+      "job_id": "gpt-5.6-luna-H03-variant-c",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "case_id": "H03",
+      "condition": "baseline"
+    },
+    {
+      "sequence": 61,
+      "job_id": "gpt-5.6-luna-H05-variant-c",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "case_id": "H05",
+      "condition": "baseline"
+    },
+    {
+      "sequence": 62,
+      "job_id": "gpt-5.6-luna-H05-variant-f",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "case_id": "H05",
+      "condition": "candidate"
+    },
+    {
+      "sequence": 63,
+      "job_id": "gpt-5.6-sol-H05-variant-f",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "medium",
+      "case_id": "H05",
+      "condition": "candidate"
+    },
+    {
+      "sequence": 64,
+      "job_id": "gpt-5.6-sol-H05-variant-c",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "medium",
+      "case_id": "H05",
+      "condition": "baseline"
+    }
+  ],
+  "protocol_sha256": "511312d08b0a1b33354befee27e0e0b20bba488369c2ed130a18515c9223b22b",
+  "registered_at_utc": "2026-10-19T16:16:25.136612+00:00",
+  "actual_responses": 64,
+  "review": {
+    "reviewers": 2,
+    "type": "fresh independent host AI agents with inherited settings",
+    "identities_hidden": [
+      "model",
+      "version"
+    ],
+    "independent_verdict_and_critical_flag_agreement": 63,
+    "answers": 64,
+    "adjudicated_answers": 1,
+    "final_verdict_and_critical_flag_agreement": 64,
+    "remaining_criterion_attribution_disagreement": [
+      "answer-018 must_preserve[2]; no effect on overall verdict or critical flag"
+    ]
+  },
+  "output_fidelity": {
+    "equal": 51,
+    "whitespace-only": 10,
+    "substantive-difference": 3,
+    "substantive_difference_detail": "Three actual final messages were JSON envelopes whose response values equal the saved bodies. Actual final messages were graded unchanged."
+  },
+  "results": {
+    "gpt-5.6-luna": {
+      "baseline_passes": 15,
+      "candidate_passes": 14,
+      "recoveries": [
+        "H01"
+      ],
+      "regressions": [
+        "H02",
+        "H16"
+      ],
+      "practical_gate": "not-met-regression-or-critical-error"
+    },
+    "gpt-5.6-sol": {
+      "baseline_passes": 16,
+      "candidate_passes": 13,
+      "recoveries": [],
+      "regressions": [
+        "H01",
+        "H14",
+        "H16"
+      ],
+      "practical_gate": "not-met-regression-or-critical-error"
+    }
+  }
+}

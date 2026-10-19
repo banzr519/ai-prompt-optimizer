@@ -2,12 +2,11 @@
 
 [简体中文](INSTALL.zh-CN.md) · [Home](../README.md)
 
-**v2.4.0.** Clone this repository or select **Code → Download ZIP** on GitHub and extract it.
-Check [publication metadata](../github-metadata.json) for this version’s publication status.
+**v2.5.0 is for review and reproduction; production upgrades are not recommended.** The model-stratified follow-up found regressions and did not meet the improvement gate. Stable `main` remains v2.4.0. Check [publication metadata](../github-metadata.json) before expecting `feature/v2.5.0-intent` on GitHub; an existing repository URL alone does not establish its availability. Installation mechanics remain those introduced in v2.4.0, with no expansion of verified platform coverage. See [v2.5.0 evaluation status](../evals/RESULTS-v2.5.0.md).
 
 ## Recommended: ask Codex
 
-Give local, filesystem-capable Codex this project directory and send:
+For ordinary use, give local, filesystem-capable Codex the stable `main` project directory and send:
 
 > Read docs/INSTALL.md, install this AI Prompt Optimizer package for my personal Codex and enable on-demand refinement. Check existing installations and guidance, preserve my changes and rules, use the included installer and report actual checks. Explain conflicts instead of overwriting them.
 
@@ -15,9 +14,19 @@ On-demand guidance applies to ambiguous, complex or multi-constraint tasks and e
 Clear simple questions remain direct. Execution requests continue through completion; refine-only requests do not
 execute the embedded task. This is an agent-assisted installation request, not a registered install button.
 
+## Review the candidate in an isolated project
+
+After publication is confirmed in metadata, explicitly select `feature/v2.5.0-intent` before using **Code → Download ZIP**. Keep the extracted source outside active skill discovery. Review its files and metadata, then create a separate test project and install from that local source:
+
+```sh
+python3 scripts/manage_install.py install --source /absolute/reviewed-candidate --project /absolute/existing-test-project --mode host
+```
+
+Run the command from the reviewed candidate source. Replace both paths with real reviewed directories. `--mode host` adds no guidance; normal host discovery may still occur. Check for existing personal/project copies and resolve duplicates before testing. Do not replace the everyday personal installation for this candidate review. A verified full 40-character candidate commit SHA can be supplied with `--ref` instead of `--source` after publication; do not invent a SHA or use a branch name for `--ref`.
+
 ## Run locally
 
-From the extracted `ai-prompt-optimizer` root:
+For an ordinary stable installation, run from the extracted `main` package's `ai-prompt-optimizer` root. For candidate review, use the isolated-project command above:
 
 ```sh
 # macOS / Linux
@@ -80,8 +89,7 @@ python3 scripts/manage_install.py uninstall
 Repeat the same `--project` and `--codex-home` options when applicable. Online updates resolve this repository's
 `main` once to an immutable commit and download that archive. `--ref <full-40-character-SHA>` pins a commit;
 no nonexistent release tag is assumed. Downloaded code is not executed as the installer. Sources older than
-v2.4.0 are rejected. Offline update: `update --source <new-folder>`.
-There is no background update, telemetry or token request.
+v2.4.0 are rejected. Offline update: `update --source <new-folder>`. An installation from the candidate branch does not change this default: ordinary online `update` still follows `main`, does not track candidate changes and refuses a downgrade from v2.5.0 to v2.4.0. For another candidate revision, explicitly select a reviewed local source or verified commit. There is no background update, telemetry or token request.
 
 Updates refuse modified/added/missing installed files, newly added Git history and version downgrades. Backups
 precede directory replacement. Caught filesystem errors attempt rollback of content, guidance and state.

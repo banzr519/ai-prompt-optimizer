@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-20",
+  "scope": "Public inventory after model-stratified evidence and candidate documentation updates; before this record was written.",
+  "public_files_checked": 180,
+  "format_checks": {
+    "json": 33,
+    "jsonl": 36,
+    "python": 9
+  },
+  "historical_evaluation_and_license_files_byte_identical": 13,
+  "public_inventory_matches_git_candidates": true,
+  "credential_or_private_path_flags": [],
+  "frozen_candidate_runtime_and_followup_protocol_unchanged": true,
+  "model_execution_responses": 64,
+  "reruns": 0,
+  "meaningful_improvement_gate": "failed-in-both-explicit-model-configurations",
+  "candidate_status": "not-accepted-regressions-observed",
+  "post_documentation_distribution_tests_passed": 4,
+  "localization_check": {
+    "locales": 30,
+    "changed": 0,
+    "passed": true
+  },
+  "prior_unique_automated_tests_passed": 41,
+  "notes": "The four distribution tests were rechecked after the final model-stratified documentation export; they are part of the prior41, not additional unique tests. No new runtime modification or semantic rerun occurred."
+}

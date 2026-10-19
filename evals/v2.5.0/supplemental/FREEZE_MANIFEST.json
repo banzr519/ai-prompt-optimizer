@@ -1,0 +1,45 @@
+{
+  "suite_id": "independent-intent-fidelity-supplement-H01-H16-v1",
+  "status": "frozen_before_model_experiments",
+  "date_context": "2026-10-19",
+  "hash_algorithm": "SHA256",
+  "encoding": "UTF-8",
+  "total_cases": 16,
+  "files": [
+    {
+      "path": "inputs.jsonl",
+      "bytes": 16769,
+      "sha256": "88fdde11bfaa9ca4ec628d8d140e12fade4fc4236d858b12c574c83fb46e8b48"
+    },
+    {
+      "path": "rubrics.jsonl",
+      "bytes": 16531,
+      "sha256": "aaf58d0d79f8605eacc8b790db95f4c29156ebc7f47c131771c8073384093aff"
+    },
+    {
+      "path": "category_counts.json",
+      "bytes": 811,
+      "sha256": "b7e94d22321ea46d31b10fbe3fc01939e8e2097b365a32a933306d8a099c1e76"
+    },
+    {
+      "path": "PROTOCOL.md",
+      "bytes": 10872,
+      "sha256": "85a6e2a146421708171ad12016276b69e407497298cb359a2629b31a9de62af0"
+    }
+  ],
+  "manifest_self_hash": "The SHA256 of FREEZE_MANIFEST.json is supplied separately in the delivery receipt; embedding its own final digest is not possible.",
+  "independence_attestation": {
+    "read_project_materials": false,
+    "read_skill_sources": false,
+    "read_existing_evaluations": false,
+    "read_model_outputs": false,
+    "read_reviews_or_implementation_advice": false,
+    "contacted_other_agents": false,
+    "ran_model_experiments": false
+  },
+  "self_check": {
+    "all_16_cases_checked_for_satisfiability": true,
+    "rubrics_checked_against_explicit_task_content": true,
+    "schema_and_counts_validated": true
+  }
+}

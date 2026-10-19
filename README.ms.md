@@ -2,13 +2,13 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [🌐 Languages / 语言](docs/LANGUAGES.md)
 
-**v2.4.0 · MIT · ms**
+**v2.5.0 · MIT · ms**
 
 **Tukar permintaan yang kabur kepada arahan AI yang jelas dan boleh dilaksanakan sambil mengekalkan maksud asal.**
 
 Untuk pengaturcaraan, reka bentuk, penulisan, penyelidikan serta permintaan imej dan video. Mengekalkan angka, batasan dan pemboleh ubah serta membezakan fakta daripada andaian. Tugas asal hanya dilaksanakan apabila diminta dengan jelas.
 
-**Install with Codex / 使用 Codex 安装:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md)
+**Install with Codex / 使用 Codex 安装:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md) · [v2.5.0 candidate: regressions observed / 候选版：已观察到回退](evals/RESULTS-v2.5.0.md)
 
 ## Pemasangan
 

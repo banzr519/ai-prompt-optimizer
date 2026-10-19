@@ -2,13 +2,13 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [🌐 Languages / 语言](docs/LANGUAGES.md)
 
-**v2.4.0 · MIT · es**
+**v2.5.0 · MIT · es**
 
 **Convierte peticiones vagas en instrucciones claras y ejecutables para AI, conservando la intención original.**
 
 Sirve para programación, diseño, escritura, investigación y solicitudes de imágenes o vídeo. Conserva cifras, restricciones y variables, y distingue hechos de supuestos. Solo ejecuta la tarea original cuando se solicita expresamente.
 
-**Install with Codex / 使用 Codex 安装:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md)
+**Install with Codex / 使用 Codex 安装:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md) · [v2.5.0 candidate: regressions observed / 候选版：已观察到回退](evals/RESULTS-v2.5.0.md)
 
 ## Instalación
 

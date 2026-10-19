@@ -20,7 +20,7 @@ AI Prompt Optimizer is a **prompt optimization and requirements clarification Ag
 
 AI 提示词优化助手：优化 Prompt、澄清需求、明确任务边界与验收标准，保留原意。
 
-**v2.4.0 · MIT · Instruction-based skill + optional installer · No API key required by the skill**
+**v2.5.0 candidate · MIT · Instruction-based skill + optional installer · No API key required by the skill**
 
 [Get started](#quick-start) · [User guide](docs/USER_GUIDE.md) · [中文使用指南](docs/USER_GUIDE.zh-CN.md) · [Evaluation record](evals/RESULTS.md) · [Publishing guide](docs/PUBLISHING.md)
 
@@ -49,6 +49,21 @@ This is an illustrative translation, not a fixed template or performance claim.
 
 The skill preserves numbers, names, exclusions and scope. It separates known information from assumptions, detects conflicting requirements and keeps already-clear tasks short. It includes 34 semantic patterns, 10 domain guides and 8 teaching examples, loaded only when useful.
 
+## New in v2.5.0: intent fidelity
+
+The candidate sharpens how the skill selects the actual deliverable: analysis, an edit or a continuation stays actual work; a rewritten prompt is returned when that is what you ask for. Clarification is limited to answers that change the result or a consequential action. Follow-ups preserve unaffected constraints, and semantic checks keep negation, alternatives, bounds, uncertainty and conditional permissions attached to their meaning.
+
+**Review candidate; not recommended for production upgrades.** The model-stratified follow-up did not meet the improvement gate:
+
+| Requested configuration | v2.4.0 baseline | v2.5.0 candidate | Recoveries / regressions | Candidate critical errors |
+| --- | --- | --- | --- | --- |
+| GPT-5.6 Luna, medium | 15/16 | 14/16 | 1 / 2 | 0 |
+| GPT-5.6 Sol, medium | 16/16 | 13/16 | 0 / 3 | 2 |
+
+These are 16 paired cases per configuration, with 64 new responses and no reruns. The follow-up reused the supplemental tasks; it is not a new independent holdout, a model ranking or a general compatibility guarantee. Earlier inherited-host comparisons passed all primary core cases (24/24), UI probes (4/4) and supplemental cases (16/16) in both versions; those ceiling results apply only to that configuration. See the [v2.5.0 evaluation record](evals/RESULTS-v2.5.0.md).
+
+The delivery plan is a review branch, `feature/v2.5.0-intent`, and a draft pull request; stable `main` remains v2.4.0. Check [publication metadata](github-metadata.json) for the actual public status and ref. An existing repository URL alone does not show that this candidate is available.
+
 ## New in v2.3.0: languages
 
 30 language/locale entries with clickable README and getting-started guides. Added language rules distinguish the explanation, optimized prompt and downstream output; preserve scripts, variables and exact constraints. Pāli has an experimental bilingual starter. Added translations are AI-authored and not professionally native-reviewed; documentation coverage is not a model-quality guarantee.
@@ -71,11 +86,11 @@ Deterministic personal/project installation, optional on-demand guidance, status
 
 ### 1. Install
 
-Give Codex this package and send:
+For ordinary use, give Codex the stable `main` package and send:
 
 > Read docs/INSTALL.md, install AI Prompt Optimizer for my personal Codex and enable on-demand refinement. Use the included installer, preserve existing configuration and local edits, and report actual verification.
 
-Clone this repository or use GitHub’s **Code → Download ZIP**, then supply the extracted folder to Codex. See [publication status](github-metadata.json). For requirements, old-version migration and install-only mode, see the [installation guide](docs/INSTALL.md).
+To review or reproduce this candidate, explicitly select `feature/v2.5.0-intent` only after checking its [publication status](github-metadata.json), then use the reviewed local folder with `--source` in an isolated test project. Default cloning, ZIP download from `main` and ordinary online `update` do not select or track the candidate. For requirements, source selection, old-version migration and install-only mode, see the [installation guide](docs/INSTALL.md).
 
 <details>
 <summary>Manual and Git installation</summary>
@@ -99,10 +114,10 @@ If your client provides a skill picker, select **AI Prompt Optimizer**. If it do
 | Mode | Example |
 | --- | --- |
 | Refine only | `$ai-prompt-optimizer Rewrite this as a clear task instruction. Do not execute: …` |
-| Clarify and execute | `$ai-prompt-optimizer Clarify and then carry out this task: …` |
+| Actual work | `$ai-prompt-optimizer Analyze this proposal and give your reasons: …` or `Make these edits: …` |
 | Audit | `$ai-prompt-optimizer Check this prompt for conflicts and missing essentials: …` |
 
-No special command parser is required. If execution is not requested, the skill defaults to refinement.
+No special command parser or “execute” keyword is required. The requested result determines the mode; invoking the skill does not automatically turn an analysis or edit into a prompt rewrite. A quoted brief without task context can default to refinement. Explicit “only rewrite” still prevents embedded execution.
 
 ## Compatibility
 
@@ -129,7 +144,9 @@ The language links switch between maintained Markdown documents. They do not cha
 
 ## Validation and limitations
 
-Eight independent agent tasks were observed in v1.0.0, including a real repair of a synthetic Python function with four existing tests. The core workflow is unchanged through v2.1.0. v2.0.0 renamed the skill; v2.1.0 adds model-family portability documentation without new API integrations. See [validation details and limitations](evals/RESULTS.md). The original suite contains sixteen cases, eight unrun. New v2.2.0 behavior cases and their actual observations are recorded separately in [the new evaluation record](evals/RESULTS-v2.2.0.md). These are not cross-model benchmarks or proof of reduced cost or follow-up count.
+v2.5.0 adds intent-routing, clarification and continuing-task rules. The [model-stratified follow-up](evals/RESULTS-v2.5.0.md) found regressions in both tested configurations, so this remains a review candidate and does not replace stable v2.4.0. No general precision improvement, reduced cost or cross-model certification is claimed.
+
+Eight independent agent tasks were observed in v1.0.0, including a real repair of a synthetic Python function with four existing tests. The core workflow is unchanged through v2.1.0. v2.0.0 renamed the skill; v2.1.0 adds model-family portability documentation without new API integrations. See [validation details and limitations](evals/RESULTS.md). The original record contains sixteen cases, eight then unrun. New v2.5.0 reruns are recorded separately in [the v2.5.0 evaluation](evals/RESULTS-v2.5.0.md); the native implicit-invocation check remains unverified. New v2.2.0 behavior cases and their actual observations are recorded separately in [the new evaluation record](evals/RESULTS-v2.2.0.md). These are not cross-model benchmarks or proof of reduced cost or follow-up count.
 
 ## Upgrading from Clarify Intent
 
