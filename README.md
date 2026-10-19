@@ -62,7 +62,7 @@ The candidate sharpens how the skill selects the actual deliverable: analysis, a
 
 These are 16 paired cases per configuration, with 64 new responses and no reruns. The follow-up reused the supplemental tasks; it is not a new independent holdout, a model ranking or a general compatibility guarantee. Earlier inherited-host comparisons passed all primary core cases (24/24), UI probes (4/4) and supplemental cases (16/16) in both versions; those ceiling results apply only to that configuration. See the [v2.5.0 evaluation record](evals/RESULTS-v2.5.0.md).
 
-The delivery plan is a review branch, `feature/v2.5.0-intent`, and a draft pull request; stable `main` remains v2.4.0. Check [publication metadata](github-metadata.json) for the actual public status and ref. An existing repository URL alone does not show that this candidate is available.
+The candidate is public on `feature/v2.5.0-intent` with [draft PR #1](https://github.com/banzr519/ai-prompt-optimizer/pull/1). Stable `main` remains v2.4.0; public availability does not mean upgrade acceptance. See [publication metadata](github-metadata.json) for the verified source and branch.
 
 ## New in v2.3.0: languages
 

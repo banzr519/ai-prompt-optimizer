@@ -60,7 +60,7 @@ AI Prompt Optimizer 是一个用于 **AI 提示词优化、Prompt Engineering �
 
 每种配置 16 对，共 64 个新响应，无重跑。补测复用了此前的补充题集，不是新的独立保留题、模型能力排行或通用兼容性保证。此前继承宿主配置的对照中，两版核心题均为 24/24、入口题均为 4/4、补充题均为 16/16；这些满分结果仅属于该配置的观察。详见 [v2.5.0 评测记录](evals/RESULTS-v2.5.0.md)。
 
-计划仅通过 `feature/v2.5.0-intent` 审阅分支和草稿 PR 交付，稳定 `main` 保持 v2.4.0。实际公开状态与分支以[发布元数据](github-metadata.json)为准；已有仓库地址本身不能证明候选版已公开。
+已公开到 `feature/v2.5.0-intent` 审阅分支，并建立[草稿 PR #1](https://github.com/banzr519/ai-prompt-optimizer/pull/1)。稳定 `main` 保持 v2.4.0；公开候选版不代表通过升级验收。核验记录与分支见[发布元数据](github-metadata.json)。
 
 ## v2.3.0：多语言
 

@@ -24,10 +24,14 @@
     "multilingual",
     "i18n"
   ],
-  "publication_status": "prepared-not-published",
-  "note": "v2.5.0 candidate is prepared but not yet published. Original inherited-host comparisons were saturated. The explicitly requested medium follow-up observed Luna15/16→14/16 (1 recovery,2 regressions) and Sol16/16→13/16 (0 recoveries,3 regressions,2 candidate critical cases). Both practical gates failed. Candidate branch review is planned; stable main and the active user installation are not upgraded. Native plugin packaging remains an unvalidated preview. See evals/RESULTS-v2.5.0.md.",
+  "publication_status": "published",
+  "note": "Published only on the candidate review branch after unauthenticated public archive verification of all 181 project files. This is not a stable release: Luna/medium 15/16→14/16 (1 recovery, 2 regressions), Sol/medium 16/16→13/16 (0 recoveries, 3 regressions, 2 candidate critical cases); both practical gates failed. Main remains v2.4.0 and the active user skill is unchanged. Draft PR #1 preserves implementation and evidence; no tag or GitHub Release was created. The published_source_commit identifies the first verified source/evidence commit, before this publication-status update. Native plugin packaging remains an unvalidated preview.",
   "repository_url": "https://github.com/banzr519/ai-prompt-optimizer",
   "candidate_status": "not-accepted-regressions-observed",
   "publication_channel": "candidate-branch",
-  "publication_ref": "feature/v2.5.0-intent"
+  "publication_ref": "feature/v2.5.0-intent",
+  "publication_url": "https://github.com/banzr519/ai-prompt-optimizer/tree/feature/v2.5.0-intent",
+  "review_url": "https://github.com/banzr519/ai-prompt-optimizer/pull/1",
+  "published_source_commit": "515acf5cbbd3d32a554684ea5f9dc9ce8a8b2ac2",
+  "publication_verified_on": "2026-10-20"
 }
