@@ -2,13 +2,13 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [🌐 Languages / 语言](docs/LANGUAGES.md)
 
-**v2.4.0 · MIT · el**
+**v2.5.0 · MIT · el**
 
 **Μετατρέψτε ασαφή αιτήματα σε σαφείς, εφαρμόσιμες οδηγίες για AI, διατηρώντας την αρχική πρόθεση.**
 
 Για προγραμματισμό, σχεδιασμό, συγγραφή, έρευνα και αιτήματα εικόνας ή βίντεο. Διατηρεί αριθμούς, περιορισμούς και μεταβλητές, ξεχωρίζοντας τα γεγονότα από τις υποθέσεις. Η αρχική εργασία εκτελείται μόνο κατόπιν ρητού αιτήματος.
 
-**Install with Codex / 使用 Codex 安装:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md)
+**Install with Codex / 使用 Codex 安装:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md) · [v2.5.0 candidate: regressions observed / 候选版：已观察到回退](evals/RESULTS-v2.5.0.md)
 
 ## Εγκατάσταση
 

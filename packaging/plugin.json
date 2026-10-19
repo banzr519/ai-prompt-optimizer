@@ -1,6 +1,6 @@
 {
   "name": "ai-prompt-optimizer",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "description": "Faithful prompt refinement with optional local Codex setup. Native plugin packaging preview; client integration not yet validated.",
   "author": {"name": "banzr519"},
   "repository": "https://github.com/banzr519/ai-prompt-optimizer",

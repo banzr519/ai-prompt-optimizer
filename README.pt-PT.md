@@ -2,13 +2,13 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [🌐 Languages / 语言](docs/LANGUAGES.md)
 
-**v2.4.0 · MIT · pt-PT**
+**v2.5.0 · MIT · pt-PT**
 
 **Transforme pedidos vagos em instruções claras e executáveis para IA, preservando a intenção original.**
 
 Para programação, design, escrita, investigação e pedidos de imagens ou vídeos. Preserva números, restrições e variáveis e distingue factos de pressupostos. A tarefa original só é executada quando explicitamente solicitada.
 
-**Install with Codex / 使用 Codex 安装:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md)
+**Install with Codex / 使用 Codex 安装:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md) · [v2.5.0 candidate: regressions observed / 候选版：已观察到回退](evals/RESULTS-v2.5.0.md)
 
 ## Instalação
 

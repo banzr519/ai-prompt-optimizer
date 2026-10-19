@@ -1,0 +1,45 @@
+{
+  "suite_id": "independent-intent-fidelity-supplement-H01-H16-v1",
+  "total": 16,
+  "categories": {
+    "多轮当前交付物与省略指代": 4,
+    "否定范围、条件、例外与或且语义": 4,
+    "局部更正与数字依赖": 4,
+    "事实、建议、采纳与缺失约定": 4
+  },
+  "languages": {
+    "zh": 12,
+    "en": 4
+  },
+  "english_ids": [
+    "H04",
+    "H08",
+    "H12",
+    "H16"
+  ],
+  "history_message_counts": {
+    "H01": 8,
+    "H02": 8,
+    "H03": 8,
+    "H04": 8,
+    "H05": 6,
+    "H06": 8,
+    "H07": 5,
+    "H08": 8,
+    "H09": 8,
+    "H10": 6,
+    "H11": 6,
+    "H12": 8,
+    "H13": 8,
+    "H14": 6,
+    "H15": 8,
+    "H16": 6
+  },
+  "cases_with_6_to_10_history_messages": 15,
+  "prompt_rewrite_only_ids": [
+    "H02"
+  ],
+  "clarification_required_ids": [
+    "H16"
+  ]
+}

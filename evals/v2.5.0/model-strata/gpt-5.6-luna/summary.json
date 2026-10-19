@@ -1,0 +1,146 @@
+{
+  "slices": {
+    "core": {
+      "cases": 16,
+      "baseline_passes": 15,
+      "candidate_passes": 14,
+      "recoveries": [
+        "H01"
+      ],
+      "regressions": [
+        "H02",
+        "H16"
+      ],
+      "stable_passes": [
+        "H03",
+        "H04",
+        "H05",
+        "H06",
+        "H07",
+        "H08",
+        "H09",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H14",
+        "H15"
+      ],
+      "stable_failures": [],
+      "unknown": [],
+      "baseline_critical": [],
+      "candidate_critical": [],
+      "baseline_failed": [
+        "H01"
+      ],
+      "candidate_failed": [
+        "H02",
+        "H16"
+      ]
+    },
+    "ui": {
+      "cases": 0,
+      "baseline_passes": 0,
+      "candidate_passes": 0,
+      "recoveries": [],
+      "regressions": [],
+      "stable_passes": [],
+      "stable_failures": [],
+      "unknown": [],
+      "baseline_critical": [],
+      "candidate_critical": [],
+      "baseline_failed": [],
+      "candidate_failed": []
+    }
+  },
+  "core_categories": {
+    "事实、建议、采纳与缺失约定": {
+      "cases": 4,
+      "baseline_passes": 4,
+      "candidate_passes": 3,
+      "recoveries": [],
+      "regressions": [
+        "H16"
+      ],
+      "stable_passes": [
+        "H13",
+        "H14",
+        "H15"
+      ],
+      "stable_failures": [],
+      "unknown": [],
+      "baseline_critical": [],
+      "candidate_critical": [],
+      "baseline_failed": [],
+      "candidate_failed": [
+        "H16"
+      ]
+    },
+    "否定范围、条件、例外与或且语义": {
+      "cases": 4,
+      "baseline_passes": 4,
+      "candidate_passes": 4,
+      "recoveries": [],
+      "regressions": [],
+      "stable_passes": [
+        "H05",
+        "H06",
+        "H07",
+        "H08"
+      ],
+      "stable_failures": [],
+      "unknown": [],
+      "baseline_critical": [],
+      "candidate_critical": [],
+      "baseline_failed": [],
+      "candidate_failed": []
+    },
+    "多轮当前交付物与省略指代": {
+      "cases": 4,
+      "baseline_passes": 3,
+      "candidate_passes": 3,
+      "recoveries": [
+        "H01"
+      ],
+      "regressions": [
+        "H02"
+      ],
+      "stable_passes": [
+        "H03",
+        "H04"
+      ],
+      "stable_failures": [],
+      "unknown": [],
+      "baseline_critical": [],
+      "candidate_critical": [],
+      "baseline_failed": [
+        "H01"
+      ],
+      "candidate_failed": [
+        "H02"
+      ]
+    },
+    "局部更正与数字依赖": {
+      "cases": 4,
+      "baseline_passes": 4,
+      "candidate_passes": 4,
+      "recoveries": [],
+      "regressions": [],
+      "stable_passes": [
+        "H09",
+        "H10",
+        "H11",
+        "H12"
+      ],
+      "stable_failures": [],
+      "unknown": [],
+      "baseline_critical": [],
+      "candidate_critical": [],
+      "baseline_failed": [],
+      "candidate_failed": []
+    }
+  },
+  "practical_gate": "not-met-regression-or-critical-error",
+  "minimum_core_recoveries": 4,
+  "scope": "Supplied reviewer judgments on this fixed case set; not statistical certification, native discovery, or a cross-model accuracy claim."
+}

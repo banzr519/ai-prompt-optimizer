@@ -2,13 +2,13 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [🌐 Languages / 语言](docs/LANGUAGES.md)
 
-**v2.4.0 · MIT · ko**
+**v2.5.0 · MIT · ko**
 
 **원래 의도를 유지하면서 모호한 요청을 명확하고 실행 가능한 AI 지시로 바꿉니다.**
 
 개발, 디자인, 글쓰기, 조사, 이미지·영상 요청에 사용할 수 있습니다. 숫자, 제약, 변수를 보존하고 사실과 가정을 구분합니다. 원래 작업은 명시적으로 요청한 경우에만 실행합니다.
 
-**Install with Codex / 使用 Codex 安装:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md)
+**Install with Codex / 使用 Codex 安装:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md) · [v2.5.0 candidate: regressions observed / 候选版：已观察到回退](evals/RESULTS-v2.5.0.md)
 
 ## 설치
 

@@ -1,0 +1,234 @@
+{
+  "status": "complete",
+  "planned_job_count": 32,
+  "started_job_count": 32,
+  "completed_job_count": 32,
+  "unique_job_count": 32,
+  "unique_worker_count": 32,
+  "start_order_matches_queue": true,
+  "queue_indices_match": true,
+  "receipt_jobs_match": true,
+  "max_concurrent_workers_observed": 2,
+  "outputs_complete": true,
+  "valid_output_count": 32,
+  "wrapper_sha256": "4b43d21b5e00f32dfe2e267da6571d5b4e1f0faed5a34e7fd48b432593d6e1b2",
+  "infrastructure_failure_count": 0,
+  "anomaly_count": 0,
+  "rerun_count": 0,
+  "recovery_write_count": 0,
+  "failures": [],
+  "started_at": "2026-10-19T15:41:54.904188+00:00",
+  "completed_at": "2026-10-19T15:59:27.607325+00:00",
+  "timestamp_semantics": "Worker timestamps record coordinator observation of spawn acknowledgement and completion; queue indices preserve actual tool call ordering.",
+  "protocol": {
+    "max_workers": 2,
+    "new_worker_per_job": true,
+    "fork_turns": "none",
+    "model_override": false,
+    "reasoning_override": false,
+    "wrapper_substitutions_only": [
+      "skill",
+      "packet",
+      "output"
+    ],
+    "content_evaluated": false,
+    "feedback_given": false,
+    "original_outputs_modified_by_runner": false
+  },
+  "file_checks": [
+    {
+      "job_id": "core-H04-variant-c",
+      "exists": true,
+      "json_parseable": true,
+      "response_nonempty": true
+    },
+    {
+      "job_id": "core-H04-variant-f",
+      "exists": true,
+      "json_parseable": true,
+      "response_nonempty": true
+    },
+    {
+      "job_id": "core-H13-variant-c",
+      "exists": true,
+      "json_parseable": true,
+      "response_nonempty": true
+    },
+    {
+      "job_id": "core-H13-variant-f",
+      "exists": true,
+      "json_parseable": true,
+      "response_nonempty": true
+    },
+    {
+      "job_id": "core-H08-variant-f",
+      "exists": true,
+      "json_parseable": true,
+      "response_nonempty": true
+    },
+    {
+      "job_id": "core-H08-variant-c",
+      "exists": true,
+      "json_parseable": true,
+      "response_nonempty": true
+    },
+    {
+      "job_id": "core-H06-variant-c",
+      "exists": true,
+      "json_parseable": true,
+      "response_nonempty": true
+    },
+    {
+      "job_id": "core-H06-variant-f",
+      "exists": true,
+      "json_parseable": true,
+      "response_nonempty": true
+    },
+    {
+      "job_id": "core-H02-variant-f",
+      "exists": true,
+      "json_parseable": true,
+      "response_nonempty": true
+    },
+    {
+      "job_id": "core-H02-variant-c",
+      "exists": true,
+      "json_parseable": true,
+      "response_nonempty": true
+    },
+    {
+      "job_id": "core-H16-variant-c",
+      "exists": true,
+      "json_parseable": true,
+      "response_nonempty": true
+    },
+    {
+      "job_id": "core-H16-variant-f",
+      "exists": true,
+      "json_parseable": true,
+      "response_nonempty": true
+    },
+    {
+      "job_id": "core-H14-variant-f",
+      "exists": true,
+      "json_parseable": true,
+      "response_nonempty": true
+    },
+    {
+      "job_id": "core-H14-variant-c",
+      "exists": true,
+      "json_parseable": true,
+      "response_nonempty": true
+    },
+    {
+      "job_id": "core-H11-variant-f",
+      "exists": true,
+      "json_parseable": true,
+      "response_nonempty": true
+    },
+    {
+      "job_id": "core-H11-variant-c",
+      "exists": true,
+      "json_parseable": true,
+      "response_nonempty": true
+    },
+    {
+      "job_id": "core-H12-variant-c",
+      "exists": true,
+      "json_parseable": true,
+      "response_nonempty": true
+    },
+    {
+      "job_id": "core-H12-variant-f",
+      "exists": true,
+      "json_parseable": true,
+      "response_nonempty": true
+    },
+    {
+      "job_id": "core-H01-variant-f",
+      "exists": true,
+      "json_parseable": true,
+      "response_nonempty": true
+    },
+    {
+      "job_id": "core-H01-variant-c",
+      "exists": true,
+      "json_parseable": true,
+      "response_nonempty": true
+    },
+    {
+      "job_id": "core-H07-variant-c",
+      "exists": true,
+      "json_parseable": true,
+      "response_nonempty": true
+    },
+    {
+      "job_id": "core-H07-variant-f",
+      "exists": true,
+      "json_parseable": true,
+      "response_nonempty": true
+    },
+    {
+      "job_id": "core-H03-variant-c",
+      "exists": true,
+      "json_parseable": true,
+      "response_nonempty": true
+    },
+    {
+      "job_id": "core-H03-variant-f",
+      "exists": true,
+      "json_parseable": true,
+      "response_nonempty": true
+    },
+    {
+      "job_id": "core-H05-variant-c",
+      "exists": true,
+      "json_parseable": true,
+      "response_nonempty": true
+    },
+    {
+      "job_id": "core-H05-variant-f",
+      "exists": true,
+      "json_parseable": true,
+      "response_nonempty": true
+    },
+    {
+      "job_id": "core-H09-variant-c",
+      "exists": true,
+      "json_parseable": true,
+      "response_nonempty": true
+    },
+    {
+      "job_id": "core-H09-variant-f",
+      "exists": true,
+      "json_parseable": true,
+      "response_nonempty": true
+    },
+    {
+      "job_id": "core-H10-variant-f",
+      "exists": true,
+      "json_parseable": true,
+      "response_nonempty": true
+    },
+    {
+      "job_id": "core-H10-variant-c",
+      "exists": true,
+      "json_parseable": true,
+      "response_nonempty": true
+    },
+    {
+      "job_id": "core-H15-variant-f",
+      "exists": true,
+      "json_parseable": true,
+      "response_nonempty": true
+    },
+    {
+      "job_id": "core-H15-variant-c",
+      "exists": true,
+      "json_parseable": true,
+      "response_nonempty": true
+    }
+  ],
+  "exact_final_matches": 31,
+  "matches_ignoring_boundary_whitespace": 31
+}

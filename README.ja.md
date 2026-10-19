@@ -2,13 +2,13 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [🌐 Languages / 语言](docs/LANGUAGES.md)
 
-**v2.4.0 · MIT · ja**
+**v2.5.0 · MIT · ja**
 
 **意図を保ったまま、曖昧な依頼を明確で実行可能な AI 指示に整えます。**
 
 開発、デザイン、文章作成、調査、画像・動画の指示に利用できます。数値、制約、変数を保持し、事実と仮定を区別します。元の作業は明示的に依頼された場合だけ実行します。
 
-**Install with Codex / 使用 Codex 安装:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md)
+**Install with Codex / 使用 Codex 安装:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md) · [v2.5.0 candidate: regressions observed / 候选版：已观察到回退](evals/RESULTS-v2.5.0.md)
 
 ## インストール
 

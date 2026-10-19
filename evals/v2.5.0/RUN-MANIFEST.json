@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-19",
+  "baseline_commit": "93a193acb71636f3cbc929362c6ee1105f4a88ed",
+  "runtime_snapshots": {
+    "baseline": {
+      "files": {
+        "SKILL.md": "1e7cce73882849a47dcbdec6625bf6836949f2f0066476d2021922c497fb737f",
+        "references/examples.md": "e834935986866bb81a803a771ebc34bc2101d7544dc588625a6839e179c24392",
+        "references/semantic-patterns.md": "23b4df5f53c6c1a12f10e29694a2cd4c7a573f51c7a97ff5561acfafa223dd7e",
+        "references/languages.md": "12bfef927f60bfa38e938e125db23462798916ed0652d8d388aa326426a0a775",
+        "references/advanced-workflows.md": "459496d0d466f656891d996b9d89f057ed2b132999a506a718592eb13a21af63",
+        "references/domain-guides.md": "cd005713eef3c0ee48642c1927d33e3552229c0fb89674f2ec2268f4bd588f36",
+        "references/installation.md": "0d9f9d96afd948e044719992dd73bcb8501710ddd9d3b14f3a81bdf4226516dd",
+        "agents/openai.yaml": "022b2ac390de2d57823f0819d9fe485e4423c334538864a528862a39418448f3"
+      },
+      "sha256": "28bb782ee1852bedbfdc00948c69a93e85d11d353bfa905c8ea6c4bb42c80898"
+    },
+    "candidate": {
+      "files": {
+        "SKILL.md": "f14cf2706f718f050b1f2f458c7fb301fd70ed860091cf06a4a8334f5417dd46",
+        "references/examples.md": "e834935986866bb81a803a771ebc34bc2101d7544dc588625a6839e179c24392",
+        "references/semantic-patterns.md": "23b4df5f53c6c1a12f10e29694a2cd4c7a573f51c7a97ff5561acfafa223dd7e",
+        "references/languages.md": "12bfef927f60bfa38e938e125db23462798916ed0652d8d388aa326426a0a775",
+        "references/advanced-workflows.md": "d5e14102e095fc298b8456fd9cac58f58f85e05e4bd0b9a219bf7c4bfd75d910",
+        "references/domain-guides.md": "cd005713eef3c0ee48642c1927d33e3552229c0fb89674f2ec2268f4bd588f36",
+        "references/installation.md": "0d9f9d96afd948e044719992dd73bcb8501710ddd9d3b14f3a81bdf4226516dd",
+        "references/intent-and-continuity.md": "b96889466049f6575a0cc69e1303b6d25f0b564ca6a2be0668982b736f5ff870",
+        "agents/openai.yaml": "299a7ef47202181e5524d988d7b64147d171f2e2b4cfea8369ad5c2a0e233a3b"
+      },
+      "sha256": "bdafd928e9b9afb8acfb07f69308ca7bedb67a7e5475f1eee7ac73f4f553d8f4"
+    }
+  },
+  "randomization_seed": 20261019,
+  "dataset_manifest_sha256": "dd4bed25ffcc03c4113eac33c7676fd3a868e028871bf7b33135057734648c50",
+  "execution": "Fresh host subagent per condition and case, inherited parent model/settings; no separate vendor API.",
+  "exact_model_build": "not exposed",
+  "sampling_parameters": "not exposed or independently controllable",
+  "token_usage": "not collected",
+  "elapsed_time": "not treated as model latency; orchestration overhead uncontrolled",
+  "history_mode": "synthetic role-labeled history supplied inside task packet, not real previous model turns",
+  "native_discovery": "not tested; explicit invocation",
+  "runtime_frozen_before_author_saw_cases": true,
+  "counts": {
+    "core_pairs": 24,
+    "ui_pairs": 4,
+    "historical_regression_cases": 9
+  },
+  "status": "completed-practical-gain-not-demonstrated",
+  "entrypoint_size": {
+    "baseline": {
+      "characters": 13532,
+      "utf8_bytes": 13853,
+      "lines": 141
+    },
+    "candidate": {
+      "characters": 15684,
+      "utf8_bytes": 15973,
+      "lines": 146
+    },
+    "note": "Character/byte counts, not tokens; no token-savings claim."
+  },
+  "execution_wrapper_sha256": "4b43d21b5e00f32dfe2e267da6571d5b4e1f0faed5a34e7fd48b432593d6e1b2",
+  "review": {
+    "reviewers": 2,
+    "type": "independent fresh host AI agents; not human reviewers",
+    "blinded_until_resolution": true,
+    "agreement": 65,
+    "answers": 65,
+    "adjudication_required": false
+  },
+  "ui_entry_prompts_checked": 8,
+  "infrastructure_failures": 0,
+  "quality_retries": 0,
+  "review_unblinding": "after full independent judgments and agreement check",
+  "historical_r01_execution": "Separate fresh host agent completed preserve-method before the 64-job queue; not included in queue receipts.",
+  "condition_aliases": {
+    "variant-c": "baseline",
+    "variant-f": "candidate"
+  },
+  "primary_result": {
+    "core": "24/24 versus 24/24",
+    "ui": "4/4 versus 4/4",
+    "practical_gate": "inconclusive-insufficient-core-gain",
+    "interpretation": "No observed improvement or regression on this set; baseline ceiling prevents the predeclared gain gate."
+  },
+  "supplemental_result": "Separately reported in supplemental/: 16/16 both versions; no observed recoveries or regressions; unchanged runtime."
+}

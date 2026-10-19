@@ -2,13 +2,13 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [🌐 Languages / 语言](docs/LANGUAGES.md)
 
-**v2.4.0 · MIT · bn**
+**v2.5.0 · MIT · bn**
 
 **মূল উদ্দেশ্য বজায় রেখে অস্পষ্ট অনুরোধকে স্পষ্ট ও কার্যকর AI নির্দেশনায় রূপ দিন।**
 
 কোডিং, নকশা, লেখা, গবেষণা এবং ছবি বা ভিডিওর অনুরোধে ব্যবহারযোগ্য। সংখ্যা, সীমা ও ভেরিয়েবল অক্ষুণ্ণ রাখে এবং তথ্য থেকে অনুমান আলাদা করে। মূল কাজ কেবল স্পষ্টভাবে বলা হলে সম্পাদন করে।
 
-**Install with Codex / 使用 Codex 安装:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md)
+**Install with Codex / 使用 Codex 安装:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md) · [v2.5.0 candidate: regressions observed / 候选版：已观察到回退](evals/RESULTS-v2.5.0.md)
 
 ## ইনস্টলেশন
 
