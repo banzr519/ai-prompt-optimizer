@@ -2,13 +2,13 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [🌐 Languages / 语言](docs/LANGUAGES.md)
 
-**v2.4.0 · MIT · id**
+**v2.5.0 · MIT · id**
 
 **Ubah permintaan yang samar menjadi instruksi AI yang jelas dan dapat dijalankan tanpa mengubah maksud awal.**
 
 Untuk pemrograman, desain, penulisan, riset, serta permintaan gambar dan video. Mempertahankan angka, batasan, dan variabel serta memisahkan fakta dari asumsi. Tugas asli hanya dijalankan jika diminta secara tegas.
 
-**Install with Codex / 使用 Codex 安装:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md)
+**Install, update and verify / 安装、更新与验证:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md) · [Candidate evidence / 候选验证](evals/v2.5.0/revision-20261027/README.md)
 
 ## Instalasi
 

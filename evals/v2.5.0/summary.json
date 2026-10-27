@@ -1,0 +1,151 @@
+{
+  "slices": {
+    "core": {
+      "cases": 24,
+      "baseline_passes": 24,
+      "candidate_passes": 24,
+      "recoveries": [],
+      "regressions": [],
+      "stable_passes": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "C06",
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05",
+        "M06",
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06"
+      ],
+      "stable_failures": [],
+      "unknown": [],
+      "baseline_critical": [],
+      "candidate_critical": [],
+      "baseline_failed": [],
+      "candidate_failed": []
+    },
+    "ui": {
+      "cases": 4,
+      "baseline_passes": 4,
+      "candidate_passes": 4,
+      "recoveries": [],
+      "regressions": [],
+      "stable_passes": [
+        "U01",
+        "U02",
+        "U03",
+        "U04"
+      ],
+      "stable_failures": [],
+      "unknown": [],
+      "baseline_critical": [],
+      "candidate_critical": [],
+      "baseline_failed": [],
+      "candidate_failed": []
+    }
+  },
+  "core_categories": {
+    "ambiguous_reversible": {
+      "cases": 6,
+      "baseline_passes": 6,
+      "candidate_passes": 6,
+      "recoveries": [],
+      "regressions": [],
+      "stable_passes": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06"
+      ],
+      "stable_failures": [],
+      "unknown": [],
+      "baseline_critical": [],
+      "candidate_critical": [],
+      "baseline_failed": [],
+      "candidate_failed": []
+    },
+    "clear_requests": {
+      "cases": 6,
+      "baseline_passes": 6,
+      "candidate_passes": 6,
+      "recoveries": [],
+      "regressions": [],
+      "stable_passes": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "C06"
+      ],
+      "stable_failures": [],
+      "unknown": [],
+      "baseline_critical": [],
+      "candidate_critical": [],
+      "baseline_failed": [],
+      "candidate_failed": []
+    },
+    "materially_missing_or_conflicting": {
+      "cases": 6,
+      "baseline_passes": 6,
+      "candidate_passes": 6,
+      "recoveries": [],
+      "regressions": [],
+      "stable_passes": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05",
+        "M06"
+      ],
+      "stable_failures": [],
+      "unknown": [],
+      "baseline_critical": [],
+      "candidate_critical": [],
+      "baseline_failed": [],
+      "candidate_failed": []
+    },
+    "multi_turn_updates": {
+      "cases": 6,
+      "baseline_passes": 6,
+      "candidate_passes": 6,
+      "recoveries": [],
+      "regressions": [],
+      "stable_passes": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06"
+      ],
+      "stable_failures": [],
+      "unknown": [],
+      "baseline_critical": [],
+      "candidate_critical": [],
+      "baseline_failed": [],
+      "candidate_failed": []
+    }
+  },
+  "practical_gate": "inconclusive-insufficient-core-gain",
+  "minimum_core_recoveries": 4,
+  "scope": "Supplied reviewer judgments on this fixed case set; not statistical certification, native discovery, or a cross-model accuracy claim."
+}

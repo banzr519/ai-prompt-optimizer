@@ -1,0 +1,31 @@
+{
+  "answers": 64,
+  "independent_verdict_and_critical_flag_agreement": 63,
+  "adjudication": {
+    "labels_hidden_during_resolution": true,
+    "method": "Both original reviewers independently reconsidered the same anonymous dossier against the frozen rubric. Original judgments and separate reconciliation files are preserved.",
+    "items": [
+      {
+        "answer_id": "answer-049",
+        "verdict": "fail",
+        "critical_errors": [
+          "H16 critical_errors[3]: the question presupposes that the final two replies have arrived, although the supplied history leaves them outstanding."
+        ],
+        "rationale": "Both reviewers now judge that “Which option did you choose after the last two replies” embeds an unsupported past event. Asking for the chosen option and calendar date is appropriate, but does not remove the factual presupposition. Reviewer A changed the original pass; reviewer B retained fail."
+      }
+    ],
+    "criterion_attribution_notes": [
+      {
+        "answer_id": "answer-018",
+        "verdict": "fail",
+        "critical_errors": [],
+        "note": "Both reviewers consistently judge the reusable template internally contradictory and fail it under must_deliver[1]. They differ on whether must_preserve[2] also fails: after reconciliation A says pass, B says fail. This attribution difference is retained and does not affect the agreed overall verdict or critical flag. No claim of full criterion-level agreement is made."
+      }
+    ],
+    "reconciliation_sources": [
+      "reconciliation-a.json",
+      "reconciliation-b.json"
+    ]
+  },
+  "unblinding": "after original reviews, blind agreement audit and any resolution"
+}

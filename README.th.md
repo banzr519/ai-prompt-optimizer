@@ -2,13 +2,13 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [🌐 Languages / 语言](docs/LANGUAGES.md)
 
-**v2.4.0 · MIT · th**
+**v2.5.0 · MIT · th**
 
 **เปลี่ยนคำขอที่คลุมเครือให้เป็นคำสั่ง AI ที่ชัดเจนและนำไปใช้ได้ โดยคงเจตนาเดิมไว้**
 
 ใช้กับงานเขียนโปรแกรม ออกแบบ เขียนเนื้อหา ค้นคว้า และคำสั่งสร้างภาพหรือวิดีโอ รักษาตัวเลข ข้อจำกัด และตัวแปร พร้อมแยกข้อเท็จจริงจากสมมติฐาน จะทำงานต้นฉบับเมื่อผู้ใช้สั่งอย่างชัดเจนเท่านั้น
 
-**Install with Codex / 使用 Codex 安装:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md)
+**Install, update and verify / 安装、更新与验证:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md) · [Candidate evidence / 候选验证](evals/v2.5.0/revision-20261027/README.md)
 
 ## การติดตั้ง
 

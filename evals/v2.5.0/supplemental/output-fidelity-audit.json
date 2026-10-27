@@ -1,0 +1,12 @@
+[
+  {
+    "answer_id": "answer-012",
+    "kind": "blank-line-only representation difference",
+    "saved_response": "本次周末志愿活动分工现状：\n\n已确定：\n- 小何：负责签到。\n- 小陈：负责物资及活动结束后的清点。\n- 我：负责当天开场。\n\n待确认：\n- 带队人尚未确定。阿宁只表示周末可能有空，尚未答应带队。\n- 活动时间仍待场地回复，暂未确定。\n\n摄影暂不安排。",
+    "actual_final_response": "本次周末志愿活动分工现状：\n\n已确定：\n\n- 小何：负责签到。\n- 小陈：负责物资及活动结束后的清点。\n- 我：负责当天开场。\n\n待确认：\n\n- 带队人尚未确定。阿宁只表示周末可能有空，尚未答应带队。\n- 活动时间仍待场地回复，暂未确定。\n\n摄影暂不安排。",
+    "non_whitespace_text_identical": true,
+    "saved_sha256": "2cce0271d28feab6075d2dcc1b5c4666fdab4d104cea768068305c1894396ab5",
+    "final_sha256": "fbd97a185270d07fc0ee6b78bf886173baa0c11963074667c27b95173bafd1e8",
+    "action": "Preserve original review input and saved artifact. Use actual final in normalized public results; reviewers receive both representations while still blind. No model rerun or substantive text change."
+  }
+]

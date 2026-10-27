@@ -1,0 +1,13 @@
+interface:
+  display_name: "AI Prompt Optimizer · 提示词优化助手"
+  short_description: "准确理解任务意图，保留限制与多轮修改，按需优化提示词或完成实际任务"
+  default_prompt: "使用 $ai-prompt-optimizer 处理下面的请求：保留原意与限制，按我的要求交付提示词、分析或实际成果，只澄清影响结果的未知信息。"
+  icon_small: "assets/icon.svg"
+  icon_large: "assets/icon.svg"
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

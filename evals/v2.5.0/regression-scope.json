@@ -1,0 +1,11 @@
+{
+  "historical_records_unchanged": true,
+  "rerun_cases": 9,
+  "limitations": [
+    {
+      "case_id": "literal",
+      "detail": "The current harness explicitly loads the skill. A direct translation can verify response behavior, but cannot verify the historical no-implicit-trigger check. Record that check as unverified, not passed."
+    }
+  ],
+  "rule": "Distinguish observed response behavior from native client discovery and invocation."
+}

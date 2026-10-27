@@ -2,13 +2,13 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [🌐 Languages / 语言](docs/LANGUAGES.md)
 
-**v2.4.0 · MIT · ru**
+**v2.5.0 · MIT · ru**
 
 **Превращайте расплывчатые запросы в ясные инструкции для AI, сохраняя исходный смысл.**
 
 Подходит для кода, дизайна, текстов, исследований, запросов на изображения и видео. Сохраняет числа, ограничения и переменные, отделяет факты от предположений. Исходная задача выполняется только по явному запросу.
 
-**Install with Codex / 使用 Codex 安装:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md)
+**Install, update and verify / 安装、更新与验证:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md) · [Candidate evidence / 候选验证](evals/v2.5.0/revision-20261027/README.md)
 
 ## Установка
 

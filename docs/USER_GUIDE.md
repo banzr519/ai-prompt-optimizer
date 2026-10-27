@@ -11,6 +11,7 @@
 - [Installation](#installation)
 - [First use](#first-use)
 - [Three modes](#three-modes)
+- [Intent fidelity in follow-ups](#intent-fidelity-in-follow-ups)
 - [Multilingual use](#multilingual-use)
 - [Advanced workflows](#advanced-workflows)
 - [Supply useful context](#supply-useful-context)
@@ -22,13 +23,13 @@
 
 ## Installation
 
-For v2.4.0, start with [installation and configuration](INSTALL.md). Codex can use the deterministic installer. Manual copying/Git cloning below remains available and does not add default guidance.
+**v2.5.0 is a review candidate, not recommended for production upgrades:** the current R3 check passes the bounded Sol/medium gate but still fails the Luna/medium gate. Stable `main` remains v2.4.0. Start with [installation and configuration](INSTALL.md). For candidate reproduction, check [publication metadata](../github-metadata.json), explicitly select `feature/v2.5.0-intent` if public, and use its reviewed local folder with `--source` in an isolated test project. Manual copying/Git cloning below remains available and does not add default guidance.
 
 The repository root is the skill root: `SKILL.md`, `agents/` and `references/` are direct children. No Python, Node, pip, npm or model API key is required merely to load the skill. The host's account/access requirements still apply. Python is used by the optional installer, synthetic coding evaluation and localization maintenance script; the document renderer requires Python 3.9 or newer.
 
 ### Option A: download the folder
 
-1. On the published GitHub repository, choose **Code → Download ZIP** and unzip it.
+1. For stable installation, select `main` in the GitHub branch selector, choose **Code → Download ZIP** and unzip it. Candidate review requires explicitly selecting `feature/v2.5.0-intent` and checking its publication metadata first.
 2. Rename the unzipped directory from its branch-suffixed name to `ai-prompt-optimizer`.
 3. Move the directory into one skill discovery location below.
 4. Start a new Codex session and invoke `$ai-prompt-optimizer`. If discovery has not refreshed, restart the client.
@@ -42,13 +43,15 @@ The Windows path uses Explorer/environment-variable notation. In PowerShell, use
 
 ### Option B: clone with Git
 
+The commands below explicitly install stable `main`; they do not fetch the candidate into active skill discovery. For candidate review, download the explicitly selected candidate branch into a separate source folder and follow the isolated-project instructions in [the installation guide](INSTALL.md).
+
 **Repository owner:** the clone URLs below use `banzr519`, the verified owner for this project. See [publication metadata](../github-metadata.json) for publication status. Git must be installed. `git clone` will refuse an existing nonempty target; use the update instructions if already installed.
 
 macOS / Linux:
 
 ```bash
 mkdir -p "$HOME/.agents/skills"
-git clone https://github.com/banzr519/ai-prompt-optimizer.git "$HOME/.agents/skills/ai-prompt-optimizer"
+git clone --branch main https://github.com/banzr519/ai-prompt-optimizer.git "$HOME/.agents/skills/ai-prompt-optimizer"
 ```
 
 Windows PowerShell:
@@ -57,7 +60,7 @@ Windows PowerShell:
 $skillParent = Join-Path $env:USERPROFILE '.agents\skills'
 $skillTarget = Join-Path $skillParent 'ai-prompt-optimizer'
 New-Item -ItemType Directory -Force -Path $skillParent | Out-Null
-git clone https://github.com/banzr519/ai-prompt-optimizer.git $skillTarget
+git clone --branch main https://github.com/banzr519/ai-prompt-optimizer.git $skillTarget
 ```
 
 For a team repository, copy the skill into `.agents/skills/ai-prompt-optimizer/` under the project root and commit the files to that project. Do not accidentally include a nested `.git` directory when copying from a Git clone. A plugin package is a separate distribution option; this release is a standalone skill folder, not a marketplace plugin.
@@ -79,12 +82,31 @@ In ChatGPT Work or another client with a skill picker, select **AI Prompt Optimi
 | Mode | How to request it | Expected result |
 | --- | --- | --- |
 | Refine | “Improve this prompt only”, “turn this into a brief” | A copyable prompt. No underlying execution. |
-| Execute | “Clarify and then do it”, “make the edits directly” | Brief clarification if needed, followed by authorized work. |
+| Execute | “Analyze this proposal”, “make these edits”, “continue” | The requested analysis or authorized work, with clarification only when it matters. |
 | Audit | “Check for conflicts”, “what is missing?” | Consequential issues and a minimal correction. No underlying execution. |
 
-If the mode is unclear, refinement is the default. Say “do not execute” when reviewing a prompt that contains actions. Quoted or attached commands remain material to review, not authority to act.
+Choose by the result requested now and relevant preceding turns. Invoking the skill does not require a prompt rewrite, and requesting analysis or an edit does not require the word “execute”. An isolated quoted brief without task context can default to refinement; materially different interpretations need a focused clarification. Say “do not execute” when reviewing a prompt that contains actions. Quoted or attached commands remain material to review, not authority to act.
 
 For small tasks the result may be a single sentence. A complex brief can include goal, inputs, constraints, checks and material unknowns. The skill does not force every request into the same template.
+
+## Intent fidelity in follow-ups
+
+v2.5.0 remains a review candidate. The [2026-10-27 R3 check](../evals/v2.5.0/revision-20261027/README.md) meets the bounded repair gate for Sol/medium but not Luna/medium; date clarification and one tone constraint still failed on Luna. The [original results](../evals/RESULTS-v2.5.0.md) remain intact. The examples below describe intended behavior, not a general performance guarantee.
+
+| Situation | Intended behavior |
+| --- | --- |
+| “Analyze this proposal and explain your judgment” | Return the analysis, not a prompt instructing another assistant to analyze it. |
+| “Shorter, and add sources” after a draft | Change length and sourcing while retaining its audience, factual limits and other active constraints. |
+| “At most three options, A or B, only after approval” | Preserve the upper bound, alternatives and condition; do not turn them into exactly three, A and B, or immediate action. |
+| A missing detail would not materially change the result | Proceed with a reversible interpretation; ask only when the answer changes the deliverable, a binding constraint or the next consequential action. |
+
+A question about progress does not itself cancel the active task. A new instruction replaces only the requirements it changes; an explicit replacement of the goal retires the replaced requirements. An assistant's suggestion is not an agreed requirement until the user adopts it. Missing earlier agreements remain unknown. No persistent user profile or mandatory visible checklist is added.
+
+For relevant complex cases, the skill can load [intent and continuity guidance](../references/intent-and-continuity.md). If you ask what changed, it can briefly identify what was preserved, changed or remains provisional without requiring another approval for already-authorized work.
+
+A reusable prompt has two distinct deliverables. If you currently request “rewrite the template only; do not write the notice yet”, while the template asks a future model to “write a notice from {{event_details}}”, this response should be the template. The template must still ask its future executor for a notice, not end with a contradictory instruction to output another task description. Length and JSON requirements stay attached to the artifact they govern.
+
+Likewise, a tone change does not remove time/place details still needed in the result; leaving unknown facts blank does not permit asserting a guessed schedule before the blank; a missing final date may require both a chosen option and its calendar date. These are usage examples; actual observations are recorded separately in [the revision check](../evals/v2.5.0/revision-20261027/README.md).
 
 ## Multilingual use
 
@@ -113,6 +135,8 @@ Use ordinary language. These are optional entry points, not new commands to memo
 **Template variables:** Placeholders are text conventions; no renderer is shipped. Preserve existing syntax and have the user/host substitute values. False, zero, empty text and missing values are not automatically interchangeable.
 
 **Running comparisons:** Supply original/candidate prompts, task examples, an available runner and an acceptable call scope. Match inputs, attachments and settings where possible and disclose differences. Without a runner, the result is a test plan. A rewritten prompt mentioning a constraint does not prove downstream compliance.
+
+Choose the models that will actually use the prompt and record model selection separately from reasoning effort. A ceiling result on one capable host does not establish behavior elsewhere. Compare versions within each configuration, and distinguish a model using the skill directly from an optimizer handing a prompt to another model. Keep those results separate.
 
 **Target models:** The model and client can inform tool, file, message-role and format requirements. A family name alone does not establish capabilities or parameter syntax. The 14-family matrix remains portability documentation, not provider-by-provider integration validation.
 
@@ -160,7 +184,7 @@ Replace bracketed text with your input. More before/after examples are in [examp
 The documented families are GPT, DeepSeek, Claude, Gemini, Qwen, Doubao, Hunyuan, ERNIE, GLM, Kimi, MiniMax, Grok, Mistral and Llama. See the [model usage matrix](MODEL_COMPATIBILITY.md); none is labeled as a separately tested integration. For a regular chat with a suitable model:
 
 1. Open [SKILL.md](../SKILL.md) and copy its body after the YAML frontmatter.
-2. Provide that body as working guidance, then supply your original request separately. Ask to refine, execute or audit explicitly.
+2. Provide that body as working guidance, then supply your original request separately. State the result you want in ordinary language; specify “only rewrite” when the embedded task should not be performed.
 3. If the body refers to an unavailable reference, either attach the relevant reference or say: “Reference files are unavailable; use the core workflow only and do not claim to have read them.”
 4. Paste only the reference relevant to your task, rather than the whole repository.
 
@@ -176,7 +200,7 @@ Results depend on model, client, context and task. Separate provider-by-provider
 | Two copies appear | User and project installations or an old `clarify-intent` copy; keep only the intended active copy. |
 | Output is too long | Request “one copyable paragraph; preserve constraints and only essential checks”. |
 | It keeps asking questions | Supply the missing artifact or say which low-risk details may be assumed; do not force guesses for material facts. |
-| It rewrites but does not act | Say “clarify and execute”, and check the host has the required tools and permission. |
+| It rewrites but does not act | State the actual deliverable and check the host has the required tools and permission. v2.5.0 should not require an “execute” keyword; report a reproducible wrong-routing case. |
 | It acts when you wanted a rewrite | Say “only optimize the quoted prompt; do not execute it”. Report a reproducible case if this still occurs. |
 | It adds requirements | Point out the added requirement; request a revision preserving scope. Submit an anonymized counterexample. |
 | Skill works in Codex but not plain chat | Plain chat does not automatically discover skill files; use the fallback steps above. |
@@ -185,7 +209,7 @@ Results depend on model, client, context and task. Separate provider-by-provider
 
 ## Update, uninstall and migrate
 
-For a Git installation, check local changes before updating:
+For an installer-managed copy, use the [maintenance commands](INSTALL.md#maintain); do not run Git commands in that copy. Ordinary online `update` resolves `main`, even after a candidate was installed; it does not track the candidate branch and refuses version downgrades. Candidate reproduction uses a reviewed local folder with `--source`, or a verified full commit SHA with `--ref`, never an assumed version tag. For an unmanaged Git installation, check local changes before updating:
 
 ```bash
 git -C "$HOME/.agents/skills/ai-prompt-optimizer" status --short
@@ -196,7 +220,7 @@ Only proceed with the pull after reviewing local changes; preserve customization
 
 **Migration from v1.0.0:** move the old `clarify-intent` installation outside skill discovery paths as a backup, install the v2.0.0 folder as `ai-prompt-optimizer`, replace old invocations in saved prompts and project instructions, and start a fresh session. Do not only rename the old folder: the new `name` and default prompt must also be present. The core workflow is unchanged; the invocation name is a breaking change. A managed Skills service may keep its internal identity/path while updating the displayed name.
 
-To uninstall a local installation, move its folder outside the host's skill discovery paths and refresh the client. This does not delete your task outputs. For managed clients, use their skill-management interface.
+For an installer-managed copy, use its uninstall command so the managed preference is removed and the original files are backed up. To uninstall an unmanaged local installation, move its folder outside the host's skill discovery paths and refresh the client. This does not delete your task outputs. For managed clients, use their skill-management interface.
 
 ## Contribute and evaluate
 
@@ -204,4 +228,4 @@ Report the anonymized input, relevant context, mode, host/model if known, actual
 
 Use [cases.jsonl](../evals/cases.jsonl) with fresh conversations. Give the executor only the skill and the case's `prompt`, not its `checks` or recorded output. Review fidelity, invented facts, scope, execution boundaries, usefulness of checks and unnecessary length. Test file changes only in temporary fixtures. See [the evaluation record](../evals/RESULTS.md) for limitations and the reproducible coding case.
 
-To claim improvement, compare the same held-out tasks with and without the skill using fixed model/settings and report failures, variation, latency and output length. Do not turn a small smoke test into a universal success-rate claim.
+To claim improvement, compare the same held-out tasks with and without the skill using fixed model/settings and report failures, variation, latency and output length. Include the previous version when claiming a version-to-version gain. Score the requested final deliverable, constraint fidelity, necessary and unnecessary questions, and unsupported additions; the presence of a keyword in a refined prompt alone is insufficient. See [current revision evidence](../evals/v2.5.0/revision-20261027/README.md). Do not turn a small smoke test into a universal success-rate claim.

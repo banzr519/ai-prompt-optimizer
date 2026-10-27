@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-19",
+  "environment": "macOS arm64, Python 3.13.14",
+  "source": "local reviewed baseline and candidate; no network in this run",
+  "operations": [
+    {
+      "action": "install",
+      "version": "2.4.0",
+      "exit_code": 0,
+      "problems": []
+    },
+    {
+      "action": "update",
+      "version": "2.5.0",
+      "exit_code": 0,
+      "problems": []
+    },
+    {
+      "action": "status",
+      "version": "2.5.0",
+      "exit_code": 0,
+      "problems": []
+    },
+    {
+      "action": "uninstall",
+      "version": null,
+      "exit_code": 0,
+      "problems": []
+    }
+  ],
+  "existing_guidance_preserved": true,
+  "new_runtime_reference_installed": true,
+  "real_user_installation_changed": false
+}

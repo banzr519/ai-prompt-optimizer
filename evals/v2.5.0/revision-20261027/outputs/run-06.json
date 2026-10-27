@@ -1,0 +1,50 @@
+[
+  {
+    "id": "N03",
+    "response": "Using {{notes}}, write a debrief for {{audience}} within {{word_limit}} words. Output exactly two headings: Decisions and Next steps. Under Decisions, include only explicitly agreed decisions; if there are none, write \"No confirmed decisions.\" Under Next steps, include agreed actions and proposed actions, marking every proposed action \"Proposed\". Give every next-step item an owner; use \"Unassigned\" when the notes provide no owner. Do not invent missing facts. Output only the debrief."
+  },
+  {
+    "id": "N01",
+    "response": "周六14:30—16:00，手作社共享材料会在工作室二楼举行，最多10人。请带旧布或彩纸，任选一种；不方便带材料也欢迎参加。请在周四18:00前直接在群里回复报名。"
+  },
+  {
+    "id": "N04",
+    "response": "问题：未提费用时加入“免费”，会把未提供的信息误写成已知事实。\n替换：仅在活动信息明确提供费用时，才在标题中写入费用；未提供费用信息时省略。\n\n问题：未提举办方式时按线下活动写，会擅自补充未说明的信息。\n替换：仅在活动信息明确说明线上或线下时，才在标题中写入举办方式；未说明时省略。"
+  },
+  {
+    "id": "N06",
+    "response": "原定周六上午的体验课无法按原安排举行，已报名者的名额都会保留。新的安排仍在确认中，备选方案为周六15:00线上或周日10:00线下，目前尚未决定。"
+  },
+  {
+    "id": "N05",
+    "response": "若 Cedar 有投影仪：Cedar—Asha、Ben、Dev、Eli；Elm—Cora、Finn。\n若 Elm 有投影仪：Elm—Asha、Ben、Dev；Cedar—Cora、Eli、Finn。"
+  },
+  {
+    "id": "H01",
+    "response": "小林，你们家两位大人和一位孩子已经登记好了。每家最多带3本书，11月7日14:00—16:00在西门活动室见～"
+  },
+  {
+    "id": "N07",
+    "response": "带杯子或水瓶任选其一，不用两样都带。"
+  },
+  {
+    "id": "N02",
+    "response": "参与方式：默认线上交流，预计20分钟，最长40分钟，摄像头可不开。如果无法参加同步访谈，我们会提供两道问题，请你用录音回答。你可以拒答任何问题。录音片段会先交给你确认，确认后才会使用。"
+  },
+  {
+    "id": "H16",
+    "response": "我现在还不能填入最终日期和时间：周四19:00与周日10:00仍是两个候选，需等最后两位成员回复后再决定。"
+  },
+  {
+    "id": "N08",
+    "response": "4个"
+  },
+  {
+    "id": "H02",
+    "response": "请根据{{复盘记录}}整理一则250—350字的群消息，分为“参加情况”“大家反馈”“下次安排”三个部分，语气自然。涉及个人评价时，只保留已经匿名的原话；如果没有反馈，写“本次未收集到反馈”，不要替我总结好评。"
+  },
+  {
+    "id": "H14",
+    "response": "欢迎加入\n\n认识团队\n\n第一周安排\n\n常见问题\n\n新人导师：____\n\n团队邮箱：____"
+  }
+]

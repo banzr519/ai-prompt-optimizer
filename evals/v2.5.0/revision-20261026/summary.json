@@ -1,0 +1,195 @@
+{
+  "date": "2026-10-27",
+  "case_responses": 96,
+  "independent_sessions": 8,
+  "initial_agreement": 92,
+  "resolved_disagreements": 4,
+  "models": {
+    "gpt-5.6-luna": {
+      "repetitions": {
+        "1": {
+          "regression": {
+            "cases": 4,
+            "stable_pass": 3,
+            "revision_pass": 3,
+            "recoveries": 1,
+            "regressions": 1,
+            "stable_failures": 0,
+            "both_pass": 2,
+            "revision_critical": 0,
+            "unknown": 0
+          },
+          "confirmation": {
+            "cases": 8,
+            "stable_pass": 7,
+            "revision_pass": 8,
+            "recoveries": 1,
+            "regressions": 0,
+            "stable_failures": 0,
+            "both_pass": 7,
+            "revision_critical": 0,
+            "unknown": 0
+          }
+        },
+        "2": {
+          "regression": {
+            "cases": 4,
+            "stable_pass": 3,
+            "revision_pass": 3,
+            "recoveries": 0,
+            "regressions": 0,
+            "stable_failures": 1,
+            "both_pass": 3,
+            "revision_critical": 0,
+            "unknown": 0
+          },
+          "confirmation": {
+            "cases": 8,
+            "stable_pass": 8,
+            "revision_pass": 8,
+            "recoveries": 0,
+            "regressions": 0,
+            "stable_failures": 0,
+            "both_pass": 8,
+            "revision_critical": 0,
+            "unknown": 0
+          }
+        }
+      },
+      "bounded_repair_gate": false,
+      "failures": [
+        {
+          "answer_id": "answer-009",
+          "case_id": "H16",
+          "condition": "stable",
+          "repetition": 2,
+          "verdict": "fail",
+          "critical_errors": [],
+          "rationale_a": "The provisional invitation is appropriately marked, but the clarification does not seek the missing calendar date required before finalization."
+        },
+        {
+          "answer_id": "answer-042",
+          "case_id": "N05",
+          "condition": "stable",
+          "repetition": 1,
+          "verdict": "fail",
+          "critical_errors": [],
+          "rationale_a": "The example schedule is feasible under its arrival condition, but the unsupported assertion that it is the only feasible arrangement is false."
+        },
+        {
+          "answer_id": "answer-058",
+          "case_id": "H16",
+          "condition": "stable",
+          "repetition": 1,
+          "verdict": "fail",
+          "critical_errors": [],
+          "rationale_a": "The response correctly leaves the choice pending but fails to ask for the calendar date needed for the requested final invitation."
+        },
+        {
+          "answer_id": "answer-065",
+          "case_id": "H16",
+          "condition": "revision",
+          "repetition": 2,
+          "verdict": "fail",
+          "critical_errors": [],
+          "rationale_a": "It requests a choice or waiting for outstanding replies, but does not request the missing calendar date before finalizing."
+        },
+        {
+          "answer_id": "answer-068",
+          "case_id": "H14",
+          "condition": "revision",
+          "repetition": 1,
+          "verdict": "fail",
+          "critical_errors": [],
+          "rationale_a": "The required skeleton is present, but the email field is followed by the mentor field rather than occupying the specified final position."
+        }
+      ]
+    },
+    "gpt-5.6-sol": {
+      "repetitions": {
+        "1": {
+          "regression": {
+            "cases": 4,
+            "stable_pass": 3,
+            "revision_pass": 4,
+            "recoveries": 1,
+            "regressions": 0,
+            "stable_failures": 0,
+            "both_pass": 3,
+            "revision_critical": 0,
+            "unknown": 0
+          },
+          "confirmation": {
+            "cases": 8,
+            "stable_pass": 8,
+            "revision_pass": 8,
+            "recoveries": 0,
+            "regressions": 0,
+            "stable_failures": 0,
+            "both_pass": 8,
+            "revision_critical": 0,
+            "unknown": 0
+          }
+        },
+        "2": {
+          "regression": {
+            "cases": 4,
+            "stable_pass": 2,
+            "revision_pass": 4,
+            "recoveries": 2,
+            "regressions": 0,
+            "stable_failures": 0,
+            "both_pass": 2,
+            "revision_critical": 0,
+            "unknown": 0
+          },
+          "confirmation": {
+            "cases": 8,
+            "stable_pass": 8,
+            "revision_pass": 8,
+            "recoveries": 0,
+            "regressions": 0,
+            "stable_failures": 0,
+            "both_pass": 8,
+            "revision_critical": 0,
+            "unknown": 0
+          }
+        }
+      },
+      "bounded_repair_gate": true,
+      "failures": [
+        {
+          "answer_id": "answer-017",
+          "case_id": "H16",
+          "condition": "stable",
+          "repetition": 2,
+          "verdict": "fail",
+          "critical_errors": [
+            "Claims the last two replies have arrived: “Which option did you choose after the last two replies” presupposes the outstanding replies have been received."
+          ],
+          "rationale_a": "The question presupposes that the two outstanding replies have arrived and also leaves the missing calendar date unrequested."
+        },
+        {
+          "answer_id": "answer-018",
+          "case_id": "H14",
+          "condition": "stable",
+          "repetition": 2,
+          "verdict": "fail",
+          "critical_errors": [
+            "Fills in an unspecified first-week schedule: under “第一周安排”, “认识工作环境，了解基本流程，并和团队成员逐步对接” supplies unprovided activities instead of leaving them blank."
+          ],
+          "rationale_a": "The skeleton contains the adopted headings and blank email/mentor fields, but supplies an unconfirmed first-week program as page content."
+        },
+        {
+          "answer_id": "answer-025",
+          "case_id": "H16",
+          "condition": "stable",
+          "repetition": 1,
+          "verdict": "fail",
+          "critical_errors": [],
+          "rationale_a": "It seeks the selected poll option but does not seek the separate missing calendar date."
+        }
+      ]
+    }
+  }
+}

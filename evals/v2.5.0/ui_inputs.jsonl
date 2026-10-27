@@ -1,0 +1,4 @@
+{"id": "U01", "category": "ui_entry_direct_deliverable", "messages": [], "current_request": "帮我给合租室友写一条微信：这周公共厨房的碗筷连续两晚没有收拾，我希望大家用完当天清理。语气友好但要求明确，60字以内，只给可以直接发送的正文，不要点名责怪谁。"}
+{"id": "U02", "category": "ui_entry_direct_deliverable", "messages": [], "current_request": "请算一下这次读书会的收支，给我一行算式和一句结论：12人每人交35元，场地费180元，材料费96元，茶水48元。没有其他收入或支出。结论要说清楚结余还是亏损，以及金额。"}
+{"id": "U03", "category": "ui_entry_direct_deliverable", "messages": [], "current_request": "Write a short reply declining this invitation. Thank Jordan, say I cannot attend the dinner on November 6, and say I would like to join a future gathering. Do not invent a reason for declining. Return only the email body, under 60 words."}
+{"id": "U04", "category": "ui_entry_direct_deliverable", "messages": [], "current_request": "把这段用户反馈整理成三条问题清单，每条包含“问题”和“证据”，只依据原文，不提出解决方案：\n“我第一次进来时找不到导出按钮。后来导出了，但文件名都是系统给的一串数字，不容易区分。手机上看图表时，右边的标签有一半看不见。整体加载倒是很快。”"}

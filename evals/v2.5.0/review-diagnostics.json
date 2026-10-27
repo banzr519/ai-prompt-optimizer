@@ -1,0 +1,76 @@
+{
+  "reviewer-a": {
+    "core/baseline": {
+      "verbosity": {
+        "proportionate": 24
+      },
+      "unnecessary_clarification": 0,
+      "answers": 24
+    },
+    "core/candidate": {
+      "verbosity": {
+        "proportionate": 24
+      },
+      "unnecessary_clarification": 0,
+      "answers": 24
+    },
+    "ui/baseline": {
+      "verbosity": {
+        "proportionate": 4
+      },
+      "unnecessary_clarification": 0,
+      "answers": 4
+    },
+    "historical/candidate": {
+      "verbosity": {
+        "proportionate": 9
+      },
+      "unnecessary_clarification": 0,
+      "answers": 9
+    },
+    "ui/candidate": {
+      "verbosity": {
+        "proportionate": 4
+      },
+      "unnecessary_clarification": 0,
+      "answers": 4
+    }
+  },
+  "reviewer-b": {
+    "core/baseline": {
+      "verbosity": {
+        "proportionate": 24
+      },
+      "unnecessary_clarification": 0,
+      "answers": 24
+    },
+    "core/candidate": {
+      "verbosity": {
+        "proportionate": 24
+      },
+      "unnecessary_clarification": 0,
+      "answers": 24
+    },
+    "ui/baseline": {
+      "verbosity": {
+        "proportionate": 4
+      },
+      "unnecessary_clarification": 0,
+      "answers": 4
+    },
+    "historical/candidate": {
+      "verbosity": {
+        "proportionate": 9
+      },
+      "unnecessary_clarification": 0,
+      "answers": 9
+    },
+    "ui/candidate": {
+      "verbosity": {
+        "proportionate": 4
+      },
+      "unnecessary_clarification": 0,
+      "answers": 4
+    }
+  }
+}

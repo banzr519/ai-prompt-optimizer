@@ -1,0 +1,50 @@
+[
+  {
+    "id": "H01",
+    "response": "小林，已经帮你们登记好了，两位大人和一位孩子。11月7日14:00—16:00，西门活动室见～提醒一下，每家最多带3本书。"
+  },
+  {
+    "id": "H14",
+    "response": "# 欢迎加入\n\n很高兴和你成为同事，期待接下来一起工作、一起成长。\n\n## 认识团队\n欢迎认识接下来会与你并肩工作的伙伴。\n\n## 第一周安排\n第一周的具体安排：________\n\n## 常见问题\n需要帮助时，欢迎随时向团队提出。\n\n团队邮箱：________"
+  },
+  {
+    "id": "N06",
+    "response": "非常抱歉，我们误将灰色收纳袋寄成了蓝色，相关处理费用由我们承担。目前正在确认是为您全额退款且无需寄回，还是免费补寄灰色款且无需寄回；方案确定后我们会尽快回复您。"
+  },
+  {
+    "id": "N02",
+    "response": "| 日期 | 主题 | 时间分配 |\n|---|---|---|\n| 周二 | 介绍一道喜欢的菜 | 准备3分钟，录音6分钟，回听3分钟 |\n| 周四 | 推荐一本书 | 准备3分钟，录音6分钟，回听3分钟 |\n| 周日 | 说明一个小游戏的玩法 | 准备3分钟，录音6分钟，回听3分钟 |"
+  },
+  {
+    "id": "N04",
+    "response": "根据【素材】，为【参观者】撰写校史展说明牌，整体采用【语气】。先提供两个备选标题，每个不超过12个汉字；再写一段60到90个汉字的正文。只能使用【素材】中已有的信息，不得补写年代、人物经历或成就。若【参观者】未填写，默认面向学生和家长；若【语气】未填写，默认采用平实自然的语气，这两项均无需追问。只有当【素材】不足以支持正文写作时，先提出一个最关键的问题，待获得补充后再输出标题和正文。"
+  },
+  {
+    "id": "N01",
+    "response": "青禾读书交换会将在周日下午两点于社区活动室举行，限12人。每人最多带3本非教材书，也欢迎空手参加。请私信我姓名报名，收到我的确认回复才算成功。室内场地已确认，下雨照常举行。"
+  },
+  {
+    "id": "N08",
+    "response": "5"
+  },
+  {
+    "id": "H16",
+    "response": "Which option was chosen for the discussion: Thursday at 7 p.m. or Sunday at 10 a.m.?"
+  },
+  {
+    "id": "N05",
+    "response": "请先确认林的到场时间。三个片段正好占满18:00—19:00；林最晚须在18:20到场，才能在不缩短、不重叠且A早于B的条件下排出最终时间表。"
+  },
+  {
+    "id": "N07",
+    "response": "你最多可以提交两张草图，也可以改为发送一张照片。"
+  },
+  {
+    "id": "H02",
+    "response": "请根据以下{{复盘记录}}，整理一则可直接发送到群里的培训复盘消息，250到350字，语气自然、不太正式。内容包括参加情况、大家反馈、下次安排三个部分。涉及个人评价时，只保留复盘记录中已经匿名的原话，不补写、改写或推断个人评价；如果没有反馈，写“本次未收集到反馈”，不要自行总结好评。只使用复盘记录中已有的信息，不补充未提供的事实。"
+  },
+  {
+    "id": "N03",
+    "response": "Review {{proposals}} against {{budget_limit}} using only the supplied proposal data and stated costs. If {{budget_limit}} is missing, place every proposal in needs_context because affordability cannot be determined. If a proposal's cost is missing, place that proposal in needs_context and do not guess its cost. For all proposals with stated costs when the budget is available, sort them by stated cost from lowest to highest, preserving input order when costs tie. In that order, select a proposal if fewer than three proposals have been selected and adding its cost keeps the selected total within {{budget_limit}}; otherwise place it in deferred. Every input proposal must appear exactly once in selected, deferred, or needs_context. Return only a valid JSON object with exactly these keys in this order: selected, deferred, needs_context. Each value must be an array. Each array item must contain exactly two keys, id and reason, and reason must be one sentence. Do not include Markdown, commentary, or any information not supplied in the inputs."
+  }
+]

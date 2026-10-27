@@ -1,0 +1,50 @@
+[
+  {
+    "id": "N06",
+    "response": "各位已报名的朋友：原定周六上午的体验课无法按原安排举行，所有已报名者的名额均会保留。目前正在周六15:00线上和周日10:00线下两个方案中选择，具体安排尚未确定。"
+  },
+  {
+    "id": "H16",
+    "response": "请确认最终选择周四19:00还是周日10:00，并提供对应的具体日期。链接将在活动前一天发送。"
+  },
+  {
+    "id": "H01",
+    "response": "小林，你们家两位大人和一位孩子已经登记好啦！11月7日14:00—16:00，西门活动室见。提醒一下，每家最多带3本书哦。"
+  },
+  {
+    "id": "N01",
+    "response": "周六14:30—16:00，手作社共享材料会在工作室二楼举行，最多10人。请带旧布或彩纸，任选一种即可；不方便带材料也欢迎参加。请在周四18:00前直接在群里回复报名。"
+  },
+  {
+    "id": "N03",
+    "response": "Summarize {{notes}} for {{audience}} in no more than {{word_limit}} words. Use exactly two headings, in this order: Decisions and Next steps. Under Decisions, include only decisions explicitly agreed in the notes; if there are none, write “No confirmed decisions.” Under Next steps, include both agreed actions and proposed actions. Label every proposed action “Proposed” so it cannot be mistaken for a commitment. Give every next-step item an owner; use “Unassigned” when no owner is provided. Do not invent missing facts."
+  },
+  {
+    "id": "N04",
+    "response": "问题：未提供费用信息时加入“免费”，会把缺失信息写成已知事实。\n替换：费用只有在 {{活动信息}} 中明确提供时才可写入标题；未提供则省略，不补充也不追问。\n\n问题：未说明举办方式时默认按线下活动写，会擅自补充未提供的信息。\n替换：举办方式只有在 {{活动信息}} 中明确提供时才可写入标题；未说明线上或线下则省略，不补充也不追问。"
+  },
+  {
+    "id": "N08",
+    "response": "4个"
+  },
+  {
+    "id": "H02",
+    "response": "请根据 {{复盘记录}} 整理一则适合发在群里的培训复盘消息，控制在250—350字，语气自然、不必太正式。内容分为“参加情况”“大家反馈”“下次安排”三个部分。涉及个人评价时，只保留记录中已经匿名的原话，不补充或改写为其他评价；如果没有反馈，写“本次未收集到反馈”。只依据复盘记录整理，不虚构缺失信息。"
+  },
+  {
+    "id": "N07",
+    "response": "带一个杯子或一个水瓶即可，不用两个都带。"
+  },
+  {
+    "id": "N02",
+    "response": "参与方式：默认线上交流，预计20分钟，最长40分钟，摄像头可不开。如果无法参加同步访谈，我们会提供两道问题，请你用录音回答。你可以拒答任何问题。录音片段会先交给你确认，确认后才会使用。"
+  },
+  {
+    "id": "N05",
+    "response": "If Cedar has the projector: Cedar — Asha, Ben, Cora; Elm — Dev, Eli, Finn.\n\nIf Elm has the projector: Elm — Asha, Ben, Cora; Cedar — Dev, Eli, Finn."
+  },
+  {
+    "id": "H14",
+    "response": "欢迎加入\n\n很高兴以后和你一起共事！这份欢迎页会帮你认识团队、了解第一周安排，也汇总了一些常见问题。\n\n认识团队\n\n第一周安排\n\n常见问题\n\n团队邮箱："
+  }
+]

@@ -2,13 +2,13 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [🌐 Languages / 语言](docs/LANGUAGES.md)
 
-**v2.4.0 · MIT · pi**
+**v2.5.0 · MIT · pi**
 
 **Atthaṃ rakkha. Vacanaṃ pākaṭaṃ karohi. / Preserve the meaning. Make the wording clear.**
 
 Experimental Pāli–English starter using Latin transliteration. The skill refines a request while preserving facts and constraints. It executes the underlying task only when explicitly asked. Technical explanations remain in English to avoid presenting invented terminology as established Pāli.
 
-**Install with Codex / 使用 Codex 安装:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md)
+**Install, update and verify / 安装、更新与验证:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md) · [Candidate evidence / 候选验证](evals/v2.5.0/revision-20261027/README.md)
 
 ## Patiṭṭhāpana / Installation
 

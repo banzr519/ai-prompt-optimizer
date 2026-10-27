@@ -1,0 +1,128 @@
+{"job_id": "core-T03-variant-c", "queue_index": 1, "status": "started", "timestamp_utc": "2026-10-19T14:53:00.074615+00:00", "worker": "worker-001"}
+{"job_id": "core-T03-variant-f", "queue_index": 2, "status": "started", "timestamp_utc": "2026-10-19T14:53:00.074786+00:00", "worker": "worker-002"}
+{"job_id": "core-T03-variant-c", "queue_index": 1, "status": "completed", "output_exists": true, "json_valid": true, "error": null, "timestamp_utc": "2026-10-19T14:53:21.752930+00:00", "worker": "worker-001"}
+{"job_id": "core-T03-variant-f", "queue_index": 2, "status": "completed", "timestamp_utc": "2026-10-19T14:53:53.586315+00:00", "output_exists": true, "json_valid": true, "worker": "worker-002"}
+{"job_id": "core-C02-variant-f", "queue_index": 3, "status": "started", "timestamp_utc": "2026-10-19T14:53:53.586677+00:00", "worker": "worker-003"}
+{"job_id": "core-C02-variant-c", "queue_index": 4, "status": "started", "timestamp_utc": "2026-10-19T14:53:53.586740+00:00", "worker": "worker-004"}
+{"job_id": "core-C02-variant-f", "queue_index": 3, "status": "completed", "timestamp_utc": "2026-10-19T14:54:53.812355+00:00", "output_exists": true, "json_valid": true, "worker": "worker-003"}
+{"job_id": "core-C02-variant-c", "queue_index": 4, "status": "completed", "timestamp_utc": "2026-10-19T14:54:53.812715+00:00", "output_exists": true, "json_valid": true, "worker": "worker-004"}
+{"job_id": "core-M03-variant-c", "queue_index": 5, "status": "started", "timestamp_utc": "2026-10-19T14:54:53.812831+00:00", "worker": "worker-005"}
+{"job_id": "core-M03-variant-f", "queue_index": 6, "status": "started", "timestamp_utc": "2026-10-19T14:54:53.812881+00:00", "worker": "worker-006"}
+{"job_id": "core-M03-variant-c", "queue_index": 5, "status": "completed", "timestamp_utc": "2026-10-19T14:55:44.284283+00:00", "output_exists": true, "json_valid": true, "worker": "worker-005"}
+{"job_id": "core-C03-variant-c", "queue_index": 7, "status": "started", "timestamp_utc": "2026-10-19T14:55:44.284656+00:00", "worker": "worker-007"}
+{"job_id": "core-C03-variant-c", "queue_index": 7, "status": "completed", "timestamp_utc": "2026-10-19T14:56:40.309848+00:00", "output_exists": true, "json_valid": true, "worker": "worker-007"}
+{"job_id": "core-M03-variant-f", "queue_index": 6, "status": "completed", "timestamp_utc": "2026-10-19T14:56:40.310159+00:00", "output_exists": true, "json_valid": true, "worker": "worker-006"}
+{"job_id": "core-C03-variant-f", "queue_index": 8, "status": "started", "timestamp_utc": "2026-10-19T14:56:40.310266+00:00", "worker": "worker-008"}
+{"job_id": "ui-U01-variant-c", "queue_index": 9, "status": "started", "timestamp_utc": "2026-10-19T14:56:40.310314+00:00", "worker": "worker-009"}
+{"job_id": "core-C03-variant-f", "queue_index": 8, "status": "completed", "timestamp_utc": "2026-10-19T14:57:08.212902+00:00", "output_exists": true, "json_valid": true, "worker": "worker-008"}
+{"job_id": "ui-U01-variant-c", "queue_index": 9, "status": "completed", "timestamp_utc": "2026-10-19T14:57:08.213141+00:00", "output_exists": true, "json_valid": true, "worker": "worker-009"}
+{"job_id": "ui-U01-variant-f", "queue_index": 10, "status": "started", "timestamp_utc": "2026-10-19T14:57:08.213223+00:00", "worker": "worker-010"}
+{"job_id": "ui-U02-variant-f", "queue_index": 11, "status": "started", "timestamp_utc": "2026-10-19T14:57:53.008995+00:00", "worker": "worker-011"}
+{"job_id": "ui-U01-variant-f", "queue_index": 10, "status": "completed", "timestamp_utc": "2026-10-19T14:58:19.617385+00:00", "output_exists": true, "json_valid": true, "worker": "worker-010"}
+{"job_id": "ui-U02-variant-c", "queue_index": 12, "status": "started", "timestamp_utc": "2026-10-19T14:58:19.617718+00:00", "worker": "worker-012"}
+{"job_id": "ui-U02-variant-f", "queue_index": 11, "status": "completed", "timestamp_utc": "2026-10-19T14:58:45.535579+00:00", "output_exists": true, "json_valid": true, "worker": "worker-011"}
+{"job_id": "core-T05-variant-c", "queue_index": 13, "status": "started", "timestamp_utc": "2026-10-19T14:58:45.535904+00:00", "worker": "worker-013"}
+{"job_id": "ui-U02-variant-c", "queue_index": 12, "status": "completed", "timestamp_utc": "2026-10-19T14:59:25.631108+00:00", "output_exists": true, "json_valid": true, "worker": "worker-012"}
+{"job_id": "core-T05-variant-c", "queue_index": 13, "status": "completed", "timestamp_utc": "2026-10-19T14:59:25.631457+00:00", "output_exists": true, "json_valid": true, "worker": "worker-013"}
+{"job_id": "core-T05-variant-f", "queue_index": 14, "status": "started", "timestamp_utc": "2026-10-19T14:59:25.631571+00:00", "worker": "worker-014"}
+{"job_id": "core-C06-variant-f", "queue_index": 15, "status": "started", "timestamp_utc": "2026-10-19T14:59:25.631622+00:00", "worker": "worker-015"}
+{"job_id": "core-T05-variant-f", "queue_index": 14, "status": "completed", "timestamp_utc": "2026-10-19T15:00:23.566062+00:00", "output_exists": true, "json_valid": true, "worker": "worker-014"}
+{"job_id": "core-C06-variant-f", "queue_index": 15, "status": "completed", "timestamp_utc": "2026-10-19T15:00:23.566392+00:00", "output_exists": true, "json_valid": true, "worker": "worker-015"}
+{"job_id": "core-C06-variant-c", "queue_index": 16, "status": "started", "timestamp_utc": "2026-10-19T15:00:23.566506+00:00", "worker": "worker-016"}
+{"job_id": "core-M02-variant-f", "queue_index": 17, "status": "started", "timestamp_utc": "2026-10-19T15:00:23.566555+00:00", "worker": "worker-017"}
+{"job_id": "core-C06-variant-c", "queue_index": 16, "status": "completed", "timestamp_utc": "2026-10-19T15:00:56.077188+00:00", "output_exists": true, "json_valid": true, "worker": "worker-016"}
+{"job_id": "core-M02-variant-c", "queue_index": 18, "status": "started", "timestamp_utc": "2026-10-19T15:00:56.077504+00:00", "worker": "worker-018"}
+{"job_id": "core-M02-variant-f", "queue_index": 17, "status": "completed", "timestamp_utc": "2026-10-19T15:01:24.174994+00:00", "output_exists": true, "json_valid": true, "worker": "worker-017"}
+{"job_id": "core-M01-variant-c", "queue_index": 19, "status": "started", "timestamp_utc": "2026-10-19T15:01:24.175406+00:00", "worker": "worker-019"}
+{"job_id": "core-M02-variant-c", "queue_index": 18, "status": "completed", "timestamp_utc": "2026-10-19T15:01:52.301904+00:00", "output_exists": true, "json_valid": true, "worker": "worker-018"}
+{"job_id": "core-M01-variant-f", "queue_index": 20, "status": "started", "timestamp_utc": "2026-10-19T15:01:52.302274+00:00", "worker": "worker-020"}
+{"job_id": "core-M01-variant-c", "queue_index": 19, "status": "completed", "timestamp_utc": "2026-10-19T15:02:17.852893+00:00", "output_exists": true, "json_valid": true, "worker": "worker-019"}
+{"job_id": "ui-U03-variant-c", "queue_index": 21, "status": "started", "timestamp_utc": "2026-10-19T15:02:17.853142+00:00", "worker": "worker-021"}
+{"job_id": "core-M01-variant-f", "queue_index": 20, "status": "completed", "timestamp_utc": "2026-10-19T15:02:42.618303+00:00", "output_exists": true, "json_valid": true, "worker": "worker-020"}
+{"job_id": "ui-U03-variant-f", "queue_index": 22, "status": "started", "timestamp_utc": "2026-10-19T15:02:42.618577+00:00", "worker": "worker-022"}
+{"job_id": "ui-U03-variant-c", "queue_index": 21, "status": "completed", "timestamp_utc": "2026-10-19T15:03:08.256031+00:00", "output_exists": true, "json_valid": true, "worker": "worker-021"}
+{"job_id": "core-A02-variant-f", "queue_index": 23, "status": "started", "timestamp_utc": "2026-10-19T15:03:08.256447+00:00", "worker": "worker-023"}
+{"job_id": "ui-U03-variant-f", "queue_index": 22, "status": "completed", "timestamp_utc": "2026-10-19T15:03:28.945165+00:00", "output_exists": true, "json_valid": true, "worker": "worker-022"}
+{"job_id": "core-A02-variant-c", "queue_index": 24, "status": "started", "timestamp_utc": "2026-10-19T15:03:28.945464+00:00", "worker": "worker-024"}
+{"job_id": "core-A02-variant-f", "queue_index": 23, "status": "completed", "timestamp_utc": "2026-10-19T15:04:35.132317+00:00", "output_exists": true, "json_valid": true, "worker": "worker-023"}
+{"job_id": "core-M05-variant-c", "queue_index": 25, "status": "started", "timestamp_utc": "2026-10-19T15:04:35.132626+00:00", "worker": "worker-025"}
+{"job_id": "core-A02-variant-c", "queue_index": 24, "status": "completed", "timestamp_utc": "2026-10-19T15:05:08.615407+00:00", "output_exists": true, "json_valid": true, "worker": "worker-024"}
+{"job_id": "core-M05-variant-f", "queue_index": 26, "status": "started", "timestamp_utc": "2026-10-19T15:05:08.615735+00:00", "worker": "worker-026"}
+{"job_id": "core-M05-variant-c", "queue_index": 25, "status": "completed", "timestamp_utc": "2026-10-19T15:05:31.874721+00:00", "output_exists": true, "json_valid": true, "worker": "worker-025"}
+{"job_id": "core-T02-variant-f", "queue_index": 27, "status": "started", "timestamp_utc": "2026-10-19T15:05:31.875014+00:00", "worker": "worker-027"}
+{"job_id": "core-M05-variant-f", "queue_index": 26, "status": "completed", "timestamp_utc": "2026-10-19T15:06:20.923713+00:00", "output_exists": true, "json_valid": true, "worker": "worker-026"}
+{"job_id": "core-T02-variant-f", "queue_index": 27, "status": "completed", "timestamp_utc": "2026-10-19T15:06:20.924105+00:00", "output_exists": true, "json_valid": true, "worker": "worker-027"}
+{"job_id": "core-T02-variant-c", "queue_index": 28, "status": "started", "timestamp_utc": "2026-10-19T15:06:20.924223+00:00", "worker": "worker-028"}
+{"job_id": "core-T04-variant-f", "queue_index": 29, "status": "started", "timestamp_utc": "2026-10-19T15:06:20.924276+00:00", "worker": "worker-029"}
+{"job_id": "core-T02-variant-c", "queue_index": 28, "status": "completed", "timestamp_utc": "2026-10-19T15:06:44.628029+00:00", "output_exists": true, "json_valid": true, "worker": "worker-028"}
+{"job_id": "core-T04-variant-c", "queue_index": 30, "status": "started", "timestamp_utc": "2026-10-19T15:06:44.628316+00:00", "worker": "worker-030"}
+{"job_id": "core-T04-variant-f", "queue_index": 29, "status": "completed", "timestamp_utc": "2026-10-19T15:07:10.092346+00:00", "output_exists": true, "json_valid": true, "worker": "worker-029"}
+{"job_id": "ui-U04-variant-f", "queue_index": 31, "status": "started", "timestamp_utc": "2026-10-19T15:07:10.092620+00:00", "worker": "worker-031"}
+{"job_id": "core-T04-variant-c", "queue_index": 30, "status": "completed", "timestamp_utc": "2026-10-19T15:07:26.044991+00:00", "output_exists": true, "json_valid": true, "worker": "worker-030"}
+{"job_id": "ui-U04-variant-c", "queue_index": 32, "status": "started", "timestamp_utc": "2026-10-19T15:07:26.045341+00:00", "worker": "worker-032"}
+{"job_id": "ui-U04-variant-f", "queue_index": 31, "status": "completed", "timestamp_utc": "2026-10-19T15:07:52.376433+00:00", "output_exists": true, "json_valid": true, "worker": "worker-031"}
+{"job_id": "core-C05-variant-c", "queue_index": 33, "status": "started", "timestamp_utc": "2026-10-19T15:07:52.376670+00:00", "worker": "worker-033"}
+{"job_id": "ui-U04-variant-c", "queue_index": 32, "status": "completed", "timestamp_utc": "2026-10-19T15:08:16.875103+00:00", "output_exists": true, "json_valid": true, "worker": "worker-032"}
+{"job_id": "core-C05-variant-f", "queue_index": 34, "status": "started", "timestamp_utc": "2026-10-19T15:08:16.875346+00:00", "worker": "worker-034"}
+{"job_id": "core-C05-variant-c", "queue_index": 33, "status": "completed", "timestamp_utc": "2026-10-19T15:08:41.745068+00:00", "output_exists": true, "json_valid": true, "worker": "worker-033"}
+{"job_id": "core-A06-variant-f", "queue_index": 35, "status": "started", "timestamp_utc": "2026-10-19T15:08:41.745581+00:00", "worker": "worker-035"}
+{"job_id": "core-C05-variant-f", "queue_index": 34, "status": "completed", "timestamp_utc": "2026-10-19T15:08:58.950381+00:00", "output_exists": true, "json_valid": true, "worker": "worker-034"}
+{"job_id": "core-A06-variant-c", "queue_index": 36, "status": "started", "timestamp_utc": "2026-10-19T15:08:58.950725+00:00", "worker": "worker-036"}
+{"job_id": "core-A06-variant-f", "queue_index": 35, "status": "completed", "timestamp_utc": "2026-10-19T15:09:40.307010+00:00", "output_exists": true, "json_valid": true, "worker": "worker-035"}
+{"job_id": "core-C01-variant-c", "queue_index": 37, "status": "started", "timestamp_utc": "2026-10-19T15:09:40.307395+00:00", "worker": "worker-037"}
+{"job_id": "core-A06-variant-c", "queue_index": 36, "status": "completed", "timestamp_utc": "2026-10-19T15:10:18.528856+00:00", "output_exists": true, "json_valid": true, "worker": "worker-036"}
+{"job_id": "core-C01-variant-f", "queue_index": 38, "status": "started", "timestamp_utc": "2026-10-19T15:10:18.529324+00:00", "worker": "worker-038"}
+{"job_id": "core-C01-variant-c", "queue_index": 37, "status": "completed", "timestamp_utc": "2026-10-19T15:10:38.914685+00:00", "output_exists": true, "json_valid": true, "worker": "worker-037"}
+{"job_id": "core-A03-variant-c", "queue_index": 39, "status": "started", "timestamp_utc": "2026-10-19T15:10:38.915057+00:00", "worker": "worker-039"}
+{"job_id": "core-C01-variant-f", "queue_index": 38, "status": "completed", "timestamp_utc": "2026-10-19T15:11:03.433860+00:00", "output_exists": true, "json_valid": true, "worker": "worker-038"}
+{"job_id": "core-A03-variant-f", "queue_index": 40, "status": "started", "timestamp_utc": "2026-10-19T15:11:03.434216+00:00", "worker": "worker-040"}
+{"job_id": "core-A03-variant-c", "queue_index": 39, "status": "completed", "timestamp_utc": "2026-10-19T15:11:23.350707+00:00", "output_exists": true, "json_valid": true, "worker": "worker-039"}
+{"job_id": "core-A04-variant-f", "queue_index": 41, "status": "started", "timestamp_utc": "2026-10-19T15:11:23.351059+00:00", "worker": "worker-041"}
+{"job_id": "core-A03-variant-f", "queue_index": 40, "status": "completed", "timestamp_utc": "2026-10-19T15:11:50.187627+00:00", "output_exists": true, "json_valid": true, "worker": "worker-040"}
+{"job_id": "core-A04-variant-c", "queue_index": 42, "status": "started", "timestamp_utc": "2026-10-19T15:11:50.187885+00:00", "worker": "worker-042"}
+{"job_id": "core-A04-variant-f", "queue_index": 41, "status": "completed", "timestamp_utc": "2026-10-19T15:12:21.816257+00:00", "output_exists": true, "json_valid": true, "worker": "worker-041"}
+{"job_id": "core-M06-variant-f", "queue_index": 43, "status": "started", "timestamp_utc": "2026-10-19T15:12:21.816871+00:00", "worker": "worker-043"}
+{"job_id": "core-A04-variant-c", "queue_index": 42, "status": "completed", "timestamp_utc": "2026-10-19T15:12:45.377409+00:00", "output_exists": true, "json_valid": true, "worker": "worker-042"}
+{"job_id": "core-M06-variant-c", "queue_index": 44, "status": "started", "timestamp_utc": "2026-10-19T15:12:45.377878+00:00", "worker": "worker-044"}
+{"job_id": "core-M06-variant-f", "queue_index": 43, "status": "completed", "timestamp_utc": "2026-10-19T15:13:24.681521+00:00", "output_exists": true, "json_valid": true, "worker": "worker-043"}
+{"job_id": "core-M04-variant-f", "queue_index": 45, "status": "started", "timestamp_utc": "2026-10-19T15:13:24.682008+00:00", "worker": "worker-045"}
+{"job_id": "core-M06-variant-c", "queue_index": 44, "status": "completed", "timestamp_utc": "2026-10-19T15:13:49.913845+00:00", "output_exists": true, "json_valid": true, "worker": "worker-044"}
+{"job_id": "core-M04-variant-c", "queue_index": 46, "status": "started", "timestamp_utc": "2026-10-19T15:13:49.914300+00:00", "worker": "worker-046"}
+{"job_id": "core-M04-variant-f", "queue_index": 45, "status": "completed", "timestamp_utc": "2026-10-19T15:14:26.576414+00:00", "output_exists": true, "json_valid": true, "worker": "worker-045"}
+{"job_id": "core-M04-variant-c", "queue_index": 46, "status": "completed", "timestamp_utc": "2026-10-19T15:14:26.576750+00:00", "output_exists": true, "json_valid": true, "worker": "worker-046"}
+{"job_id": "core-A01-variant-c", "queue_index": 47, "status": "started", "timestamp_utc": "2026-10-19T15:14:26.576856+00:00", "worker": "worker-047"}
+{"job_id": "core-A01-variant-f", "queue_index": 48, "status": "started", "timestamp_utc": "2026-10-19T15:14:26.576903+00:00", "worker": "worker-048"}
+{"job_id": "core-A01-variant-c", "queue_index": 47, "status": "completed", "timestamp_utc": "2026-10-19T15:15:18.280461+00:00", "output_exists": true, "json_valid": true, "worker": "worker-047"}
+{"job_id": "core-A01-variant-f", "queue_index": 48, "status": "completed", "timestamp_utc": "2026-10-19T15:15:18.280792+00:00", "output_exists": true, "json_valid": true, "worker": "worker-048"}
+{"job_id": "core-C04-variant-f", "queue_index": 49, "status": "started", "timestamp_utc": "2026-10-19T15:15:18.280901+00:00", "worker": "worker-049"}
+{"job_id": "core-C04-variant-c", "queue_index": 50, "status": "started", "timestamp_utc": "2026-10-19T15:15:18.280952+00:00", "worker": "worker-050"}
+{"job_id": "core-C04-variant-f", "queue_index": 49, "status": "completed", "timestamp_utc": "2026-10-19T15:15:58.362777+00:00", "output_exists": true, "json_valid": true, "worker": "worker-049"}
+{"job_id": "core-C04-variant-c", "queue_index": 50, "status": "completed", "timestamp_utc": "2026-10-19T15:15:58.363258+00:00", "output_exists": true, "json_valid": true, "worker": "worker-050"}
+{"job_id": "core-T06-variant-f", "queue_index": 51, "status": "started", "timestamp_utc": "2026-10-19T15:15:58.363378+00:00", "worker": "worker-051"}
+{"job_id": "core-T06-variant-c", "queue_index": 52, "status": "started", "timestamp_utc": "2026-10-19T15:15:58.363429+00:00", "worker": "worker-052"}
+{"job_id": "core-T06-variant-f", "queue_index": 51, "status": "completed", "timestamp_utc": "2026-10-19T15:17:02.784983+00:00", "output_exists": true, "json_valid": true, "worker": "worker-051"}
+{"job_id": "core-T06-variant-c", "queue_index": 52, "status": "completed", "timestamp_utc": "2026-10-19T15:17:02.785333+00:00", "output_exists": true, "json_valid": true, "worker": "worker-052"}
+{"job_id": "core-A05-variant-c", "queue_index": 53, "status": "started", "timestamp_utc": "2026-10-19T15:17:02.785479+00:00", "worker": "worker-053"}
+{"job_id": "core-A05-variant-f", "queue_index": 54, "status": "started", "timestamp_utc": "2026-10-19T15:17:02.785536+00:00", "worker": "worker-054"}
+{"job_id": "core-A05-variant-f", "queue_index": 54, "status": "completed", "timestamp_utc": "2026-10-19T15:18:13.882971+00:00", "output_exists": true, "json_valid": true, "worker": "worker-054"}
+{"job_id": "core-T01-variant-c", "queue_index": 55, "status": "started", "timestamp_utc": "2026-10-19T15:18:13.883465+00:00", "worker": "worker-055"}
+{"job_id": "core-A05-variant-c", "queue_index": 53, "status": "completed", "timestamp_utc": "2026-10-19T15:18:33.676199+00:00", "output_exists": true, "json_valid": true, "worker": "worker-053"}
+{"job_id": "core-T01-variant-f", "queue_index": 56, "status": "started", "timestamp_utc": "2026-10-19T15:18:33.676536+00:00", "worker": "worker-056"}
+{"job_id": "core-T01-variant-c", "queue_index": 55, "status": "completed", "timestamp_utc": "2026-10-19T15:19:04.474325+00:00", "output_exists": true, "json_valid": true, "worker": "worker-055"}
+{"job_id": "r02", "queue_index": 57, "status": "started", "timestamp_utc": "2026-10-19T15:19:04.474645+00:00", "worker": "worker-057"}
+{"job_id": "core-T01-variant-f", "queue_index": 56, "status": "completed", "timestamp_utc": "2026-10-19T15:19:46.885713+00:00", "output_exists": true, "json_valid": true, "worker": "worker-056"}
+{"job_id": "r03", "queue_index": 58, "status": "started", "timestamp_utc": "2026-10-19T15:19:46.886012+00:00", "worker": "worker-058"}
+{"job_id": "r02", "queue_index": 57, "status": "completed", "timestamp_utc": "2026-10-19T15:20:08.968259+00:00", "output_exists": true, "json_valid": true, "worker": "worker-057"}
+{"job_id": "r04", "queue_index": 59, "status": "started", "timestamp_utc": "2026-10-19T15:20:08.968564+00:00", "worker": "worker-059"}
+{"job_id": "r03", "queue_index": 58, "status": "completed", "timestamp_utc": "2026-10-19T15:20:36.393958+00:00", "output_exists": true, "json_valid": true, "worker": "worker-058"}
+{"job_id": "r05", "queue_index": 60, "status": "started", "timestamp_utc": "2026-10-19T15:20:36.394311+00:00", "worker": "worker-060"}
+{"job_id": "r04", "queue_index": 59, "status": "completed", "timestamp_utc": "2026-10-19T15:21:03.151606+00:00", "output_exists": true, "json_valid": true, "worker": "worker-059"}
+{"job_id": "r06", "queue_index": 61, "status": "started", "timestamp_utc": "2026-10-19T15:21:03.151891+00:00", "worker": "worker-061"}
+{"job_id": "r05", "queue_index": 60, "status": "completed", "timestamp_utc": "2026-10-19T15:21:29.952250+00:00", "output_exists": true, "json_valid": true, "worker": "worker-060"}
+{"job_id": "r07", "queue_index": 62, "status": "started", "timestamp_utc": "2026-10-19T15:21:29.952541+00:00", "worker": "worker-062"}
+{"job_id": "r06", "queue_index": 61, "status": "completed", "timestamp_utc": "2026-10-19T15:22:00.336305+00:00", "output_exists": true, "json_valid": true, "worker": "worker-061"}
+{"job_id": "r08", "queue_index": 63, "status": "started", "timestamp_utc": "2026-10-19T15:22:00.336611+00:00", "worker": "worker-063"}
+{"job_id": "r07", "queue_index": 62, "status": "completed", "timestamp_utc": "2026-10-19T15:22:35.690377+00:00", "output_exists": true, "json_valid": true, "worker": "worker-062"}
+{"job_id": "r08", "queue_index": 63, "status": "completed", "timestamp_utc": "2026-10-19T15:22:35.690677+00:00", "output_exists": true, "json_valid": true, "worker": "worker-063"}
+{"job_id": "r09", "queue_index": 64, "status": "started", "timestamp_utc": "2026-10-19T15:22:35.690801+00:00", "worker": "worker-064"}
+{"job_id": "r09", "queue_index": 64, "status": "completed", "timestamp_utc": "2026-10-19T15:23:33.609620+00:00", "output_exists": true, "json_valid": true, "worker": "worker-064"}

@@ -1,0 +1,90 @@
+[
+  {
+    "run_id": "run-01",
+    "requested_model": "gpt-5.6-luna",
+    "requested_reasoning_effort": "medium",
+    "host_spawn_accepted": true,
+    "agent_name": "r2_run_01",
+    "completed": true,
+    "case_count": 12,
+    "output_sha256": "ad8418c0de792925145dd1e62923e1306ac3f07c6cc41ab12f4c7bb364afb32f",
+    "receipt_hash_matched": true
+  },
+  {
+    "run_id": "run-02",
+    "requested_model": "gpt-5.6-luna",
+    "requested_reasoning_effort": "medium",
+    "host_spawn_accepted": true,
+    "agent_name": "r2_run_02",
+    "completed": true,
+    "case_count": 12,
+    "output_sha256": "fa602a680006658215b33d554db3068aa8f72b0e41190484859c621ad356a128",
+    "receipt_hash_matched": true
+  },
+  {
+    "run_id": "run-03",
+    "requested_model": "gpt-5.6-sol",
+    "requested_reasoning_effort": "medium",
+    "host_spawn_accepted": true,
+    "agent_name": "r2_run_03",
+    "completed": true,
+    "case_count": 12,
+    "output_sha256": "2a9c103a0ffb4dcf46b42c1d10bfb37c36b2916185a21c7d7ee116be8b661ca5",
+    "receipt_hash_matched": true
+  },
+  {
+    "run_id": "run-04",
+    "requested_model": "gpt-5.6-luna",
+    "requested_reasoning_effort": "medium",
+    "host_spawn_accepted": true,
+    "agent_name": "r2_run_04",
+    "completed": true,
+    "case_count": 12,
+    "output_sha256": "93737cb686fb900b55cffe141449c1ad0d42aed42167e33deeb99e7034537063",
+    "receipt_hash_matched": true
+  },
+  {
+    "run_id": "run-05",
+    "requested_model": "gpt-5.6-sol",
+    "requested_reasoning_effort": "medium",
+    "host_spawn_accepted": true,
+    "agent_name": "r2_run_05",
+    "completed": true,
+    "case_count": 12,
+    "output_sha256": "06028f795d295feb8d11e6a1219869b2ea0551d0fd1b4a3f2f75d07a5d5fae94",
+    "receipt_hash_matched": true
+  },
+  {
+    "run_id": "run-06",
+    "requested_model": "gpt-5.6-sol",
+    "requested_reasoning_effort": "medium",
+    "host_spawn_accepted": true,
+    "agent_name": "r2_run_06",
+    "completed": true,
+    "case_count": 12,
+    "output_sha256": "17a39c4ff1116563a65d04d3f770da6e82491f37e7a8a7a874d33ee504bf0c28",
+    "receipt_hash_matched": true
+  },
+  {
+    "run_id": "run-07",
+    "requested_model": "gpt-5.6-sol",
+    "requested_reasoning_effort": "medium",
+    "host_spawn_accepted": true,
+    "agent_name": "r2_run_07",
+    "completed": true,
+    "case_count": 12,
+    "output_sha256": "0720c10b5e34e5186f15b57c5ca47538a535fdda71e1e09b1012a205da0489c6",
+    "receipt_hash_matched": true
+  },
+  {
+    "run_id": "run-08",
+    "requested_model": "gpt-5.6-luna",
+    "requested_reasoning_effort": "medium",
+    "host_spawn_accepted": true,
+    "agent_name": "r2_run_08",
+    "completed": true,
+    "case_count": 12,
+    "output_sha256": "4b0675877abcb1f2a63e9af943d8a60d1762a46c513288a4dfa0cddc92eb956f",
+    "receipt_hash_matched": true
+  }
+]

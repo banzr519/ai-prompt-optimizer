@@ -1,9 +1,9 @@
 interface:
-  display_name: AI Prompt Optimizer · 提示词优化助手
-  short_description: 优化 AI 提示词与任务需求，保留原意，补齐执行边界和验收标准
-  default_prompt: 使用 $ai-prompt-optimizer 优化下面的提示词或任务需求：保留原意和限制，补充必要的执行与验收标准；除非明确要求执行，否则只输出优化后的指令。
-  icon_small: assets/icon.svg
-  icon_large: assets/icon.svg
+  display_name: "AI Prompt Optimizer · 提示词优化助手"
+  short_description: "准确理解任务意图，保留限制与多轮修改，按需优化提示词或完成实际任务"
+  default_prompt: "使用 $ai-prompt-optimizer 处理下面的请求：保留原意与限制，按我的要求交付提示词、分析或实际成果，只澄清影响结果的未知信息。"
+  icon_small: "assets/icon.svg"
+  icon_large: "assets/icon.svg"
 policy:
   products:
   - chatgpt

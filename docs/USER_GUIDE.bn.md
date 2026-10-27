@@ -2,9 +2,9 @@
 
 [বাংলা](../README.bn.md) · [English](USER_GUIDE.md) · [简体中文](USER_GUIDE.zh-CN.md) · [🌐 Languages / 语言](LANGUAGES.md)
 
-**v2.4.0 · bn**
+**v2.5.0 · bn**
 
-**Install with Codex / 使用 Codex 安装:** [English](INSTALL.md) · [简体中文](INSTALL.zh-CN.md)
+**Install, update and verify / 安装、更新与验证:** [English](INSTALL.md) · [简体中文](INSTALL.zh-CN.md) · [Candidate evidence / 候选验证](../evals/v2.5.0/revision-20261027/README.md)
 
 ## প্রয়োজনীয় তথ্য
 

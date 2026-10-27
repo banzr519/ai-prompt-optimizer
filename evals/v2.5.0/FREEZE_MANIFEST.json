@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "revision": 2,
+  "core_cases": 24,
+  "ui_probe_cases": 4,
+  "status": "frozen_before_model_runs",
+  "revision_note": "Protocol gate aligned with project acceptance criterion before any experiments; all task inputs and rubrics unchanged.",
+  "files": {
+    "inputs.jsonl": {
+      "sha256": "50cdba4d50c7fa3a271213b4f48e24dd02b70f772802471f9b2b5568fc2bb5db",
+      "bytes": 11273
+    },
+    "rubrics.jsonl": {
+      "sha256": "3d1e6a481b910393839a374838f4c5c81fd0078f78cd446d4d4409109151b5cb",
+      "bytes": 19750
+    },
+    "ui_inputs.jsonl": {
+      "sha256": "4b1da0af8a521e047b223d96a7989052e341421008bec0bcab9db8e7872a0b00",
+      "bytes": 1440
+    },
+    "ui_rubrics.jsonl": {
+      "sha256": "1d4148090ffc9b9abccba775c3a89eff31611bc3cdb16dd3296c71008b294a52",
+      "bytes": 3130
+    },
+    "category_counts.json": {
+      "sha256": "b4c35e3bd5692e77c639967ec613800e75dbcafcf74d28de8bf0a3004a4ee79d",
+      "bytes": 124
+    },
+    "PROTOCOL.md": {
+      "sha256": "771ab095a899a0a36415d402bc82db23b4b0bb4f110f90c2294e1c039d369946",
+      "bytes": 14180
+    }
+  }
+}

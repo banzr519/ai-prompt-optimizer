@@ -1,0 +1,34 @@
+{
+  "reviewer-a": {
+    "baseline": {
+      "verbosity": {
+        "proportionate": 16
+      },
+      "unnecessary_clarification": 0,
+      "answers": 16
+    },
+    "candidate": {
+      "verbosity": {
+        "proportionate": 16
+      },
+      "unnecessary_clarification": 0,
+      "answers": 16
+    }
+  },
+  "reviewer-b": {
+    "baseline": {
+      "verbosity": {
+        "proportionate": 16
+      },
+      "unnecessary_clarification": 0,
+      "answers": 16
+    },
+    "candidate": {
+      "verbosity": {
+        "proportionate": 16
+      },
+      "unnecessary_clarification": 0,
+      "answers": 16
+    }
+  }
+}

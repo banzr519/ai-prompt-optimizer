@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-27",
+  "environment": "local macOS / available Python",
+  "isolation": "Path.home mocked to temporary directory; explicit temporary --codex-home; no HOME or CODEX_HOME environment replacement",
+  "checks": [
+    "initial-status-not-installed",
+    "stable-install-with-existing-guidance-preserved",
+    "stable-to-r3-offline-update-with-mode-and-backup-preserved",
+    "status-reports-version-and-unverified-session",
+    "local-customization-refuses-update-and-remains-intact",
+    "uninstall-preserves-user-guidance-and-archives-r3"
+  ],
+  "real_install_unchanged": true,
+  "real_installed_version": "2.4.0",
+  "session_verification": "not-run",
+  "windows_powershell_runtime": "not-tested",
+  "online_download": "not-retested; remote refs checked read-only"
+}

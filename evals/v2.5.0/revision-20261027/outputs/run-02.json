@@ -1,0 +1,50 @@
+[
+  {
+    "id": "N07",
+    "response": "带一个杯子或一个瓶子即可，不需要两样都带。"
+  },
+  {
+    "id": "H01",
+    "response": "小林，你们家两位大人和一个孩子已经登记好啦！11月7日14:00—16:00在西门活动室见～记得每家最多带3本书。"
+  },
+  {
+    "id": "N04",
+    "response": "问题：未提供费用时默认加入“免费”，会补造活动信息中没有的内容。\n替换：费用只有在 {{活动信息}} 明确提供时才可写入标题；未提供则省略，不补齐，也不追问。\n\n问题：未提供举办方式时默认按线下活动写，会擅自确定尚未说明的举办方式。\n替换：举办方式只有在 {{活动信息}} 明确说明时才可写入标题；未说明线上还是线下则省略，不补齐，也不追问。"
+  },
+  {
+    "id": "N03",
+    "response": "Using only {{notes}}, write a project debrief for {{audience}} within {{word_limit}} words. Use exactly two headings, in this order: Decisions and Next steps. Under Decisions, include only decisions explicitly agreed in the notes; if there are none, write exactly “No confirmed decisions.” Under Next steps, include agreed actions and proposed actions, and mark every proposed action as “Proposed” so it cannot be mistaken for a commitment. Give every next-step item an owner; use “Unassigned” when the notes do not provide one. Do not invent missing facts."
+  },
+  {
+    "id": "H02",
+    "response": "请根据{{复盘记录}}整理一则可直接发送到群里的消息，控制在250—350字，语气自然、不太正式。内容分为“参加情况”“大家反馈”“下次安排”三个部分。涉及个人评价时，只保留记录中已经匿名的原话，不改写、不补充；如果记录中没有反馈，请写“本次未收集到反馈”，不要概括或虚构好评。仅依据记录中的信息，不补造未提供的事实。"
+  },
+  {
+    "id": "N02",
+    "response": "参与方式：默认线上交流，预计20分钟，最长40分钟，摄像头可不开。如果无法参加同步访谈，我们会提供两道问题，请你用录音回答。你可以拒答任何问题。录音片段会先交给你确认，确认后才会使用。"
+  },
+  {
+    "id": "H14",
+    "response": "欢迎加入\n\n很高兴你来到团队！这页整理了入职初期会用到的信息，有需要时可以随时回来看看。\n\n认识团队\n\n\n第一周安排\n\n\n常见问题\n\n\n团队邮箱："
+  },
+  {
+    "id": "N06",
+    "response": "体验课安排有调整：原定周六上午的课程无法按原安排举行。目前正在“周六15:00线上”和“周日10:00线下”两个方案中确定，最终安排尚未决定。所有已报名者的名额均保留。"
+  },
+  {
+    "id": "N01",
+    "response": "周六14:30—16:00，手作社共享材料会在工作室二楼举行，最多10人。请带旧布或彩纸，任选一种即可；不方便带材料也欢迎参加。请在周四18:00前直接在群里回复报名。"
+  },
+  {
+    "id": "H16",
+    "response": "Which option did you choose, and what calendar date does it fall on: Thursday at 7 p.m. or Sunday at 10 a.m.?"
+  },
+  {
+    "id": "N05",
+    "response": "If Cedar has the projector: Cedar — Asha, Ben, and Cora; Elm — Dev, Eli, and Finn.\n\nIf Elm has the projector: Elm — Asha, Ben, and Cora; Cedar — Dev, Eli, and Finn."
+  },
+  {
+    "id": "N08",
+    "response": "4个"
+  }
+]

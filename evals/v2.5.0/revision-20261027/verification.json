@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-27",
+  "automated_tests": {
+    "passed": 41,
+    "failed": 0,
+    "command": "python3 -B -m unittest discover -s tests -v"
+  },
+  "localization": {
+    "entries": 30,
+    "generated_files": 56,
+    "primary_full": 2,
+    "localized_starter_and_guide": 27,
+    "experimental_bilingual_starter": 1,
+    "check": "passed"
+  },
+  "skill_structure": "passed",
+  "json_jsonl": "passed",
+  "relative_links_and_anchors": "passed",
+  "python_3_9_grammar": "passed",
+  "frozen_runtime_and_inputs": "passed",
+  "working_runtime_matches_r3": true,
+  "existing_evaluation_and_license_files_unchanged": 86,
+  "deliberate_fixture_unchanged": true,
+  "distribution": {
+    "standalone_and_plugin_core": "byte-identical",
+    "reproducibility_test": "passed",
+    "native_plugin_client": "not-tested"
+  },
+  "public_payload": {
+    "credential_pattern_scan": "no matches",
+    "private_paths_and_cache": "excluded"
+  },
+  "installation_smoke": "installation-check.json",
+  "intermediate_documentation_check": "Failed while generated pages and the report link were pending; both completed before the final 41-test pass.",
+  "not_claimed": [
+    "native fresh-chat discovery or invocation",
+    "provider API evaluation",
+    "all-model or all-language validation",
+    "stable release acceptance"
+  ]
+}

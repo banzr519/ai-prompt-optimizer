@@ -1,0 +1,50 @@
+[
+  {
+    "id": "H02",
+    "response": "请根据{{复盘记录}}整理一则可直接发送到群里的消息，控制在250—350字，分为“参加情况”“大家反馈”“下次安排”三个部分，语气自然。涉及个人评价时，只保留复盘记录中已经匿名的原话，不要改写或补充评价；如果记录中没有反馈，写“本次未收集到反馈”，不要替我总结好评。只使用复盘记录提供的信息，不要生成复盘记录之外的内容。"
+  },
+  {
+    "id": "N01",
+    "response": "青禾读书交换会通知：周日下午2点在社区活动室举行，限12人。每人最多带3本非教材书，也可以空手参加。请私信姓名报名，收到我的确认回复后才算报名成功。"
+  },
+  {
+    "id": "N07",
+    "response": "你可以提交最多两幅草图，或者改为发送一张照片。"
+  },
+  {
+    "id": "N08",
+    "response": "5"
+  },
+  {
+    "id": "H16",
+    "response": "I can, but the date and time are not decided yet. The two options are Thursday at 7 p.m. and Sunday at 10 a.m.; please tell me which one to use, or wait for the last two replies. The invitation can state that the discussion is online and covers chapters 4–6, with the link sent the day before."
+  },
+  {
+    "id": "N02",
+    "response": "| 日期 | 主题 | 12分钟安排 |\n|---|---|---|\n| 周二 | 介绍一道喜欢的菜 | 准备4分钟；录音8分钟 |\n| 周四 | 推荐一本书 | 回听周二录音3分钟；准备1分钟；录音8分钟 |\n| 周日 | 说明一个小游戏的玩法 | 回听周四录音3分钟；准备1分钟；录音8分钟（本次录音于下次练习开始回听） |"
+  },
+  {
+    "id": "N06",
+    "response": "很抱歉，您购买的灰色收纳袋误寄成了蓝色。我们正在确认免费退款或免费补寄灰色款的处理方案，商品无需寄回；确定后会第一时间告知您。给您带来不便，实在抱歉。"
+  },
+  {
+    "id": "N04",
+    "response": "请根据【素材】为【参观者】撰写校史展说明牌，使用【语气】。\n先提供两个备选标题，每个不超过12个汉字；再提供一段60—90个汉字的正文。\n只能使用【素材】中已有的信息，不得补写年代、人物经历或成就。若【参观者】未填写，按学生和家长作为受众；若【语气】未填写，使用平实自然的语气；这两项缺失时无需追问。\n只有在【素材】不足以写出正文时，才先提出一个最关键的问题；收到补充后，再输出标题和正文。"
+  },
+  {
+    "id": "H01",
+    "response": "小林，你们家两位大人和一位孩子已经登记好了。每家最多带3本书，11月7日14:00—16:00西门活动室见～"
+  },
+  {
+    "id": "H14",
+    "response": "欢迎加入\n很高兴和你一起工作！\n\n认识团队\n[待补充]\n\n第一周安排\n[待补充]\n\n常见问题\n[待补充]\n\n新人导师：[待确认]\n团队邮箱：[待补充]"
+  },
+  {
+    "id": "N03",
+    "response": "Review {{proposals}} against {{budget_limit}}.\n\nSelect no more than three proposals. Among proposals whose costs and affordability can be determined, choose the proposals with the lowest stated costs first; if costs tie, preserve their original input order. The combined cost of selected proposals must not exceed {{budget_limit}}.\n\nUse only the proposals, IDs, costs, and budget supplied in the input. Do not guess a missing cost or budget. If a proposal's affordability cannot be determined because required cost or budget information is missing, place it in needs_context. Place every proposal that can be evaluated but is not selected in deferred. Assign every input proposal to exactly one of selected, deferred, or needs_context.\n\nReturn exactly one JSON object with exactly these keys: selected, deferred, needs_context. Each value must be an array. Each array item must contain only id and reason, and reason must be one sentence."
+  },
+  {
+    "id": "N05",
+    "response": "I can’t finalize the table until Lin’s earliest arrival time is confirmed. Because A, B, and C exactly fill 18:00–19:00, and Lin must attend A and B, he needs to be there by the start of A. If he can arrive by 18:00, the schedule is A 18:00–18:20, B 18:20–18:40, C 18:40–19:00; please confirm that arrival constraint."
+  }
+]

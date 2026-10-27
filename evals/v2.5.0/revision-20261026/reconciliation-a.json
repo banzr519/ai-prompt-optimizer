@@ -1,0 +1,34 @@
+[
+  {
+    "answer_id": "answer-012",
+    "verdict": "pass",
+    "critical_errors": [],
+    "noncritical_failures": [],
+    "rationale": "Reassessed as pass. Each base row totals 3+6+3=12 minutes and preserves the current day, topic, recording and playback. The conditional “若当次放不下，顺延至下一次开始” specifies when and where playback moves; it does not require completing both prior and current playback within an unchanged row. If carried playback uses the available playback time, the same conditional permits the current playback to move onward. My original judgment unnecessarily required a separate statement of that reallocation and treated optional deferral as compulsory added time.",
+    "changed_from_original": true
+  },
+  {
+    "answer_id": "answer-051",
+    "verdict": "pass",
+    "critical_errors": [],
+    "noncritical_failures": [],
+    "rationale": "Reassessed as pass. In a reusable instruction, “若【语气】未填写，使用平实自然的语气” conventionally establishes an optional tone input and its fallback; the supplied tone remains the operative value when present. Requiring an additional “使用【语气】” sentence was an overly literal wording requirement, rather than a substantive omission. The exact placeholders, two-title and body limits, supplied-material boundary, defaults and single-question waiting condition are all retained.",
+    "changed_from_original": true
+  },
+  {
+    "answer_id": "answer-060",
+    "verdict": "pass",
+    "critical_errors": [],
+    "noncritical_failures": [],
+    "rationale": "Reassessed as pass. The conditional default “若【语气】未填写，使用平实自然的语气” adequately conveys how the optional tone parameter works: the fallback applies only when that parameter is absent. An extra imperative to use the supplied tone is not necessary to convey its role. All other required placeholders, counts, length bounds, factual limits, defaults and clarification behavior remain intact.",
+    "changed_from_original": true
+  },
+  {
+    "answer_id": "answer-081",
+    "verdict": "pass",
+    "critical_errors": [],
+    "noncritical_failures": [],
+    "rationale": "Reassessed as pass. The complete table already fits each session into 3+6+3=12 minutes and retains recording and playback. The global note “如当次时间不足，回听可顺延到下一次练习开始时” is a conditional adjustment, with the destination explicit. It does not require an additional playback block on top of all the following row’s activity; when carried playback occupies the available time, the same rule allows the current playback to move onward. My original failure imposed a more explicit contingency restatement than the rubric requires.",
+    "changed_from_original": true
+  }
+]

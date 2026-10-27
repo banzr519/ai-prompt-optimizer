@@ -2,13 +2,13 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [🌐 Languages / 语言](docs/LANGUAGES.md)
 
-**v2.4.0 · MIT · de**
+**v2.5.0 · MIT · de**
 
 **Vage Wünsche in klare, ausführbare AI-Anweisungen umwandeln und dabei die ursprüngliche Absicht bewahren.**
 
 Für Programmierung, Gestaltung, Texte, Recherche sowie Bild- und Videoaufträge. Zahlen, Einschränkungen und Variablen bleiben erhalten; Fakten werden von Annahmen getrennt. Die eigentliche Aufgabe wird nur auf ausdrücklichen Wunsch ausgeführt.
 
-**Install with Codex / 使用 Codex 安装:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md)
+**Install, update and verify / 安装、更新与验证:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md) · [Candidate evidence / 候选验证](evals/v2.5.0/revision-20261027/README.md)
 
 ## Installation
 

@@ -1,0 +1,8 @@
+{
+  "answers": 32,
+  "verdict_and_critical_agreement": 32,
+  "conflicts": [],
+  "resolution": "complete agreement; no adjudication required",
+  "labels_revealed_before_resolution": false,
+  "representation_audit": "Both reviewers checked answer-012 actual final and retained pass; only blank lines differ."
+}

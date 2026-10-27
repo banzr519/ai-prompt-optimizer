@@ -1,0 +1,669 @@
+[
+  {
+    "answer_id": "answer-001",
+    "comparison": "equal",
+    "saved_response": "陈老师，提醒您10月30日19:00参加线上访谈。访谈会控制在45分钟以内。我会在当天18:50把入会链接发您。",
+    "actual_final": "陈老师，提醒您10月30日19:00参加线上访谈。访谈会控制在45分钟以内。我会在当天18:50把入会链接发您。",
+    "saved_sha256": "6f1bd84627c2d99dabce90cc17b5c7f49e2ce795ef3cac513c16b71e7971fd6b",
+    "final_sha256": "6f1bd84627c2d99dabce90cc17b5c7f49e2ce795ef3cac513c16b71e7971fd6b",
+    "original_json_file_text": "{\"response\":\"陈老师，提醒您10月30日19:00参加线上访谈。访谈会控制在45分钟以内。我会在当天18:50把入会链接发您。\"}\n",
+    "original_json_file_sha256": "05b6fa6a0de87ca6c652217faced6503272b593e0a7b49983b44d8a00e7fa030"
+  },
+  {
+    "answer_id": "answer-002",
+    "comparison": "equal",
+    "saved_response": "1. 工作日晚间：仅会员可以预约；非会员不能预约。\n2. 周末：会员可以预约；非会员也可以使用活动室，但必须由会员代为登记。\n3. 临时维护期间：已在周五18点前完成登记的周末预约继续保留；其他尚未登记的预约须等维护结束后再办理。本条仅适用于临时维护，不适用于紧急停用。",
+    "actual_final": "1. 工作日晚间：仅会员可以预约；非会员不能预约。\n2. 周末：会员可以预约；非会员也可以使用活动室，但必须由会员代为登记。\n3. 临时维护期间：已在周五18点前完成登记的周末预约继续保留；其他尚未登记的预约须等维护结束后再办理。本条仅适用于临时维护，不适用于紧急停用。",
+    "saved_sha256": "fd37e48f9a8c79aa50d2b476f3d95ff2a53ed3c9c7936af3d0d8b0a0a7eb71f9",
+    "final_sha256": "fd37e48f9a8c79aa50d2b476f3d95ff2a53ed3c9c7936af3d0d8b0a0a7eb71f9",
+    "original_json_file_text": "{\"response\":\"1. 工作日晚间：仅会员可以预约；非会员不能预约。\\n2. 周末：会员可以预约；非会员也可以使用活动室，但必须由会员代为登记。\\n3. 临时维护期间：已在周五18点前完成登记的周末预约继续保留；其他尚未登记的预约须等维护结束后再办理。本条仅适用于临时维护，不适用于紧急停用。\"}\n",
+    "original_json_file_sha256": "2fc4833ebe5b9f29223e3db56465f50ffe930b0e8f45684a74ea524a2a7261e6"
+  },
+  {
+    "answer_id": "answer-003",
+    "comparison": "whitespace-only",
+    "saved_response": "欢迎加入\n\n认识团队\n先和大家打个照面，了解团队成员、分工和日常协作方式。\n\n第一周安排\n从熟悉团队和工作流程开始，按自己的节奏一步步上手。\n\n常见问题\n把入职初期可能会遇到的问题放在这里，找答案更方便。\n\n新人导师：__________\n\n团队邮箱\n__________",
+    "actual_final": "欢迎加入\n\n认识团队  \n先和大家打个照面，了解团队成员、分工和日常协作方式。\n\n第一周安排  \n从熟悉团队和工作流程开始，按自己的节奏一步步上手。\n\n常见问题  \n把入职初期可能会遇到的问题放在这里，找答案更方便。\n\n新人导师：__________\n\n团队邮箱  \n__________",
+    "saved_sha256": "8ff72ec0245a71ab3cd689404aa82602c4bea96e2988fe96f631e74406dfcdda",
+    "final_sha256": "7b2ba71fc6b8929cc1fdb91d7fa428a6f442caede6f43ad316b6d4cb2e874f15",
+    "original_json_file_text": "{\"response\":\"欢迎加入\\n\\n认识团队\\n先和大家打个照面，了解团队成员、分工和日常协作方式。\\n\\n第一周安排\\n从熟悉团队和工作流程开始，按自己的节奏一步步上手。\\n\\n常见问题\\n把入职初期可能会遇到的问题放在这里，找答案更方便。\\n\\n新人导师：__________\\n\\n团队邮箱\\n__________\"}\n",
+    "original_json_file_sha256": "f882b5ecda964de359689113b3a3b4ba9b333c5d2050d09a6a0d90f486d89b24"
+  },
+  {
+    "answer_id": "answer-004",
+    "comparison": "equal",
+    "saved_response": "本次内部分享共42人报名，实际到场31人，到场率约73.8%。共收到6份反馈，其中4份认为节奏太快，另外2份未提及节奏。下次先尝试减少案例，时长保持60分钟；目前只确定这一项，不写入其他调整。",
+    "actual_final": "本次内部分享共42人报名，实际到场31人，到场率约73.8%。共收到6份反馈，其中4份认为节奏太快，另外2份未提及节奏。下次先尝试减少案例，时长保持60分钟；目前只确定这一项，不写入其他调整。",
+    "saved_sha256": "1f958681dc0c964592f6cb397f16e1e7ade0d24a4dc71947c9849bce08bffb81",
+    "final_sha256": "1f958681dc0c964592f6cb397f16e1e7ade0d24a4dc71947c9849bce08bffb81",
+    "original_json_file_text": "{\"response\":\"本次内部分享共42人报名，实际到场31人，到场率约73.8%。共收到6份反馈，其中4份认为节奏太快，另外2份未提及节奏。下次先尝试减少案例，时长保持60分钟；目前只确定这一项，不写入其他调整。\"}\n",
+    "original_json_file_sha256": "f6fedb173f38b06bcfa30a7ad55e406d9590aeccc7203f0b35ce8224f1b5e921"
+  },
+  {
+    "answer_id": "answer-005",
+    "comparison": "equal",
+    "saved_response": "请根据{{复盘记录}}整理一则可直接发到群里的培训复盘消息，控制在250—350字，分为“参加情况”“大家反馈”“下次安排”三个部分，语气自然、清楚，不必过于正式。涉及个人评价时，只能保留复盘记录中已经匿名的原话，不得根据记录替人概括、推断或补写评价；如果记录中没有反馈，请在“大家反馈”部分原样写“本次未收集到反馈”，不要自行总结好评。仅输出整理后的群消息，不要生成示例、解释或其他内容。",
+    "actual_final": "请根据{{复盘记录}}整理一则可直接发到群里的培训复盘消息，控制在250—350字，分为“参加情况”“大家反馈”“下次安排”三个部分，语气自然、清楚，不必过于正式。涉及个人评价时，只能保留复盘记录中已经匿名的原话，不得根据记录替人概括、推断或补写评价；如果记录中没有反馈，请在“大家反馈”部分原样写“本次未收集到反馈”，不要自行总结好评。仅输出整理后的群消息，不要生成示例、解释或其他内容。",
+    "saved_sha256": "aba4ce4e3bcf56f03f2c7cc1b91bfbfe990ddb6b4809530082bdca9989b657f1",
+    "final_sha256": "aba4ce4e3bcf56f03f2c7cc1b91bfbfe990ddb6b4809530082bdca9989b657f1",
+    "original_json_file_text": "{\"response\":\"请根据{{复盘记录}}整理一则可直接发到群里的培训复盘消息，控制在250—350字，分为“参加情况”“大家反馈”“下次安排”三个部分，语气自然、清楚，不必过于正式。涉及个人评价时，只能保留复盘记录中已经匿名的原话，不得根据记录替人概括、推断或补写评价；如果记录中没有反馈，请在“大家反馈”部分原样写“本次未收集到反馈”，不要自行总结好评。仅输出整理后的群消息，不要生成示例、解释或其他内容。\"}\n",
+    "original_json_file_sha256": "bdbb0af18f8777110ad3f6f3396f2249f2553ccaf52417b175058faa8f93bd80"
+  },
+  {
+    "answer_id": "answer-006",
+    "comparison": "equal",
+    "saved_response": "陈老师，提醒您10月30日19:00参加线上访谈。访谈会控制在45分钟以内。我会在当天18:50把入会链接发您。",
+    "actual_final": "陈老师，提醒您10月30日19:00参加线上访谈。访谈会控制在45分钟以内。我会在当天18:50把入会链接发您。",
+    "saved_sha256": "6f1bd84627c2d99dabce90cc17b5c7f49e2ce795ef3cac513c16b71e7971fd6b",
+    "final_sha256": "6f1bd84627c2d99dabce90cc17b5c7f49e2ce795ef3cac513c16b71e7971fd6b",
+    "original_json_file_text": "{\"response\":\"陈老师，提醒您10月30日19:00参加线上访谈。访谈会控制在45分钟以内。我会在当天18:50把入会链接发您。\"}\n",
+    "original_json_file_sha256": "05b6fa6a0de87ca6c652217faced6503272b593e0a7b49983b44d8a00e7fa030"
+  },
+  {
+    "answer_id": "answer-007",
+    "comparison": "equal",
+    "saved_response": "No—wheelchair users should not be told to take the stairs. Lifts A and B will be unavailable on Tuesday from 10:00 to 11:30, but access via lift C will remain available throughout, so they should be directed to C.",
+    "actual_final": "No—wheelchair users should not be told to take the stairs. Lifts A and B will be unavailable on Tuesday from 10:00 to 11:30, but access via lift C will remain available throughout, so they should be directed to C.",
+    "saved_sha256": "e966e1284e013ae378e2ecc78c1fb915e8a45e2980b4a23511896fdb4904ad41",
+    "final_sha256": "e966e1284e013ae378e2ecc78c1fb915e8a45e2980b4a23511896fdb4904ad41",
+    "original_json_file_text": "{\"response\":\"No—wheelchair users should not be told to take the stairs. Lifts A and B will be unavailable on Tuesday from 10:00 to 11:30, but access via lift C will remain available throughout, so they should be directed to C.\"}\n",
+    "original_json_file_sha256": "ffb5f00a5cbac997d6e5a28848f112f6fa382705cb3d985781310c7ad5453241"
+  },
+  {
+    "answer_id": "answer-008",
+    "comparison": "equal",
+    "saved_response": "退款说明：如在活动开始前至少48小时（含活动开始前整整48小时）取消报名，可获全额退款；如距离活动开始不足48小时取消，原则上不予退款，但若替补席位已确认且替补费用已到账，同时满足这两个条件，可退款，但需扣除10元材料费。若活动由主办方取消，无论距离活动开始还有多长时间，均全额退款。",
+    "actual_final": "退款说明：如在活动开始前至少48小时（含活动开始前整整48小时）取消报名，可获全额退款；如距离活动开始不足48小时取消，原则上不予退款，但若替补席位已确认且替补费用已到账，同时满足这两个条件，可退款，但需扣除10元材料费。若活动由主办方取消，无论距离活动开始还有多长时间，均全额退款。",
+    "saved_sha256": "6ed7d0f6ff9d5f7ee9754654d0ea2cd77eb3da0ad1ffd5d11cfa486e67a6e1a0",
+    "final_sha256": "6ed7d0f6ff9d5f7ee9754654d0ea2cd77eb3da0ad1ffd5d11cfa486e67a6e1a0",
+    "original_json_file_text": "{\"response\":\"退款说明：如在活动开始前至少48小时（含活动开始前整整48小时）取消报名，可获全额退款；如距离活动开始不足48小时取消，原则上不予退款，但若替补席位已确认且替补费用已到账，同时满足这两个条件，可退款，但需扣除10元材料费。若活动由主办方取消，无论距离活动开始还有多长时间，均全额退款。\"}\n",
+    "original_json_file_sha256": "8584e87e7f22b44ef58f4d370815d076731838d89db732d3c60328ae6b79808a"
+  },
+  {
+    "answer_id": "answer-009",
+    "comparison": "equal",
+    "saved_response": "Final packing plan:\n\n- Total notebooks: 103\n- Box capacity: 10 notebooks\n- Full boxes: 10, containing 100 notebooks\n- Loose notebooks: 3, carried separately and kept out of parcels\n- Maximum boxes per parcel: 3\n- Parcels: 4 total\n  - Parcels 1–3: 3 boxes each, containing 30 notebooks per parcel\n  - Parcel 4: 1 box, containing 10 notebooks\n\nTotal packed in parcels: 100 notebooks in 10 full boxes. Total carried separately: 3 loose notebooks.",
+    "actual_final": "Final packing plan:\n\n- Total notebooks: 103\n- Box capacity: 10 notebooks\n- Full boxes: 10, containing 100 notebooks\n- Loose notebooks: 3, carried separately and kept out of parcels\n- Maximum boxes per parcel: 3\n- Parcels: 4 total\n  - Parcels 1–3: 3 boxes each, containing 30 notebooks per parcel\n  - Parcel 4: 1 box, containing 10 notebooks\n\nTotal packed in parcels: 100 notebooks in 10 full boxes. Total carried separately: 3 loose notebooks.",
+    "saved_sha256": "9bd601272fb207556160db2384fa97ccc69a9c13ba94c9c48c5b261cc955b61e",
+    "final_sha256": "9bd601272fb207556160db2384fa97ccc69a9c13ba94c9c48c5b261cc955b61e",
+    "original_json_file_text": "{\"response\":\"Final packing plan:\\n\\n- Total notebooks: 103\\n- Box capacity: 10 notebooks\\n- Full boxes: 10, containing 100 notebooks\\n- Loose notebooks: 3, carried separately and kept out of parcels\\n- Maximum boxes per parcel: 3\\n- Parcels: 4 total\\n  - Parcels 1–3: 3 boxes each, containing 30 notebooks per parcel\\n  - Parcel 4: 1 box, containing 10 notebooks\\n\\nTotal packed in parcels: 100 notebooks in 10 full boxes. Total carried separately: 3 loose notebooks.\"}\n",
+    "original_json_file_sha256": "dd635294760a3d62a25226a21841b34542c0cb20f0edbbf7cf0323978a987ce2"
+  },
+  {
+    "answer_id": "answer-010",
+    "comparison": "whitespace-only",
+    "saved_response": "林：未交确认表，且未选时段。\n周：已交确认表，但还未选时段。\n陈：虽已选时段，但还未交确认表。",
+    "actual_final": "林：未交确认表，且未选时段。  \n周：已交确认表，但还未选时段。  \n陈：虽已选时段，但还未交确认表。",
+    "saved_sha256": "73e8458be912f5532fed93b5260b2ad9141aa8b69adc2382236c6d7e2c9ed38c",
+    "final_sha256": "27e69fac4878d43a3c3466c55576c2691c20fadcf94fc69f88c5d4a1e4b51c34",
+    "original_json_file_text": "{\"response\":\"林：未交确认表，且未选时段。\\n周：已交确认表，但还未选时段。\\n陈：虽已选时段，但还未交确认表。\"}\n",
+    "original_json_file_sha256": "d5821da07b4115612573876351853b27c6f6a955d612fd216752dd934ee774f9"
+  },
+  {
+    "answer_id": "answer-011",
+    "comparison": "substantive-difference",
+    "saved_response": "1. 工作日晚间：会员可以预约；非会员不能预约。\n2. 周末：非会员可以预约或到场，但必须由会员代为登记；没有会员代登记的，不能按周末预约办理。\n3. 遇到临时维护：周末预约若已在周五18点前登记，预约继续保留；其他尚未登记的预约，等维护结束后再办理。本条只适用于临时维护，紧急停用不按本条处理。",
+    "actual_final": "{\"response\":\"1. 工作日晚间：会员可以预约；非会员不能预约。\\n2. 周末：非会员可以预约或到场，但必须由会员代为登记；没有会员代登记的，不能按周末预约办理。\\n3. 遇到临时维护：周末预约若已在周五18点前登记，预约继续保留；其他尚未登记的预约，等维护结束后再办理。本条只适用于临时维护，紧急停用不按本条处理。\"}",
+    "saved_sha256": "8a8766978a0715690df05a54b5e12936365d01ba44990080194f16a74035670d",
+    "final_sha256": "ffc8a563971cac911d3dd2d3afdb17505146e700b93b947fe6ac33460675b402",
+    "json_envelope_audit": {
+      "parseable_object": true,
+      "keys": [
+        "response"
+      ],
+      "response_matches_saved": true,
+      "response_matches_ignoring_whitespace": true,
+      "grading_uses_actual_final_unchanged": true
+    },
+    "original_json_file_text": "{\"response\": \"1. 工作日晚间：会员可以预约；非会员不能预约。\\n2. 周末：非会员可以预约或到场，但必须由会员代为登记；没有会员代登记的，不能按周末预约办理。\\n3. 遇到临时维护：周末预约若已在周五18点前登记，预约继续保留；其他尚未登记的预约，等维护结束后再办理。本条只适用于临时维护，紧急停用不按本条处理。\"}",
+    "original_json_file_sha256": "25939936205b8da40eb1b5c7b3aca4fb572eed7a949d1921a64fa47fb69c0cc0"
+  },
+  {
+    "answer_id": "answer-012",
+    "comparison": "substantive-difference",
+    "saved_response": "Weekend workshop eligibility checklist\n\n- Ordinary participants: signed consent form, plus either (a) completion of the intro session or (b) a passing score on the short quiz. Reserve a place once these requirements are met; no spare-seat condition applies.\n- Staff volunteers: signed consent form and a spare seat; no intro session or quiz required.",
+    "actual_final": "{\"response\":\"Weekend workshop eligibility checklist\\n\\n- Ordinary participants: signed consent form, plus either (a) completion of the intro session or (b) a passing score on the short quiz. Reserve a place once these requirements are met; no spare-seat condition applies.\\n- Staff volunteers: signed consent form and a spare seat; no intro session or quiz required.\"}",
+    "saved_sha256": "d1c7aa5da668c9ebfa259f541140ecd7c46e6f8c64f4892114ce431f49c4fd66",
+    "final_sha256": "efde8f91aba992d8cef23b8761c5ee557ed3b9bd05dd99a62f2bc8ae034fe85a",
+    "json_envelope_audit": {
+      "parseable_object": true,
+      "keys": [
+        "response"
+      ],
+      "response_matches_saved": true,
+      "response_matches_ignoring_whitespace": true,
+      "grading_uses_actual_final_unchanged": true
+    },
+    "original_json_file_text": "{\"response\":\"Weekend workshop eligibility checklist\\n\\n- Ordinary participants: signed consent form, plus either (a) completion of the intro session or (b) a passing score on the short quiz. Reserve a place once these requirements are met; no spare-seat condition applies.\\n- Staff volunteers: signed consent form and a spare seat; no intro session or quiz required.\"}\n",
+    "original_json_file_sha256": "18a5bd9b3938051a32ff56c9805bbd0d1df395dbe448a4f3192bdbd7d0aec542"
+  },
+  {
+    "answer_id": "answer-013",
+    "comparison": "equal",
+    "saved_response": "周末志愿活动分工现状：\n\n已确定：\n- 小何：签到\n- 小陈：物资准备及活动结束后的物资清点\n- 我：当天开场\n\n待确认：\n- 带队人：暂未确定（阿宁只是表示周末可能有空，尚未确认负责带队）\n- 活动时间：等待场地回复\n\n摄影暂不安排。",
+    "actual_final": "周末志愿活动分工现状：\n\n已确定：\n- 小何：签到\n- 小陈：物资准备及活动结束后的物资清点\n- 我：当天开场\n\n待确认：\n- 带队人：暂未确定（阿宁只是表示周末可能有空，尚未确认负责带队）\n- 活动时间：等待场地回复\n\n摄影暂不安排。",
+    "saved_sha256": "465b91f482da620413753768aa3f6dcd25356f07fdca16370a91f15d2916de44",
+    "final_sha256": "465b91f482da620413753768aa3f6dcd25356f07fdca16370a91f15d2916de44",
+    "original_json_file_text": "{\"response\":\"周末志愿活动分工现状：\\n\\n已确定：\\n- 小何：签到\\n- 小陈：物资准备及活动结束后的物资清点\\n- 我：当天开场\\n\\n待确认：\\n- 带队人：暂未确定（阿宁只是表示周末可能有空，尚未确认负责带队）\\n- 活动时间：等待场地回复\\n\\n摄影暂不安排。\"}\n",
+    "original_json_file_sha256": "7a72521015a75b939567874293d23ea18b9cbf370f800d634d4680a889cac25f"
+  },
+  {
+    "answer_id": "answer-014",
+    "comparison": "equal",
+    "saved_response": "I can, but the date and time are not settled yet. Which option should I use—Thursday at 7 p.m. or Sunday at 10 a.m.—and what calendar date and time zone apply?",
+    "actual_final": "I can, but the date and time are not settled yet. Which option should I use—Thursday at 7 p.m. or Sunday at 10 a.m.—and what calendar date and time zone apply?",
+    "saved_sha256": "ce311b90ea42092e3c93c9f66c19f46397331210be4bf093aca6603c4b305e9e",
+    "final_sha256": "ce311b90ea42092e3c93c9f66c19f46397331210be4bf093aca6603c4b305e9e",
+    "original_json_file_text": "{\"response\": \"I can, but the date and time are not settled yet. Which option should I use—Thursday at 7 p.m. or Sunday at 10 a.m.—and what calendar date and time zone apply?\"}",
+    "original_json_file_sha256": "52a5bb28da12eaad89b01f1415b7b6ecb1b5931d41f15b4c70bf7b9da3edb784"
+  },
+  {
+    "answer_id": "answer-015",
+    "comparison": "equal",
+    "saved_response": "No. Please direct wheelchair users to lift C, which will remain available throughout the test from 10:00 to 11:30 on Tuesday.",
+    "actual_final": "No. Please direct wheelchair users to lift C, which will remain available throughout the test from 10:00 to 11:30 on Tuesday.",
+    "saved_sha256": "674acba5543aff45610558fd300edfd758dd89a31dde167a2f7253bbdba6ea16",
+    "final_sha256": "674acba5543aff45610558fd300edfd758dd89a31dde167a2f7253bbdba6ea16",
+    "original_json_file_text": "{\"response\":\"No. Please direct wheelchair users to lift C, which will remain available throughout the test from 10:00 to 11:30 on Tuesday.\"}\n",
+    "original_json_file_sha256": "67017c8782af81e69bd3c81427ad6198c84c796ab2153e266f3eab06d6a25d68"
+  },
+  {
+    "answer_id": "answer-016",
+    "comparison": "equal",
+    "saved_response": "# 欢迎加入\n\n很高兴认识你！这里整理了入职初期会用到的信息，方便你随时回来看看。\n\n## 认识团队\n\n先来认识一起工作的伙伴，了解大家各自负责的方向，以及日常怎么配合。\n\n＿＿＿＿＿＿＿＿\n\n## 第一周安排\n\n第一周的具体安排会放在这里，方便你了解接下来要做什么，也能随时回来确认进度。\n\n＿＿＿＿＿＿＿＿\n\n## 常见问题\n\n刚开始有疑问很正常。常见问题和对应说明会整理在这里，方便随时查找。\n\n＿＿＿＿＿＿＿＿\n\n团队邮箱：＿＿＿＿＿＿＿＿",
+    "actual_final": "# 欢迎加入\n\n很高兴认识你！这里整理了入职初期会用到的信息，方便你随时回来看看。\n\n## 认识团队\n\n先来认识一起工作的伙伴，了解大家各自负责的方向，以及日常怎么配合。\n\n＿＿＿＿＿＿＿＿\n\n## 第一周安排\n\n第一周的具体安排会放在这里，方便你了解接下来要做什么，也能随时回来确认进度。\n\n＿＿＿＿＿＿＿＿\n\n## 常见问题\n\n刚开始有疑问很正常。常见问题和对应说明会整理在这里，方便随时查找。\n\n＿＿＿＿＿＿＿＿\n\n团队邮箱：＿＿＿＿＿＿＿＿",
+    "saved_sha256": "b86dba8d8aab6bbf5033d91bc2518e336cfe94430477587e21994c715d72a973",
+    "final_sha256": "b86dba8d8aab6bbf5033d91bc2518e336cfe94430477587e21994c715d72a973",
+    "original_json_file_text": "{\"response\":\"# 欢迎加入\\n\\n很高兴认识你！这里整理了入职初期会用到的信息，方便你随时回来看看。\\n\\n## 认识团队\\n\\n先来认识一起工作的伙伴，了解大家各自负责的方向，以及日常怎么配合。\\n\\n＿＿＿＿＿＿＿＿\\n\\n## 第一周安排\\n\\n第一周的具体安排会放在这里，方便你了解接下来要做什么，也能随时回来确认进度。\\n\\n＿＿＿＿＿＿＿＿\\n\\n## 常见问题\\n\\n刚开始有疑问很正常。常见问题和对应说明会整理在这里，方便随时查找。\\n\\n＿＿＿＿＿＿＿＿\\n\\n团队邮箱：＿＿＿＿＿＿＿＿\"}\n",
+    "original_json_file_sha256": "480b564d11e958e1ba5d74dead1905cf4a5149dd90c2a055f64a8cee4ba50814"
+  },
+  {
+    "answer_id": "answer-017",
+    "comparison": "equal",
+    "saved_response": "报名后如需取消，请注意：在活动开始前48小时或更早取消（恰好提前48小时也包含在内），可全额退款；距离活动开始不足48小时取消，原则上不予退款。\n\n不足48小时取消时，如同时满足以下两个条件，可退还报名费，但需扣除10元材料费：候补参与者已确认接替该席位；候补费用已到账。仅有候补名单或只满足其中一个条件，均不适用此退款例外。\n\n若因主办方原因取消活动，无论距离活动开始还有多长时间，均全额退款。",
+    "actual_final": "报名后如需取消，请注意：在活动开始前48小时或更早取消（恰好提前48小时也包含在内），可全额退款；距离活动开始不足48小时取消，原则上不予退款。\n\n不足48小时取消时，如同时满足以下两个条件，可退还报名费，但需扣除10元材料费：候补参与者已确认接替该席位；候补费用已到账。仅有候补名单或只满足其中一个条件，均不适用此退款例外。\n\n若因主办方原因取消活动，无论距离活动开始还有多长时间，均全额退款。",
+    "saved_sha256": "19d636c88d33dfd2f3b3ccde8d335d7031364a5730b2d12b5165a8c925457160",
+    "final_sha256": "19d636c88d33dfd2f3b3ccde8d335d7031364a5730b2d12b5165a8c925457160",
+    "original_json_file_text": "{\"response\":\"报名后如需取消，请注意：在活动开始前48小时或更早取消（恰好提前48小时也包含在内），可全额退款；距离活动开始不足48小时取消，原则上不予退款。\\n\\n不足48小时取消时，如同时满足以下两个条件，可退还报名费，但需扣除10元材料费：候补参与者已确认接替该席位；候补费用已到账。仅有候补名单或只满足其中一个条件，均不适用此退款例外。\\n\\n若因主办方原因取消活动，无论距离活动开始还有多长时间，均全额退款。\"}\n",
+    "original_json_file_sha256": "478870dda36a79a4e0c6f763db391dd42e97190179a2e4f4b92dd8d14b33ef70"
+  },
+  {
+    "answer_id": "answer-018",
+    "comparison": "equal",
+    "saved_response": "请根据{{复盘记录}}，整理一则可直接发到群里的培训复盘消息，控制在250—350字，分为“参加情况”“大家反馈”“下次安排”三个部分。语气自然、简洁，不要太正式。涉及个人评价时，只保留复盘记录中已经匿名的原话，不要补写或改写；如果没有反馈，直接写“本次未收集到反馈”，不要替我总结或推断好评。只输出整理后的任务说明，不生成群消息示例。",
+    "actual_final": "请根据{{复盘记录}}，整理一则可直接发到群里的培训复盘消息，控制在250—350字，分为“参加情况”“大家反馈”“下次安排”三个部分。语气自然、简洁，不要太正式。涉及个人评价时，只保留复盘记录中已经匿名的原话，不要补写或改写；如果没有反馈，直接写“本次未收集到反馈”，不要替我总结或推断好评。只输出整理后的任务说明，不生成群消息示例。",
+    "saved_sha256": "c873de58ca707adc1d0608a026ced4cf07a6e991183014ac41c56dff10a31211",
+    "final_sha256": "c873de58ca707adc1d0608a026ced4cf07a6e991183014ac41c56dff10a31211",
+    "original_json_file_text": "{\"response\":\"请根据{{复盘记录}}，整理一则可直接发到群里的培训复盘消息，控制在250—350字，分为“参加情况”“大家反馈”“下次安排”三个部分。语气自然、简洁，不要太正式。涉及个人评价时，只保留复盘记录中已经匿名的原话，不要补写或改写；如果没有反馈，直接写“本次未收集到反馈”，不要替我总结或推断好评。只输出整理后的任务说明，不生成群消息示例。\"}\n",
+    "original_json_file_sha256": "40696458912a4faf089f1f55fd35e2235b3945648fceb5d2e911f87d0cde766d"
+  },
+  {
+    "answer_id": "answer-019",
+    "comparison": "equal",
+    "saved_response": "报名进度：A组18人，全部已确认；B组16人，全部已确认；C组8人，其中5人已确认、3人待确认。当前已确认39人，待确认3人；按已确认人数计算，总容量50人，剩余11个名额。",
+    "actual_final": "报名进度：A组18人，全部已确认；B组16人，全部已确认；C组8人，其中5人已确认、3人待确认。当前已确认39人，待确认3人；按已确认人数计算，总容量50人，剩余11个名额。",
+    "saved_sha256": "c63ac8aa05bfb41b8bfea13be07ab382523f6b008fbea2950bb19c30d6d5e9f5",
+    "final_sha256": "c63ac8aa05bfb41b8bfea13be07ab382523f6b008fbea2950bb19c30d6d5e9f5",
+    "original_json_file_text": "{\"response\":\"报名进度：A组18人，全部已确认；B组16人，全部已确认；C组8人，其中5人已确认、3人待确认。当前已确认39人，待确认3人；按已确认人数计算，总容量50人，剩余11个名额。\"}\n",
+    "original_json_file_sha256": "78b8a70567ff1d2fa19f2f4641bc69a160d27e4d38de5526e93ec0f51e68d603"
+  },
+  {
+    "answer_id": "answer-020",
+    "comparison": "equal",
+    "saved_response": "给同事可以这样写：\n\n活动需要准备30份材料包，单价11.5元，场地费180元。费用计算如下：\n\n- 材料费：30 × 11.5 = 345元\n- 材料费加场地费小计：345 + 180 = 525元\n- 备用金：525 × 10% = 52.5元，向上取整为53元\n- 总预算：525 + 53 = 578元\n\n因此，本次活动总预算为578元。",
+    "actual_final": "给同事可以这样写：\n\n活动需要准备30份材料包，单价11.5元，场地费180元。费用计算如下：\n\n- 材料费：30 × 11.5 = 345元\n- 材料费加场地费小计：345 + 180 = 525元\n- 备用金：525 × 10% = 52.5元，向上取整为53元\n- 总预算：525 + 53 = 578元\n\n因此，本次活动总预算为578元。",
+    "saved_sha256": "12e064b6d52de27ee2fd9b77686371474aa7c501867e02011f03d9f05d99e986",
+    "final_sha256": "12e064b6d52de27ee2fd9b77686371474aa7c501867e02011f03d9f05d99e986",
+    "original_json_file_text": "{\"response\":\"给同事可以这样写：\\n\\n活动需要准备30份材料包，单价11.5元，场地费180元。费用计算如下：\\n\\n- 材料费：30 × 11.5 = 345元\\n- 材料费加场地费小计：345 + 180 = 525元\\n- 备用金：525 × 10% = 52.5元，向上取整为53元\\n- 总预算：525 + 53 = 578元\\n\\n因此，本次活动总预算为578元。\"}\n",
+    "original_json_file_sha256": "14055ce4b46deee4133985043f86dab939120569d61dd2cc06dbf89f43e7722b"
+  },
+  {
+    "answer_id": "answer-021",
+    "comparison": "equal",
+    "saved_response": "上次内部分享共42人报名，实际到场31人，到场率约73.8%。会后共收到6份反馈，其中4份认为节奏太快，另外2份未提及节奏；由于反馈样本仅6份，这一结果只反映已收回的反馈。下次已确定先减少案例，分享时长仍保持60分钟。",
+    "actual_final": "上次内部分享共42人报名，实际到场31人，到场率约73.8%。会后共收到6份反馈，其中4份认为节奏太快，另外2份未提及节奏；由于反馈样本仅6份，这一结果只反映已收回的反馈。下次已确定先减少案例，分享时长仍保持60分钟。",
+    "saved_sha256": "97724ccb83de7b894073a9235a1ffbaf33ad70373123d6e4c1c5b05dc8cb32d6",
+    "final_sha256": "97724ccb83de7b894073a9235a1ffbaf33ad70373123d6e4c1c5b05dc8cb32d6",
+    "original_json_file_text": "{\"response\":\"上次内部分享共42人报名，实际到场31人，到场率约73.8%。会后共收到6份反馈，其中4份认为节奏太快，另外2份未提及节奏；由于反馈样本仅6份，这一结果只反映已收回的反馈。下次已确定先减少案例，分享时长仍保持60分钟。\"}\n",
+    "original_json_file_sha256": "48788f215444a92ec4b2be6d87687f5f45f3f98288cb1743b1fde59b0964842e"
+  },
+  {
+    "answer_id": "answer-022",
+    "comparison": "equal",
+    "saved_response": "周末志愿活动分工现状：\n\n已确定：\n- 小何：签到\n- 小陈：物资准备及活动结束后的物资清点\n- 我：当天开场\n\n待确认：\n- 带队人：尚未确定。阿宁只是表示周末可能有空，尚未答应担任带队人。\n- 活动时间：等待场地回复。\n\n摄影暂不安排。",
+    "actual_final": "周末志愿活动分工现状：\n\n已确定：\n- 小何：签到\n- 小陈：物资准备及活动结束后的物资清点\n- 我：当天开场\n\n待确认：\n- 带队人：尚未确定。阿宁只是表示周末可能有空，尚未答应担任带队人。\n- 活动时间：等待场地回复。\n\n摄影暂不安排。",
+    "saved_sha256": "05b11192c3d6aef13c7a0a7a66d7392123136061f70aae9d99af2390e4dbea26",
+    "final_sha256": "05b11192c3d6aef13c7a0a7a66d7392123136061f70aae9d99af2390e4dbea26",
+    "original_json_file_text": "{\"response\":\"周末志愿活动分工现状：\\n\\n已确定：\\n- 小何：签到\\n- 小陈：物资准备及活动结束后的物资清点\\n- 我：当天开场\\n\\n待确认：\\n- 带队人：尚未确定。阿宁只是表示周末可能有空，尚未答应担任带队人。\\n- 活动时间：等待场地回复。\\n\\n摄影暂不安排。\"}\n",
+    "original_json_file_sha256": "194a26f28c876efbc069801cfa1f68c73eb82777a4485703d014697ad6ee8660"
+  },
+  {
+    "answer_id": "answer-023",
+    "comparison": "equal",
+    "saved_response": "小林，你们家两位大人和一位孩子已经登记好了，记得每家最多带3本书哦～",
+    "actual_final": "小林，你们家两位大人和一位孩子已经登记好了，记得每家最多带3本书哦～",
+    "saved_sha256": "06423bead5ae39309b0125981ff1dc6fe972079f12a5e64c7b081a056e24a87b",
+    "final_sha256": "06423bead5ae39309b0125981ff1dc6fe972079f12a5e64c7b081a056e24a87b",
+    "original_json_file_text": "{\"response\":\"小林，你们家两位大人和一位孩子已经登记好了，记得每家最多带3本书哦～\"}\n",
+    "original_json_file_sha256": "ffc990d9fc6717b52025b35850cb3dcc36c797b10c5026f5ad8cbff46a13b4f4"
+  },
+  {
+    "answer_id": "answer-024",
+    "comparison": "equal",
+    "saved_response": "本次内部分享共42人报名，实际到场31人，到场率约73.8%。共收到6份反馈，其中4份提到节奏太快，2份未提及节奏。下次安排为先试着减少案例，时长保持60分钟。",
+    "actual_final": "本次内部分享共42人报名，实际到场31人，到场率约73.8%。共收到6份反馈，其中4份提到节奏太快，2份未提及节奏。下次安排为先试着减少案例，时长保持60分钟。",
+    "saved_sha256": "bc644f887448f26707cd00bebf388b9a8ba473b0f462465351948b2843b99001",
+    "final_sha256": "bc644f887448f26707cd00bebf388b9a8ba473b0f462465351948b2843b99001",
+    "original_json_file_text": "{\"response\":\"本次内部分享共42人报名，实际到场31人，到场率约73.8%。共收到6份反馈，其中4份提到节奏太快，2份未提及节奏。下次安排为先试着减少案例，时长保持60分钟。\"}\n",
+    "original_json_file_sha256": "722c7c35cd4782bb2096dbd783264cb02cb90209bf3c256827a20066b4bb5451"
+  },
+  {
+    "answer_id": "answer-025",
+    "comparison": "equal",
+    "saved_response": "小林，你们家两位大人和一位孩子已经登记好了，11月7日14:00—16:00在西门活动室见。每家最多带3本书哦～",
+    "actual_final": "小林，你们家两位大人和一位孩子已经登记好了，11月7日14:00—16:00在西门活动室见。每家最多带3本书哦～",
+    "saved_sha256": "5064fce9614c7b700cbe7aa1db616e6ea80038fbe028ce17e8c88ef2512825a8",
+    "final_sha256": "5064fce9614c7b700cbe7aa1db616e6ea80038fbe028ce17e8c88ef2512825a8",
+    "original_json_file_text": "{\"response\":\"小林，你们家两位大人和一位孩子已经登记好了，11月7日14:00—16:00在西门活动室见。每家最多带3本书哦～\"}\n",
+    "original_json_file_sha256": "fcbd42c2ea4e2da14ca6be9fdf09309d3008d40f5278f03dc41794ddaef1cda0"
+  },
+  {
+    "answer_id": "answer-026",
+    "comparison": "equal",
+    "saved_response": "最终安排如下：\n\n- 第一轮：9:30—10:05\n- 第一次换场：10:05—10:15\n- 第二轮：10:15—10:50\n- 第二次换场：10:50—11:00\n- 第三轮：11:00—11:35\n- 收拾：11:35—11:50\n\n共需4名志愿者，三轮均由同一组4人负责。",
+    "actual_final": "最终安排如下：\n\n- 第一轮：9:30—10:05\n- 第一次换场：10:05—10:15\n- 第二轮：10:15—10:50\n- 第二次换场：10:50—11:00\n- 第三轮：11:00—11:35\n- 收拾：11:35—11:50\n\n共需4名志愿者，三轮均由同一组4人负责。",
+    "saved_sha256": "4aac37cadc9ca8beb90165a261ab66f4f3d9678b8f4ac1ee5627e02c80b907fb",
+    "final_sha256": "4aac37cadc9ca8beb90165a261ab66f4f3d9678b8f4ac1ee5627e02c80b907fb",
+    "original_json_file_text": "{\"response\":\"最终安排如下：\\n\\n- 第一轮：9:30—10:05\\n- 第一次换场：10:05—10:15\\n- 第二轮：10:15—10:50\\n- 第二次换场：10:50—11:00\\n- 第三轮：11:00—11:35\\n- 收拾：11:35—11:50\\n\\n共需4名志愿者，三轮均由同一组4人负责。\"}\n",
+    "original_json_file_sha256": "c8dcbe8125c4444b7a8ee4451acc9495c92bd63e7f3da0f685dcd1ff9421d47c"
+  },
+  {
+    "answer_id": "answer-027",
+    "comparison": "equal",
+    "saved_response": "报名及退款说明：以活动开始时间为准，参与者在活动开始前满48小时（含正好提前48小时）取消报名，可全额退款；距离活动开始不足48小时取消，原则上不予退款。若候补人员已确认接替该席位，且报名费用已经到账，则可以退款，但需扣除10元材料费。若活动由主办方取消，无论距离活动开始还有多久，均全额退款。",
+    "actual_final": "报名及退款说明：以活动开始时间为准，参与者在活动开始前满48小时（含正好提前48小时）取消报名，可全额退款；距离活动开始不足48小时取消，原则上不予退款。若候补人员已确认接替该席位，且报名费用已经到账，则可以退款，但需扣除10元材料费。若活动由主办方取消，无论距离活动开始还有多久，均全额退款。",
+    "saved_sha256": "30c6b38fa5b76634ca1aac623f8ff93f4fff98d3736a9e05a3d7d5f4bbf80fbd",
+    "final_sha256": "30c6b38fa5b76634ca1aac623f8ff93f4fff98d3736a9e05a3d7d5f4bbf80fbd",
+    "original_json_file_text": "{\"response\":\"报名及退款说明：以活动开始时间为准，参与者在活动开始前满48小时（含正好提前48小时）取消报名，可全额退款；距离活动开始不足48小时取消，原则上不予退款。若候补人员已确认接替该席位，且报名费用已经到账，则可以退款，但需扣除10元材料费。若活动由主办方取消，无论距离活动开始还有多久，均全额退款。\"}\n",
+    "original_json_file_sha256": "9ec8bc3d3b0dab6438f6c04b11834b1149db476f9f0153e5f18210bdae5b2982"
+  },
+  {
+    "answer_id": "answer-028",
+    "comparison": "equal",
+    "saved_response": "小林，你们家两位大人和一个孩子已经登记好啦！11月7日14:00—16:00在西门活动室见～记得每家最多带3本书哦。",
+    "actual_final": "小林，你们家两位大人和一个孩子已经登记好啦！11月7日14:00—16:00在西门活动室见～记得每家最多带3本书哦。",
+    "saved_sha256": "d62c6ed3f6d2bbc38ff289f08294c008668b0ae891e67fdc7f864c86e3a96add",
+    "final_sha256": "d62c6ed3f6d2bbc38ff289f08294c008668b0ae891e67fdc7f864c86e3a96add",
+    "original_json_file_text": "{\"response\":\"小林，你们家两位大人和一个孩子已经登记好啦！11月7日14:00—16:00在西门活动室见～记得每家最多带3本书哦。\"}\n",
+    "original_json_file_sha256": "4c92256ab3631f368655eca4953ff0d65c44f2b74170c461f13dc73bbb6da84d"
+  },
+  {
+    "answer_id": "answer-029",
+    "comparison": "whitespace-only",
+    "saved_response": "1. 工作日晚间：只有会员可以预约，非会员不能预约。\n2. 周末：会员可以正常预约；非会员也可以预约，但必须由会员代为登记。\n3. 遇到临时维护：周末预约若已在周五18:00前登记，预约仍保留；其他尚未登记的预约须等维护结束后再处理。本条不适用于紧急停用。",
+    "actual_final": "1. 工作日晚间：只有会员可以预约，非会员不能预约。  \n2. 周末：会员可以正常预约；非会员也可以预约，但必须由会员代为登记。  \n3. 遇到临时维护：周末预约若已在周五18:00前登记，预约仍保留；其他尚未登记的预约须等维护结束后再处理。本条不适用于紧急停用。",
+    "saved_sha256": "86ca927e4e3b2976edde82fcfe46cece9d146ba27daed39bb6a93e5c3ebfe885",
+    "final_sha256": "8b4c2578a977b4ee8fc493b9b4fb30dfa6df262338b2b51bdd3218c8cc9918dc",
+    "original_json_file_text": "{\"response\":\"1. 工作日晚间：只有会员可以预约，非会员不能预约。\\n2. 周末：会员可以正常预约；非会员也可以预约，但必须由会员代为登记。\\n3. 遇到临时维护：周末预约若已在周五18:00前登记，预约仍保留；其他尚未登记的预约须等维护结束后再处理。本条不适用于紧急停用。\"}\n",
+    "original_json_file_sha256": "d2bd4fa28a8987443f697bd5bcedac08c75455bd4cb880971068813dc0a19019"
+  },
+  {
+    "answer_id": "answer-030",
+    "comparison": "equal",
+    "saved_response": "# 欢迎加入\n\n很高兴和你成为队友！刚开始需要熟悉的信息可能不少，不用着急，按自己的节奏来；遇到不清楚的地方，随时提问。\n\n## 认识团队\n\n接下来，你可以先认识日常协作较多的伙伴，再慢慢熟悉整个团队。\n\n团队成员与分工：________\n\n## 第一周安排\n\n第一周主要用来熟悉工作环境、协作方式和手头的任务。\n\n具体安排：________\n\n## 常见问题\n\n遇到问题时别有压力，直接问就好。大家会帮你找到需要的信息。\n\n常见问题与说明：________\n\n团队邮箱：________",
+    "actual_final": "# 欢迎加入\n\n很高兴和你成为队友！刚开始需要熟悉的信息可能不少，不用着急，按自己的节奏来；遇到不清楚的地方，随时提问。\n\n## 认识团队\n\n接下来，你可以先认识日常协作较多的伙伴，再慢慢熟悉整个团队。\n\n团队成员与分工：________\n\n## 第一周安排\n\n第一周主要用来熟悉工作环境、协作方式和手头的任务。\n\n具体安排：________\n\n## 常见问题\n\n遇到问题时别有压力，直接问就好。大家会帮你找到需要的信息。\n\n常见问题与说明：________\n\n团队邮箱：________",
+    "saved_sha256": "b1f5843e1faa012ca2654e683105e5066b879a3670b67d9dc086f80ef6a9d81a",
+    "final_sha256": "b1f5843e1faa012ca2654e683105e5066b879a3670b67d9dc086f80ef6a9d81a",
+    "original_json_file_text": "{\"response\":\"# 欢迎加入\\n\\n很高兴和你成为队友！刚开始需要熟悉的信息可能不少，不用着急，按自己的节奏来；遇到不清楚的地方，随时提问。\\n\\n## 认识团队\\n\\n接下来，你可以先认识日常协作较多的伙伴，再慢慢熟悉整个团队。\\n\\n团队成员与分工：________\\n\\n## 第一周安排\\n\\n第一周主要用来熟悉工作环境、协作方式和手头的任务。\\n\\n具体安排：________\\n\\n## 常见问题\\n\\n遇到问题时别有压力，直接问就好。大家会帮你找到需要的信息。\\n\\n常见问题与说明：________\\n\\n团队邮箱：________\"}\n",
+    "original_json_file_sha256": "4c3787fecb1c6972c0bb92bd707cdff7bb116ac9f2884ea271b57928d472038b"
+  },
+  {
+    "answer_id": "answer-031",
+    "comparison": "equal",
+    "saved_response": "No—please direct wheelchair users to Lift C, which will remain available throughout Tuesday’s revised 10:00–11:30 test window.",
+    "actual_final": "No—please direct wheelchair users to Lift C, which will remain available throughout Tuesday’s revised 10:00–11:30 test window.",
+    "saved_sha256": "b36b96970c1726f85cb32a8dc4868900d8fb205287880d1cd7def9ffa73f1921",
+    "final_sha256": "b36b96970c1726f85cb32a8dc4868900d8fb205287880d1cd7def9ffa73f1921",
+    "original_json_file_text": "{\"response\":\"No—please direct wheelchair users to Lift C, which will remain available throughout Tuesday’s revised 10:00–11:30 test window.\"}\n",
+    "original_json_file_sha256": "7b5fd8c244ef7380feaa55d50abcc1123e77d828631464c79c54801043837ee5"
+  },
+  {
+    "answer_id": "answer-032",
+    "comparison": "equal",
+    "saved_response": "最终安排如下：\n- 第一轮：9:30—10:05\n- 换场：10:05—10:15\n- 第二轮：10:15—10:50\n- 换场：10:50—11:00\n- 第三轮：11:00—11:35\n- 收拾：11:35—11:50\n\n人员：4名志愿者，三轮使用同一组。",
+    "actual_final": "最终安排如下：\n- 第一轮：9:30—10:05\n- 换场：10:05—10:15\n- 第二轮：10:15—10:50\n- 换场：10:50—11:00\n- 第三轮：11:00—11:35\n- 收拾：11:35—11:50\n\n人员：4名志愿者，三轮使用同一组。",
+    "saved_sha256": "3a7cb7f2377770b6866e39c4382fac10b58675ff1488dca1529e7d184a7c8516",
+    "final_sha256": "3a7cb7f2377770b6866e39c4382fac10b58675ff1488dca1529e7d184a7c8516",
+    "original_json_file_text": "{\"response\":\"最终安排如下：\\n- 第一轮：9:30—10:05\\n- 换场：10:05—10:15\\n- 第二轮：10:15—10:50\\n- 换场：10:50—11:00\\n- 第三轮：11:00—11:35\\n- 收拾：11:35—11:50\\n\\n人员：4名志愿者，三轮使用同一组。\"}\n",
+    "original_json_file_sha256": "7dcf83c10f8c237bacb827b68835c9ca11acf063e69fbdba0d8c6c67c67ab0dd"
+  },
+  {
+    "answer_id": "answer-033",
+    "comparison": "whitespace-only",
+    "saved_response": "同事，活动需要准备30份材料包，单价11.5元，场地费180元。计算如下：\n\n材料费：30×11.5=345元\n材料费加场地费：345+180=525元\n备用金：525×10%=52.5元，向上取整为53元\n总费用：525+53=578元\n\n请按578元的总预算准备。",
+    "actual_final": "同事，活动需要准备30份材料包，单价11.5元，场地费180元。计算如下：\n\n材料费：30×11.5=345元  \n材料费加场地费：345+180=525元  \n备用金：525×10%=52.5元，向上取整为53元  \n总费用：525+53=578元  \n\n请按578元的总预算准备。",
+    "saved_sha256": "3f0b562d574e3fca71eb8748912cf0c6884ebeff4c1ecbd16df43b52e4c6ec45",
+    "final_sha256": "0c748114ea267aceac5221768370e10f3b3d7d3055f18676cb0d36dceaef96ed",
+    "original_json_file_text": "{\"response\":\"同事，活动需要准备30份材料包，单价11.5元，场地费180元。计算如下：\\n\\n材料费：30×11.5=345元\\n材料费加场地费：345+180=525元\\n备用金：525×10%=52.5元，向上取整为53元\\n总费用：525+53=578元\\n\\n请按578元的总预算准备。\"}\n",
+    "original_json_file_sha256": "65eb36cc197a4537d435da63172d9c49b8bed87a4677ee44fa98e89aa070e8d9"
+  },
+  {
+    "answer_id": "answer-034",
+    "comparison": "equal",
+    "saved_response": "### Eligibility checklist\n\n**Ordinary participants**\n- Signed consent form\n- Either completed the intro session **or** passed the short quiz\n- Once both requirements are met, their place is reserved; no spare seat is required\n\n**Staff volunteers**\n- Signed consent form\n- Spare seat available\n- Intro session and quiz are not required",
+    "actual_final": "### Eligibility checklist\n\n**Ordinary participants**\n- Signed consent form\n- Either completed the intro session **or** passed the short quiz\n- Once both requirements are met, their place is reserved; no spare seat is required\n\n**Staff volunteers**\n- Signed consent form\n- Spare seat available\n- Intro session and quiz are not required",
+    "saved_sha256": "350d1456f6d17c4fcd30e219db277bda89b66f21baf7342aab59260cd24ad594",
+    "final_sha256": "350d1456f6d17c4fcd30e219db277bda89b66f21baf7342aab59260cd24ad594",
+    "original_json_file_text": "{\"response\":\"### Eligibility checklist\\n\\n**Ordinary participants**\\n- Signed consent form\\n- Either completed the intro session **or** passed the short quiz\\n- Once both requirements are met, their place is reserved; no spare seat is required\\n\\n**Staff volunteers**\\n- Signed consent form\\n- Spare seat available\\n- Intro session and quiz are not required\"}\n",
+    "original_json_file_sha256": "c36c864e050134db9fe001cf0119eccdecb3111ea39c0b0fdb044db565b7f5d8"
+  },
+  {
+    "answer_id": "answer-035",
+    "comparison": "equal",
+    "saved_response": "Eligibility checklist\n\n- Ordinary participant:\n  - Signed consent form\n  - Either completed the intro session or passed the short quiz\n  - No spare seat required; reserve a place once these requirements are met\n\n- Staff volunteer:\n  - Signed consent form\n  - Spare seat available\n  - Intro session and quiz not required",
+    "actual_final": "Eligibility checklist\n\n- Ordinary participant:\n  - Signed consent form\n  - Either completed the intro session or passed the short quiz\n  - No spare seat required; reserve a place once these requirements are met\n\n- Staff volunteer:\n  - Signed consent form\n  - Spare seat available\n  - Intro session and quiz not required",
+    "saved_sha256": "245c4ab0c5ae9a738daf61325b449b1769afdbb71e282991a9a222ef3a84fc91",
+    "final_sha256": "245c4ab0c5ae9a738daf61325b449b1769afdbb71e282991a9a222ef3a84fc91",
+    "original_json_file_text": "{\"response\":\"Eligibility checklist\\n\\n- Ordinary participant:\\n  - Signed consent form\\n  - Either completed the intro session or passed the short quiz\\n  - No spare seat required; reserve a place once these requirements are met\\n\\n- Staff volunteer:\\n  - Signed consent form\\n  - Spare seat available\\n  - Intro session and quiz not required\"}\n",
+    "original_json_file_sha256": "88e247b54487f04200e5e8cde6ac06079fd6ffd6744cf586f182f464dd6268e6"
+  },
+  {
+    "answer_id": "answer-036",
+    "comparison": "equal",
+    "saved_response": "报名进度：A组18人（已确认18人）；B组16人（已确认16人）；C组8人（已确认5人、待确认3人）。目前共已确认39人，待确认3人；总容量50人，剩余11个名额（待确认不占名额）。",
+    "actual_final": "报名进度：A组18人（已确认18人）；B组16人（已确认16人）；C组8人（已确认5人、待确认3人）。目前共已确认39人，待确认3人；总容量50人，剩余11个名额（待确认不占名额）。",
+    "saved_sha256": "b0c6df1f7cc92ed21454a4073b6e862b675c5d9b2dca261342409cd424e11b04",
+    "final_sha256": "b0c6df1f7cc92ed21454a4073b6e862b675c5d9b2dca261342409cd424e11b04",
+    "original_json_file_text": "{\"response\":\"报名进度：A组18人（已确认18人）；B组16人（已确认16人）；C组8人（已确认5人、待确认3人）。目前共已确认39人，待确认3人；总容量50人，剩余11个名额（待确认不占名额）。\"}\n",
+    "original_json_file_sha256": "d0fc37ddb3b155063149eff3fa4772d66059f25f858c7f22b1bb5fb6785e2115"
+  },
+  {
+    "answer_id": "answer-037",
+    "comparison": "whitespace-only",
+    "saved_response": "欢迎加入\n\n很高兴你成为团队的一员！这里整理了入职初期最需要的信息，帮助你轻松开始。\n\n认识团队\n认识团队成员、了解大家的分工，也熟悉我们日常协作的方式。\n\n第一周安排\n从熟悉团队和工作方式开始，逐步了解当前项目与日常流程。\n\n常见问题\n把入职初期可能遇到的问题集中在这里，方便你随时查阅。\n\n新人导师：\n\n团队邮箱：",
+    "actual_final": "欢迎加入\n\n很高兴你成为团队的一员！这里整理了入职初期最需要的信息，帮助你轻松开始。\n\n认识团队  \n认识团队成员、了解大家的分工，也熟悉我们日常协作的方式。\n\n第一周安排  \n从熟悉团队和工作方式开始，逐步了解当前项目与日常流程。\n\n常见问题  \n把入职初期可能遇到的问题集中在这里，方便你随时查阅。\n\n新人导师：\n\n团队邮箱：",
+    "saved_sha256": "ca3f9ba8433aff5e1f80b2bdf8e596d49b299671ec3a10baf8a255a1b2c04145",
+    "final_sha256": "82fd6fb82e248599e4200809ad05145eb8ece512ad85f2b93686922d7c7a7265",
+    "original_json_file_text": "{\"response\":\"欢迎加入\\n\\n很高兴你成为团队的一员！这里整理了入职初期最需要的信息，帮助你轻松开始。\\n\\n认识团队\\n认识团队成员、了解大家的分工，也熟悉我们日常协作的方式。\\n\\n第一周安排\\n从熟悉团队和工作方式开始，逐步了解当前项目与日常流程。\\n\\n常见问题\\n把入职初期可能遇到的问题集中在这里，方便你随时查阅。\\n\\n新人导师：\\n\\n团队邮箱：\"}\n",
+    "original_json_file_sha256": "3af7411adc933cf54964af47b234d13198818d09fe4dc7786cdf1f5bc189287a"
+  },
+  {
+    "answer_id": "answer-038",
+    "comparison": "equal",
+    "saved_response": "小林，你们家两位大人和一个孩子已经登记好啦！记得每家最多带3本书，到时候见～",
+    "actual_final": "小林，你们家两位大人和一个孩子已经登记好啦！记得每家最多带3本书，到时候见～",
+    "saved_sha256": "4d960f436967447a0cbcdf4b2254a374a8e581d54f8316d0fbb8564a53a31e52",
+    "final_sha256": "4d960f436967447a0cbcdf4b2254a374a8e581d54f8316d0fbb8564a53a31e52",
+    "original_json_file_text": "{\"response\":\"小林，你们家两位大人和一个孩子已经登记好啦！记得每家最多带3本书，到时候见～\"}\n",
+    "original_json_file_sha256": "98ca83fd161f2987e7d34e1dc190c19e44418610cc924764771204d20f0741f6"
+  },
+  {
+    "answer_id": "answer-039",
+    "comparison": "whitespace-only",
+    "saved_response": "报名取消与退款规则：\n1. 距离活动开始时间达到48小时（含）以上取消报名，可获全额退款。\n2. 距离活动开始时间不足48小时取消报名，原则上不予退款；但如同时满足以下两项条件，可退款：候补人员已确认替补席位，且替补费用已到账。退款金额为已支付费用扣除10元材料费后的余额。\n3. 如因主办方原因取消活动，所有报名费用一律全额退还，不受上述时间条件限制。",
+    "actual_final": "报名取消与退款规则：\n\n1. 距离活动开始时间达到48小时（含）以上取消报名，可获全额退款。  \n2. 距离活动开始时间不足48小时取消报名，原则上不予退款；但如同时满足以下两项条件，可退款：候补人员已确认替补席位，且替补费用已到账。退款金额为已支付费用扣除10元材料费后的余额。  \n3. 如因主办方原因取消活动，所有报名费用一律全额退还，不受上述时间条件限制。",
+    "saved_sha256": "df667d874cffe8c6514247c7ee4a6c6e10f8cba6f619c5343c72c0920cab7d92",
+    "final_sha256": "a957e859937547c9259e758cbfbe69dc54f9a0acefaa6c62785a2236cc67f30f",
+    "original_json_file_text": "{\"response\":\"报名取消与退款规则：\\n1. 距离活动开始时间达到48小时（含）以上取消报名，可获全额退款。\\n2. 距离活动开始时间不足48小时取消报名，原则上不予退款；但如同时满足以下两项条件，可退款：候补人员已确认替补席位，且替补费用已到账。退款金额为已支付费用扣除10元材料费后的余额。\\n3. 如因主办方原因取消活动，所有报名费用一律全额退还，不受上述时间条件限制。\"}\n",
+    "original_json_file_sha256": "4b572e6e7e023880a56f9f8dc2cf469295667d0453b8007c9a0ff67cac4389af"
+  },
+  {
+    "answer_id": "answer-040",
+    "comparison": "equal",
+    "saved_response": "Packing plan:\n- 103 notebooks total.\n- 10 notebooks per box: 10 full boxes (100 notebooks) and 3 loose notebooks.\n- 4 parcels total: 3 parcels with 3 boxes each, plus 1 parcel with 1 box.\n- The 3 loose notebooks travel separately and are not placed in parcels.",
+    "actual_final": "Packing plan:\n- 103 notebooks total.\n- 10 notebooks per box: 10 full boxes (100 notebooks) and 3 loose notebooks.\n- 4 parcels total: 3 parcels with 3 boxes each, plus 1 parcel with 1 box.\n- The 3 loose notebooks travel separately and are not placed in parcels.",
+    "saved_sha256": "f0dec102bf523416d0d4c1b8d4e4c12744e9f2e55163e33578946f8ac6aca7dc",
+    "final_sha256": "f0dec102bf523416d0d4c1b8d4e4c12744e9f2e55163e33578946f8ac6aca7dc",
+    "original_json_file_text": "{\"response\":\"Packing plan:\\n- 103 notebooks total.\\n- 10 notebooks per box: 10 full boxes (100 notebooks) and 3 loose notebooks.\\n- 4 parcels total: 3 parcels with 3 boxes each, plus 1 parcel with 1 box.\\n- The 3 loose notebooks travel separately and are not placed in parcels.\"}\n",
+    "original_json_file_sha256": "81ea3ee7ff3bb8b7fe1438e1639a3debab5136e3d9e41abce0fbd8b0df566b07"
+  },
+  {
+    "answer_id": "answer-041",
+    "comparison": "substantive-difference",
+    "saved_response": "本次内部分享共报名42人，实际到场31人，到场率约为73.8%。共收到6份反馈，其中4份认为节奏太快，另外2份未提及节奏。下次安排已确定先减少案例，时长保持60分钟。",
+    "actual_final": "{\"response\":\"本次内部分享共报名42人，实际到场31人，到场率约为73.8%。共收到6份反馈，其中4份认为节奏太快，另外2份未提及节奏。下次安排已确定先减少案例，时长保持60分钟。\"}",
+    "saved_sha256": "eddbed9645ecfd1b607e9ebbfe7bac87c3af85483ccce9e1b4396654eda3d4c7",
+    "final_sha256": "6c46fe7d596ef866b67940ff7ec55405406d662d916b522259395f8a82337ea7",
+    "json_envelope_audit": {
+      "parseable_object": true,
+      "keys": [
+        "response"
+      ],
+      "response_matches_saved": true,
+      "response_matches_ignoring_whitespace": true,
+      "grading_uses_actual_final_unchanged": true
+    },
+    "original_json_file_text": "{\"response\":\"本次内部分享共报名42人，实际到场31人，到场率约为73.8%。共收到6份反馈，其中4份认为节奏太快，另外2份未提及节奏。下次安排已确定先减少案例，时长保持60分钟。\"}\n",
+    "original_json_file_sha256": "49c3227c2bd7523af8e5f787d649d00971bdd5da05169f07eb3480ab355b7439"
+  },
+  {
+    "answer_id": "answer-042",
+    "comparison": "equal",
+    "saved_response": "给同事：\n\n活动需要准备30份材料包，材料费为30×11.5=345元；加上场地费180元，小计为345+180=525元。备用金按小计的10%计算：525×10%=52.5元，向上取整为53元。因此，预计总费用为525+53=578元。",
+    "actual_final": "给同事：\n\n活动需要准备30份材料包，材料费为30×11.5=345元；加上场地费180元，小计为345+180=525元。备用金按小计的10%计算：525×10%=52.5元，向上取整为53元。因此，预计总费用为525+53=578元。",
+    "saved_sha256": "294fe6103691b044ff4c54d131df5eedce64fd9590dfd9e3cf0b263b64217c43",
+    "final_sha256": "294fe6103691b044ff4c54d131df5eedce64fd9590dfd9e3cf0b263b64217c43",
+    "original_json_file_text": "{\"response\":\"给同事：\\n\\n活动需要准备30份材料包，材料费为30×11.5=345元；加上场地费180元，小计为345+180=525元。备用金按小计的10%计算：525×10%=52.5元，向上取整为53元。因此，预计总费用为525+53=578元。\"}\n",
+    "original_json_file_sha256": "59d3f2115627e2516a27a71e972f44a6b65964f4759d109bba3d8f8c8dc86ed4"
+  },
+  {
+    "answer_id": "answer-043",
+    "comparison": "equal",
+    "saved_response": "### Weekend Workshop Eligibility Checklist\n\n**Ordinary participants**\n- [ ] Signed consent form\n- [ ] Either completed the intro session **or** passed the short quiz\n- Once both requirements are met, a place is reserved; no spare seat is required.\n\n**Staff volunteers**\n- [ ] Signed consent form\n- [ ] Spare seat available\n- Intro session and quiz are not required.",
+    "actual_final": "### Weekend Workshop Eligibility Checklist\n\n**Ordinary participants**\n- [ ] Signed consent form\n- [ ] Either completed the intro session **or** passed the short quiz\n- Once both requirements are met, a place is reserved; no spare seat is required.\n\n**Staff volunteers**\n- [ ] Signed consent form\n- [ ] Spare seat available\n- Intro session and quiz are not required.",
+    "saved_sha256": "1a8d0317dd3769cc7c9845f46283064263fb1d97ae2a7da220e748e17023e583",
+    "final_sha256": "1a8d0317dd3769cc7c9845f46283064263fb1d97ae2a7da220e748e17023e583",
+    "original_json_file_text": "{\"response\":\"### Weekend Workshop Eligibility Checklist\\n\\n**Ordinary participants**\\n- [ ] Signed consent form\\n- [ ] Either completed the intro session **or** passed the short quiz\\n- Once both requirements are met, a place is reserved; no spare seat is required.\\n\\n**Staff volunteers**\\n- [ ] Signed consent form\\n- [ ] Spare seat available\\n- Intro session and quiz are not required.\"}\n",
+    "original_json_file_sha256": "04ea8f3ed647cce717a6742c86effeefea4e8d3d0f1d950b1809c3b0d1c2292b"
+  },
+  {
+    "answer_id": "answer-044",
+    "comparison": "equal",
+    "saved_response": "陈老师，提醒您10月30日19:00参加线上访谈。访谈会控制在45分钟以内。我会在当天18:50把腾讯会议入会链接发您。",
+    "actual_final": "陈老师，提醒您10月30日19:00参加线上访谈。访谈会控制在45分钟以内。我会在当天18:50把腾讯会议入会链接发您。",
+    "saved_sha256": "2bb3d81cad92389e303513cde6cab1f959c00dc75f5ae094f0b9f3a84dd53663",
+    "final_sha256": "2bb3d81cad92389e303513cde6cab1f959c00dc75f5ae094f0b9f3a84dd53663",
+    "original_json_file_text": "{\"response\":\"陈老师，提醒您10月30日19:00参加线上访谈。访谈会控制在45分钟以内。我会在当天18:50把腾讯会议入会链接发您。\"}\n",
+    "original_json_file_sha256": "332b0600469dd7b7f2f6d1c85149ad4efb0b05ce935e2990fc5affb3dac480b7"
+  },
+  {
+    "answer_id": "answer-045",
+    "comparison": "equal",
+    "saved_response": "1. 工作日晚间：只有会员可以预约，非会员不可预约。\n2. 周末：非会员可以使用活动室，但必须由会员代为登记；未由会员登记的，不予办理。\n3. 临时维护期间：周末预约若已在周五18点前完成登记，仍予保留；其他尚未登记的预约须等维护结束后再办理。本条仅适用于临时维护，不适用于紧急停用。",
+    "actual_final": "1. 工作日晚间：只有会员可以预约，非会员不可预约。\n2. 周末：非会员可以使用活动室，但必须由会员代为登记；未由会员登记的，不予办理。\n3. 临时维护期间：周末预约若已在周五18点前完成登记，仍予保留；其他尚未登记的预约须等维护结束后再办理。本条仅适用于临时维护，不适用于紧急停用。",
+    "saved_sha256": "7415b63eff7e2844c957abc94061c6f8b96ef80502d4557bda8bf6d8e1a8c4fb",
+    "final_sha256": "7415b63eff7e2844c957abc94061c6f8b96ef80502d4557bda8bf6d8e1a8c4fb",
+    "original_json_file_text": "{\"response\":\"1. 工作日晚间：只有会员可以预约，非会员不可预约。\\n2. 周末：非会员可以使用活动室，但必须由会员代为登记；未由会员登记的，不予办理。\\n3. 临时维护期间：周末预约若已在周五18点前完成登记，仍予保留；其他尚未登记的预约须等维护结束后再办理。本条仅适用于临时维护，不适用于紧急停用。\"}\n",
+    "original_json_file_sha256": "8c5dfa23feeb7329084994b60c4cec99fb7ff5b2f8a2a9d15b23ae347537bbeb"
+  },
+  {
+    "answer_id": "answer-046",
+    "comparison": "equal",
+    "saved_response": "周末志愿活动分工现状：\n\n已确认：\n- 小何：负责签到\n- 小陈：负责物资及活动结束后的物资清点\n- 我：负责当天开场\n\n待确认：\n- 活动时间：等待场地回复\n- 带队人：尚未确定（阿宁只表示周末可能有空，未确认担任）\n- 摄影：暂不安排\n\n有更新后再同步大家。",
+    "actual_final": "周末志愿活动分工现状：\n\n已确认：\n- 小何：负责签到\n- 小陈：负责物资及活动结束后的物资清点\n- 我：负责当天开场\n\n待确认：\n- 活动时间：等待场地回复\n- 带队人：尚未确定（阿宁只表示周末可能有空，未确认担任）\n- 摄影：暂不安排\n\n有更新后再同步大家。",
+    "saved_sha256": "c004899d67738b518ca919fa95e902b4422d70c1d81401098cabd0335f3b6439",
+    "final_sha256": "c004899d67738b518ca919fa95e902b4422d70c1d81401098cabd0335f3b6439",
+    "original_json_file_text": "{\"response\":\"周末志愿活动分工现状：\\n\\n已确认：\\n- 小何：负责签到\\n- 小陈：负责物资及活动结束后的物资清点\\n- 我：负责当天开场\\n\\n待确认：\\n- 活动时间：等待场地回复\\n- 带队人：尚未确定（阿宁只表示周末可能有空，未确认担任）\\n- 摄影：暂不安排\\n\\n有更新后再同步大家。\"}\n",
+    "original_json_file_sha256": "2d9d82c1efa0f3e695b05923f23fe45bb0fd7da093e5af934988043728b17273"
+  },
+  {
+    "answer_id": "answer-047",
+    "comparison": "equal",
+    "saved_response": "I can, but I’m missing the final poll result and the calendar date. Which option did you choose—Thursday at 7 p.m. or Sunday at 10 a.m.—and what is the exact date and time zone? Once you confirm those details, I’ll write the finished invitation and note that the meeting link will be sent the day before.",
+    "actual_final": "I can, but I’m missing the final poll result and the calendar date. Which option did you choose—Thursday at 7 p.m. or Sunday at 10 a.m.—and what is the exact date and time zone? Once you confirm those details, I’ll write the finished invitation and note that the meeting link will be sent the day before.",
+    "saved_sha256": "945605dd9e8bf01ca4f5985c6da43c6f662b28bdd747e16f31ee8cf14ecf42a4",
+    "final_sha256": "945605dd9e8bf01ca4f5985c6da43c6f662b28bdd747e16f31ee8cf14ecf42a4",
+    "original_json_file_text": "{\"response\":\"I can, but I’m missing the final poll result and the calendar date. Which option did you choose—Thursday at 7 p.m. or Sunday at 10 a.m.—and what is the exact date and time zone? Once you confirm those details, I’ll write the finished invitation and note that the meeting link will be sent the day before.\"}\n",
+    "original_json_file_sha256": "57c719ddb37585e253e33325a0e421cd9f243deb3c96555f466d218410f42ba5"
+  },
+  {
+    "answer_id": "answer-048",
+    "comparison": "equal",
+    "saved_response": "陈老师，提醒您10月30日19:00参加线上访谈。访谈会控制在45分钟以内。我会在当天18:50把入会链接发您。",
+    "actual_final": "陈老师，提醒您10月30日19:00参加线上访谈。访谈会控制在45分钟以内。我会在当天18:50把入会链接发您。",
+    "saved_sha256": "6f1bd84627c2d99dabce90cc17b5c7f49e2ce795ef3cac513c16b71e7971fd6b",
+    "final_sha256": "6f1bd84627c2d99dabce90cc17b5c7f49e2ce795ef3cac513c16b71e7971fd6b",
+    "original_json_file_text": "{\"response\":\"陈老师，提醒您10月30日19:00参加线上访谈。访谈会控制在45分钟以内。我会在当天18:50把入会链接发您。\"}\n",
+    "original_json_file_sha256": "05b6fa6a0de87ca6c652217faced6503272b593e0a7b49983b44d8a00e7fa030"
+  },
+  {
+    "answer_id": "answer-049",
+    "comparison": "equal",
+    "saved_response": "Which option did you choose after the last two replies—Thursday at 7 p.m. or Sunday at 10 a.m.—and what is the calendar date? I have the rest: the discussion is online, covers chapters 4–6, and the link will be sent the day before.",
+    "actual_final": "Which option did you choose after the last two replies—Thursday at 7 p.m. or Sunday at 10 a.m.—and what is the calendar date? I have the rest: the discussion is online, covers chapters 4–6, and the link will be sent the day before.",
+    "saved_sha256": "9cd059882f99f6715ee53122ff236b50ed1d539712819e8e1929a36e3098e67f",
+    "final_sha256": "9cd059882f99f6715ee53122ff236b50ed1d539712819e8e1929a36e3098e67f",
+    "original_json_file_text": "{\"response\":\"Which option did you choose after the last two replies—Thursday at 7 p.m. or Sunday at 10 a.m.—and what is the calendar date? I have the rest: the discussion is online, covers chapters 4–6, and the link will be sent the day before.\"}\n",
+    "original_json_file_sha256": "f5b18bed5f86b3f7fc7135b67c031bedfd1347047e4eb21e9e9a51427ef56854"
+  },
+  {
+    "answer_id": "answer-050",
+    "comparison": "whitespace-only",
+    "saved_response": "林：未交确认表，且未选时段。\n周：已交确认表，但未选时段。\n陈：未交确认表。",
+    "actual_final": "林：未交确认表，且未选时段。  \n周：已交确认表，但未选时段。  \n陈：未交确认表。",
+    "saved_sha256": "c3588b51b64dec870ccc891fa91a72e31042b4cb5180c1561f6ffb9aa96391c1",
+    "final_sha256": "f7ca632c63b8693afc5676c6d5077b918b26da6abd0216ca05847d304cd507fc",
+    "original_json_file_text": "{\"response\":\"林：未交确认表，且未选时段。\\n周：已交确认表，但未选时段。\\n陈：未交确认表。\"}\n",
+    "original_json_file_sha256": "5c80d9b8fefb4181488ac843430ddc2e61c2189667f25a46e5bd780ee7bf19f6"
+  },
+  {
+    "answer_id": "answer-051",
+    "comparison": "equal",
+    "saved_response": "Final packing plan:\n\n- Notebooks: 103 total\n- Full boxes: 10 boxes, with 10 notebooks per box (100 notebooks total)\n- Loose notebooks: 3, traveling separately and excluded from parcels\n- Parcels: 4 total\n  - Parcel 1: 3 boxes\n  - Parcel 2: 3 boxes\n  - Parcel 3: 3 boxes\n  - Parcel 4: 1 box\n\nAll 10 full boxes are packed into parcels, with no parcel containing more than 3 boxes.",
+    "actual_final": "Final packing plan:\n\n- Notebooks: 103 total\n- Full boxes: 10 boxes, with 10 notebooks per box (100 notebooks total)\n- Loose notebooks: 3, traveling separately and excluded from parcels\n- Parcels: 4 total\n  - Parcel 1: 3 boxes\n  - Parcel 2: 3 boxes\n  - Parcel 3: 3 boxes\n  - Parcel 4: 1 box\n\nAll 10 full boxes are packed into parcels, with no parcel containing more than 3 boxes.",
+    "saved_sha256": "0ebc2a4d1e5d482d326449c607a8e262fa6dc89d44be74d0fc30f4da7b02fd43",
+    "final_sha256": "0ebc2a4d1e5d482d326449c607a8e262fa6dc89d44be74d0fc30f4da7b02fd43",
+    "original_json_file_text": "{\"response\":\"Final packing plan:\\n\\n- Notebooks: 103 total\\n- Full boxes: 10 boxes, with 10 notebooks per box (100 notebooks total)\\n- Loose notebooks: 3, traveling separately and excluded from parcels\\n- Parcels: 4 total\\n  - Parcel 1: 3 boxes\\n  - Parcel 2: 3 boxes\\n  - Parcel 3: 3 boxes\\n  - Parcel 4: 1 box\\n\\nAll 10 full boxes are packed into parcels, with no parcel containing more than 3 boxes.\"}\n",
+    "original_json_file_sha256": "2c8203eb30ad5b0eddbfd74333f13b984ae639f36ca6b3a5b003196ebd967fab"
+  },
+  {
+    "answer_id": "answer-052",
+    "comparison": "equal",
+    "saved_response": "目前报名进度：A组18人（已确认18人），B组16人（已确认16人），C组8人（已确认5人、待确认3人）。合计登记42人，其中已确认39人、待确认3人；总容量50人，剩余11个名额。待确认人员暂不占用名额。",
+    "actual_final": "目前报名进度：A组18人（已确认18人），B组16人（已确认16人），C组8人（已确认5人、待确认3人）。合计登记42人，其中已确认39人、待确认3人；总容量50人，剩余11个名额。待确认人员暂不占用名额。",
+    "saved_sha256": "577184b43265bcca8f9693c0f2ce4a884b12397d5b747811549deeed36ad260e",
+    "final_sha256": "577184b43265bcca8f9693c0f2ce4a884b12397d5b747811549deeed36ad260e",
+    "original_json_file_text": "{\"response\":\"目前报名进度：A组18人（已确认18人），B组16人（已确认16人），C组8人（已确认5人、待确认3人）。合计登记42人，其中已确认39人、待确认3人；总容量50人，剩余11个名额。待确认人员暂不占用名额。\"}\n",
+    "original_json_file_sha256": "9fd034c150242b8e06fd7f74bdf470092f07caabd545b2f2ff2e95584e673db9"
+  },
+  {
+    "answer_id": "answer-053",
+    "comparison": "equal",
+    "saved_response": "No. Please don’t advise wheelchair users to take the stairs. Lifts A and B will be unavailable on Tuesday from 10:00 to 11:30, but lift C will remain in service throughout, so accessible access will continue via lift C.",
+    "actual_final": "No. Please don’t advise wheelchair users to take the stairs. Lifts A and B will be unavailable on Tuesday from 10:00 to 11:30, but lift C will remain in service throughout, so accessible access will continue via lift C.",
+    "saved_sha256": "24c36e10a344963216f558cb4d2a7f22a2b5127a1b48fe4c423070ef5f0967c7",
+    "final_sha256": "24c36e10a344963216f558cb4d2a7f22a2b5127a1b48fe4c423070ef5f0967c7",
+    "original_json_file_text": "{\"response\":\"No. Please don’t advise wheelchair users to take the stairs. Lifts A and B will be unavailable on Tuesday from 10:00 to 11:30, but lift C will remain in service throughout, so accessible access will continue via lift C.\"}\n",
+    "original_json_file_sha256": "ce112fd0f65bb6b433fe2abd204db075c72fa7f7e73e52ad0f0612b400caa14c"
+  },
+  {
+    "answer_id": "answer-054",
+    "comparison": "equal",
+    "saved_response": "目前报名进度如下：A组18人，B组16人，C组确认5人、待确认3人。已确认39人，待确认3人；待确认人员不占名额，按总容量50人计算，当前还剩11个名额。",
+    "actual_final": "目前报名进度如下：A组18人，B组16人，C组确认5人、待确认3人。已确认39人，待确认3人；待确认人员不占名额，按总容量50人计算，当前还剩11个名额。",
+    "saved_sha256": "b1a6a44d388ffed99dcce242b16fb08f1ea53ee6578abb32ca9f390e3ce6a350",
+    "final_sha256": "b1a6a44d388ffed99dcce242b16fb08f1ea53ee6578abb32ca9f390e3ce6a350",
+    "original_json_file_text": "{\"response\":\"目前报名进度如下：A组18人，B组16人，C组确认5人、待确认3人。已确认39人，待确认3人；待确认人员不占名额，按总容量50人计算，当前还剩11个名额。\"}\n",
+    "original_json_file_sha256": "3337e1ba1368a46b0effe977da92aa6856bfa23be1b2127e25eecfbffe8daf2f"
+  },
+  {
+    "answer_id": "answer-055",
+    "comparison": "equal",
+    "saved_response": "给同事的版本：\n\n本次活动需准备30份材料包，单价11.5元，材料费共345元；场地费180元，材料加场地小计525元。备用金按小计的10%计算，为52.5元，向上取整为53元。因此，本次活动总预算为578元。\n\n计算：\n- 材料费：30 × 11.5 = 345元\n- 材料及场地小计：345 + 180 = 525元\n- 备用金：525 × 10% = 52.5元，向上取整为53元\n- 总预算：525 + 53 = 578元",
+    "actual_final": "给同事的版本：\n\n本次活动需准备30份材料包，单价11.5元，材料费共345元；场地费180元，材料加场地小计525元。备用金按小计的10%计算，为52.5元，向上取整为53元。因此，本次活动总预算为578元。\n\n计算：\n- 材料费：30 × 11.5 = 345元\n- 材料及场地小计：345 + 180 = 525元\n- 备用金：525 × 10% = 52.5元，向上取整为53元\n- 总预算：525 + 53 = 578元",
+    "saved_sha256": "9df8b60ea64142e18a674481583348010fb6f21408922d22002f2afad506602c",
+    "final_sha256": "9df8b60ea64142e18a674481583348010fb6f21408922d22002f2afad506602c",
+    "original_json_file_text": "{\"response\":\"给同事的版本：\\n\\n本次活动需准备30份材料包，单价11.5元，材料费共345元；场地费180元，材料加场地小计525元。备用金按小计的10%计算，为52.5元，向上取整为53元。因此，本次活动总预算为578元。\\n\\n计算：\\n- 材料费：30 × 11.5 = 345元\\n- 材料及场地小计：345 + 180 = 525元\\n- 备用金：525 × 10% = 52.5元，向上取整为53元\\n- 总预算：525 + 53 = 578元\"}\n",
+    "original_json_file_sha256": "f4a44ae9f0bb7cb7f376f1ae95e03f12f643f89c2a3c5127800c878563413c25"
+  },
+  {
+    "answer_id": "answer-056",
+    "comparison": "equal",
+    "saved_response": "请根据以下复盘记录，整理一则可直接发送到群里的培训复盘消息。全文控制在250—350字，语气自然、简洁，不要过于正式。内容分为“参加情况”“大家反馈”“下次安排”三个部分。涉及个人评价时，只保留复盘记录中已经匿名处理的原话，不补充、改写或推断个人评价；如未收集到反馈，请写“本次未收集到反馈”，不要自行总结好评或编造反馈。仅依据所提供的记录整理，不添加记录中没有的信息。输出仅包含群消息正文。\n\n复盘记录：\n{{复盘记录}}",
+    "actual_final": "请根据以下复盘记录，整理一则可直接发送到群里的培训复盘消息。全文控制在250—350字，语气自然、简洁，不要过于正式。内容分为“参加情况”“大家反馈”“下次安排”三个部分。涉及个人评价时，只保留复盘记录中已经匿名处理的原话，不补充、改写或推断个人评价；如未收集到反馈，请写“本次未收集到反馈”，不要自行总结好评或编造反馈。仅依据所提供的记录整理，不添加记录中没有的信息。输出仅包含群消息正文。\n\n复盘记录：\n{{复盘记录}}",
+    "saved_sha256": "0b4219adca50d8c377b97f0d14b2fd59271f83153064f7570ef6621fb342330c",
+    "final_sha256": "0b4219adca50d8c377b97f0d14b2fd59271f83153064f7570ef6621fb342330c",
+    "original_json_file_text": "{\"response\":\"请根据以下复盘记录，整理一则可直接发送到群里的培训复盘消息。全文控制在250—350字，语气自然、简洁，不要过于正式。内容分为“参加情况”“大家反馈”“下次安排”三个部分。涉及个人评价时，只保留复盘记录中已经匿名处理的原话，不补充、改写或推断个人评价；如未收集到反馈，请写“本次未收集到反馈”，不要自行总结好评或编造反馈。仅依据所提供的记录整理，不添加记录中没有的信息。输出仅包含群消息正文。\\n\\n复盘记录：\\n{{复盘记录}}\"}\n",
+    "original_json_file_sha256": "4f2522fa4ab71f50ac437484e14e2bd86af2beb6858b0ae0d4f07f4a0c623679"
+  },
+  {
+    "answer_id": "answer-057",
+    "comparison": "equal",
+    "saved_response": "大家好，目前周末志愿活动的分工现状如下：\n\n【已确认】\n- 小何：负责签到\n- 小陈：负责物资及活动结束后的物资清点\n- 我：负责当天开场\n\n【待确认】\n- 带队人：暂未确定。阿宁只表示周末可能有空，尚未确认担任带队人\n- 活动时间：仍在等待场地回复，具体时间暂未确定\n\n【暂不安排】\n- 摄影：暂不安排\n\n后续有新确认的信息，我再及时同步。",
+    "actual_final": "大家好，目前周末志愿活动的分工现状如下：\n\n【已确认】\n- 小何：负责签到\n- 小陈：负责物资及活动结束后的物资清点\n- 我：负责当天开场\n\n【待确认】\n- 带队人：暂未确定。阿宁只表示周末可能有空，尚未确认担任带队人\n- 活动时间：仍在等待场地回复，具体时间暂未确定\n\n【暂不安排】\n- 摄影：暂不安排\n\n后续有新确认的信息，我再及时同步。",
+    "saved_sha256": "a27bcac5cc087326706388be2baf165f0073d9b93634661871ec0360b549b0a4",
+    "final_sha256": "a27bcac5cc087326706388be2baf165f0073d9b93634661871ec0360b549b0a4",
+    "original_json_file_text": "{\"response\":\"大家好，目前周末志愿活动的分工现状如下：\\n\\n【已确认】\\n- 小何：负责签到\\n- 小陈：负责物资及活动结束后的物资清点\\n- 我：负责当天开场\\n\\n【待确认】\\n- 带队人：暂未确定。阿宁只表示周末可能有空，尚未确认担任带队人\\n- 活动时间：仍在等待场地回复，具体时间暂未确定\\n\\n【暂不安排】\\n- 摄影：暂不安排\\n\\n后续有新确认的信息，我再及时同步。\"}\n",
+    "original_json_file_sha256": "c19fbdb56fb240d44f381ddb5a17148095b1d7ca9faebac31ac152276e68f705"
+  },
+  {
+    "answer_id": "answer-058",
+    "comparison": "whitespace-only",
+    "saved_response": "林：未交确认表，且未选时段。\n周：已交确认表，但尚未选时段。\n陈：尚未交确认表（虽已选时段，仍需完成确认表）。",
+    "actual_final": "林：未交确认表，且未选时段。  \n周：已交确认表，但尚未选时段。  \n陈：尚未交确认表（虽已选时段，仍需完成确认表）。",
+    "saved_sha256": "1b7f2b7529d92f537c826e6ce6e5d1d4757ed8afb1351fe410e3de12df0e4df7",
+    "final_sha256": "b775cd01c7f712dc671f3d35d3302449059e02d5d4c66ba90d07a90f1ccb11ee",
+    "original_json_file_text": "{\"response\":\"林：未交确认表，且未选时段。\\n周：已交确认表，但尚未选时段。\\n陈：尚未交确认表（虽已选时段，仍需完成确认表）。\"}\n",
+    "original_json_file_sha256": "af872016702f2cd4ffbc3d392d542d7a0c3bb96e68e42203740cff7876079f07"
+  },
+  {
+    "answer_id": "answer-059",
+    "comparison": "equal",
+    "saved_response": "请根据{{复盘记录}}整理一则可直接发送到群里的培训复盘消息，按“参加情况”“大家反馈”“下次安排”三个部分组织内容，总字数控制在250—350字，语气自然、简洁，不要过于正式。涉及个人评价时，只保留复盘记录中已经匿名处理的原话，不得改写、补充或推测个人信息；如果没有收集到反馈，请直接写“本次未收集到反馈”，不要虚构反馈，也不要替我概括为好评。复盘记录中没有的信息不要自行补充。",
+    "actual_final": "请根据{{复盘记录}}整理一则可直接发送到群里的培训复盘消息，按“参加情况”“大家反馈”“下次安排”三个部分组织内容，总字数控制在250—350字，语气自然、简洁，不要过于正式。涉及个人评价时，只保留复盘记录中已经匿名处理的原话，不得改写、补充或推测个人信息；如果没有收集到反馈，请直接写“本次未收集到反馈”，不要虚构反馈，也不要替我概括为好评。复盘记录中没有的信息不要自行补充。",
+    "saved_sha256": "ae9cc5a448935a645d1cea478595d96643c1d47590100032d8041680aa562462",
+    "final_sha256": "ae9cc5a448935a645d1cea478595d96643c1d47590100032d8041680aa562462",
+    "original_json_file_text": "{\"response\":\"请根据{{复盘记录}}整理一则可直接发送到群里的培训复盘消息，按“参加情况”“大家反馈”“下次安排”三个部分组织内容，总字数控制在250—350字，语气自然、简洁，不要过于正式。涉及个人评价时，只保留复盘记录中已经匿名处理的原话，不得改写、补充或推测个人信息；如果没有收集到反馈，请直接写“本次未收集到反馈”，不要虚构反馈，也不要替我概括为好评。复盘记录中没有的信息不要自行补充。\"}\n",
+    "original_json_file_sha256": "882778a7741e7c1be6f17975c5a24dd212b0cfd05cb69e7090f4051299a930b3"
+  },
+  {
+    "answer_id": "answer-060",
+    "comparison": "equal",
+    "saved_response": "最终安排如下：\n\n- 第一轮：9:30—10:05\n- 第一次换场：10:05—10:15\n- 第二轮：10:15—10:50\n- 第二次换场：10:50—11:00\n- 第三轮：11:00—11:35\n- 收拾：11:35—11:50\n\n需要志愿者共4名，三轮均使用同一组人员，不按轮次重复计算。",
+    "actual_final": "最终安排如下：\n\n- 第一轮：9:30—10:05\n- 第一次换场：10:05—10:15\n- 第二轮：10:15—10:50\n- 第二次换场：10:50—11:00\n- 第三轮：11:00—11:35\n- 收拾：11:35—11:50\n\n需要志愿者共4名，三轮均使用同一组人员，不按轮次重复计算。",
+    "saved_sha256": "dc42dd2bf35138e89c399e898fbf4c7bcee75bdc0734a825ca18a8b8da1e3fb9",
+    "final_sha256": "dc42dd2bf35138e89c399e898fbf4c7bcee75bdc0734a825ca18a8b8da1e3fb9",
+    "original_json_file_text": "{\"response\":\"最终安排如下：\\n\\n- 第一轮：9:30—10:05\\n- 第一次换场：10:05—10:15\\n- 第二轮：10:15—10:50\\n- 第二次换场：10:50—11:00\\n- 第三轮：11:00—11:35\\n- 收拾：11:35—11:50\\n\\n需要志愿者共4名，三轮均使用同一组人员，不按轮次重复计算。\"}\n",
+    "original_json_file_sha256": "2cd27c05673bdd829b23e9dabd2ac9b0907cc76ae43a70f89bd467a89a407072"
+  },
+  {
+    "answer_id": "answer-061",
+    "comparison": "whitespace-only",
+    "saved_response": "林：未交确认表。\n周：已交确认表，但未选时段。\n陈：未交确认表。",
+    "actual_final": "林：未交确认表。  \n周：已交确认表，但未选时段。  \n陈：未交确认表。",
+    "saved_sha256": "6e0e06534ea375d0208e6611bf0a8c5b149d8e2eb777a49117bccfeaae79b806",
+    "final_sha256": "b27bc9ade385e9ea919201f05943c89d42244a736b7f7957433f489acc950115",
+    "original_json_file_text": "{\"response\":\"林：未交确认表。\\n周：已交确认表，但未选时段。\\n陈：未交确认表。\"}\n",
+    "original_json_file_sha256": "f5eed6232481306a3810d72c9c0948d27354dd18557b4948f104ae8fa0473e1d"
+  },
+  {
+    "answer_id": "answer-062",
+    "comparison": "equal",
+    "saved_response": "Final packing plan:\n\n- 103 notebooks total.\n- 10 notebooks per full box.\n- 10 full boxes, containing 100 notebooks.\n- 4 parcels total, with the boxes distributed as 3, 3, 3, and 1.\n- The parcels contain 30, 30, 30, and 10 notebooks, respectively.\n- 3 loose notebooks, carried separately and kept out of the parcels.",
+    "actual_final": "Final packing plan:\n\n- 103 notebooks total.\n- 10 notebooks per full box.\n- 10 full boxes, containing 100 notebooks.\n- 4 parcels total, with the boxes distributed as 3, 3, 3, and 1.\n- The parcels contain 30, 30, 30, and 10 notebooks, respectively.\n- 3 loose notebooks, carried separately and kept out of the parcels.",
+    "saved_sha256": "e9b6a71d18d873283f6f56015e7888a924eccc8227beafb2b4a1136815964baf",
+    "final_sha256": "e9b6a71d18d873283f6f56015e7888a924eccc8227beafb2b4a1136815964baf",
+    "original_json_file_text": "{\"response\":\"Final packing plan:\\n\\n- 103 notebooks total.\\n- 10 notebooks per full box.\\n- 10 full boxes, containing 100 notebooks.\\n- 4 parcels total, with the boxes distributed as 3, 3, 3, and 1.\\n- The parcels contain 30, 30, 30, and 10 notebooks, respectively.\\n- 3 loose notebooks, carried separately and kept out of the parcels.\"}\n",
+    "original_json_file_sha256": "72a8a94444348225327bfb2b53b0d4e393e15d8df92f58db034f8bbc63e38636"
+  },
+  {
+    "answer_id": "answer-063",
+    "comparison": "equal",
+    "saved_response": "I can, but the date and time have not been finalized yet. The two options are Thursday at 7 p.m. or Sunday at 10 a.m.; once you choose one, I can fill it in. The invitation can say: \"Join us online for our book club discussion of chapters 4–6 on [chosen date] at [chosen time]. The meeting link will be sent the day before.\"",
+    "actual_final": "I can, but the date and time have not been finalized yet. The two options are Thursday at 7 p.m. or Sunday at 10 a.m.; once you choose one, I can fill it in. The invitation can say: \"Join us online for our book club discussion of chapters 4–6 on [chosen date] at [chosen time]. The meeting link will be sent the day before.\"",
+    "saved_sha256": "ddfbb564a5ff1445123342066c6d4cc2313f078833df19e4dcf97438a349960b",
+    "final_sha256": "ddfbb564a5ff1445123342066c6d4cc2313f078833df19e4dcf97438a349960b",
+    "original_json_file_text": "{\"response\":\"I can, but the date and time have not been finalized yet. The two options are Thursday at 7 p.m. or Sunday at 10 a.m.; once you choose one, I can fill it in. The invitation can say: \\\"Join us online for our book club discussion of chapters 4–6 on [chosen date] at [chosen time]. The meeting link will be sent the day before.\\\"\"}\n",
+    "original_json_file_sha256": "33e77c94fb19501f7345f5cbc7c008cab7e419faaeef9eab29964782175e75f1"
+  },
+  {
+    "answer_id": "answer-064",
+    "comparison": "whitespace-only",
+    "saved_response": "最终时间表：\n第一轮：9:30—10:05\n换场：10:05—10:15\n第二轮：10:15—10:50\n换场：10:50—11:00\n第三轮：11:00—11:35\n收拾：11:35—11:50\n\n人员：共需要4名志愿者，三轮使用同一组人。",
+    "actual_final": "最终时间表：\n\n第一轮：9:30—10:05  \n换场：10:05—10:15  \n第二轮：10:15—10:50  \n换场：10:50—11:00  \n第三轮：11:00—11:35  \n收拾：11:35—11:50  \n\n人员：共需要4名志愿者，三轮使用同一组人。",
+    "saved_sha256": "a0037cec7f102f044ea4d8b4557758155ca5359ba22149263b11c1f76947e6dc",
+    "final_sha256": "8100701cda66ab68de5cc6308eab3fef008956eeacf10924a9e165e6e4fea189",
+    "original_json_file_text": "{\"response\":\"最终时间表：\\n第一轮：9:30—10:05\\n换场：10:05—10:15\\n第二轮：10:15—10:50\\n换场：10:50—11:00\\n第三轮：11:00—11:35\\n收拾：11:35—11:50\\n\\n人员：共需要4名志愿者，三轮使用同一组人。\"}\n",
+    "original_json_file_sha256": "185ef739a6e8d15c4b32b98bd057b44e2984508e5d755021dc3bfc78e5ab3336"
+  }
+]
