@@ -24,8 +24,8 @@
     "multilingual",
     "i18n"
   ],
-  "publication_status": "prepared-not-published",
-  "note": "R3 is prepared but not yet publicly verified. Luna/medium fails the bounded repair gate (exposed cases 3/4 then 2/4); Sol/medium passes (4/4 in both repetitions). R3 fresh cases are 8/8 in both repetitions for each model. Both failed earlier revisions remain preserved. Stable main and the active user skill remain v2.4.0. No tag or GitHub Release was created; native plugin onboarding and new-chat invocation remain untested.",
+  "publication_status": "published",
+  "note": "R3 source and evidence were published only to the existing candidate review branch and all 295 files were verified byte-for-byte through an unauthenticated public archive. Luna/medium still fails the bounded repair gate (exposed cases 3/4 then 2/4); Sol/medium passes (4/4 in both repetitions). R3 fresh cases are 8/8 in both repetitions for each model. Earlier failed revisions remain preserved. Stable main and the active personal skill remain v2.4.0. No tag or GitHub Release was created. New-chat invocation and native plugin onboarding remain untested. The published_source_commit precedes this publication-status metadata update.",
   "repository_url": "https://github.com/banzr519/ai-prompt-optimizer",
   "candidate_status": "not-accepted-r3-luna-gate-failed",
   "publication_channel": "candidate-branch",
@@ -38,5 +38,13 @@
     "candidate_status": "not-accepted-regressions-observed"
   },
   "candidate_revision": "r3-20261027",
-  "evaluation_record": "evals/v2.5.0/revision-20261027/README.md"
+  "evaluation_record": "evals/v2.5.0/revision-20261027/README.md",
+  "published_source_commit": "3b39c0e69e4a5f0f30facc5715f459ef462550b8",
+  "publication_verified_on": "2026-10-27",
+  "publication_verification": {
+    "method": "unauthenticated HTTP 200",
+    "files": 295,
+    "byte_identical": true,
+    "archive_sha256": "5976aa34d8120e6fd30558b64640bd97af12d875a7792adf361a4a9db173998c"
+  }
 }
