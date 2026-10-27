@@ -1,0 +1,50 @@
+[
+  {
+    "id": "H02",
+    "response": "请根据{{复盘记录}}整理一则可直接发送到群里的消息，字数控制在250—350字，分为“参加情况”“大家反馈”“下次安排”三个部分，语气自然，不必过于正式。涉及个人评价时，只保留复盘记录中已经匿名的原话，不要自行概括或补写好评；如果没有反馈，写“本次未收集到反馈”。"
+  },
+  {
+    "id": "N01",
+    "response": "青禾读书交换会来啦！周日下午两点在社区活动室举行，最多12人。每人最多带3本非教材书，也欢迎空手参加。请私信我姓名报名，收到我的确认回复后才算报名成功。"
+  },
+  {
+    "id": "N07",
+    "response": "你可以提交最多两张草图，或者改为发送一张照片。"
+  },
+  {
+    "id": "N08",
+    "response": "5"
+  },
+  {
+    "id": "H16",
+    "response": "I can’t fill in the date and time yet. The discussion is online and covers chapters 4–6, but the final choice is still pending between Thursday at 7 p.m. and Sunday at 10 a.m. Once you choose, the invitation can say:\n\nWe’ll meet online to discuss chapters 4–6 on [date] at [time]. I’ll send the meeting link the day before."
+  },
+  {
+    "id": "N02",
+    "response": "| 日期 | 主题 | 时间分配 |\n|---|---|---|\n| 周二 | 介绍一道喜欢的菜 | 准备3分钟，录音6分钟，回听3分钟 |\n| 周四 | 推荐一本书 | 准备3分钟，录音6分钟，回听3分钟 |\n| 周日 | 说明一个小游戏的玩法 | 准备3分钟，录音6分钟，回听3分钟 |\n\n如当次时间不足，回听可顺延到下一次练习开始时。"
+  },
+  {
+    "id": "N06",
+    "response": "很抱歉，我们把灰色收纳袋寄成了蓝色，纠正所需费用由我们承担。目前正在确认处理方式：全额退回商品款且无需寄回，或免费补寄灰色款且无需寄回。方案确定后我们会第一时间回复您。"
+  },
+  {
+    "id": "N04",
+    "response": "请根据【素材】为【参观者】撰写校史展说明牌。先提供两个备选标题，每个不超过12个汉字；再提供一段60到90个汉字的正文。只能使用【素材】中已有的信息，不得补写年代、人物经历或成就。若【参观者】未填写，按学生和家长作为目标读者；若【语气】未填写，使用平实自然的语气；这两项无需追问。只有当【素材】不足以写出正文时，才先提出一个最关键的问题，收到补充后再写标题和正文。"
+  },
+  {
+    "id": "H01",
+    "response": "小林，你们家两位大人和一位孩子已经登记好了。每家最多带3本书，11月7日14:00—16:00在西门活动室见～"
+  },
+  {
+    "id": "H14",
+    "response": "欢迎加入\n\n认识团队\n（待补充）\n\n第一周安排\n（待补充）\n\n常见问题\n（待补充）\n\n新人导师：________\n团队邮箱：________"
+  },
+  {
+    "id": "N03",
+    "response": "Review {{proposals}} against {{budget_limit}}. Select up to three proposals, prioritizing the lowest stated costs and preserving input order when costs tie. The total cost of selected proposals must not exceed the budget. Use only the proposals and costs supplied. Do not guess a missing cost or budget; put a proposal in needs_context when its affordability cannot be determined. Put proposals that can be evaluated but are not selected in deferred. Every input proposal must appear in exactly one of selected, deferred, or needs_context. Return only a JSON object with exactly these keys: selected, deferred, needs_context. Each value must be an array, and each item must contain only id and reason. The reason must be one sentence."
+  },
+  {
+    "id": "N05",
+    "response": "目前还不能确认最终时间表：林的到场时间尚未确定，无法确认他能否参加片段A和B。若林能在18:00前到场，可安排为：\n\n| 片段 | 起止时间 |\n|---|---|\n| A | 18:00—18:20 |\n| B | 18:20—18:40 |\n| C | 18:40—19:00 |"
+  }
+]

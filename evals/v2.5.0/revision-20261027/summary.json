@@ -1,0 +1,225 @@
+{
+  "date": "2026-10-27",
+  "revision": "r3",
+  "case_responses": 96,
+  "independent_sessions": 8,
+  "initial_agreement": 96,
+  "resolved_disagreements": 0,
+  "models": {
+    "gpt-5.6-luna": {
+      "repetitions": {
+        "1": {
+          "regression": {
+            "cases": 4,
+            "stable_pass": 3,
+            "revision_pass": 3,
+            "recoveries": 0,
+            "regressions": 0,
+            "both_fail": 1,
+            "both_pass": 3,
+            "revision_critical": 0,
+            "unknown": 0
+          },
+          "confirmation": {
+            "cases": 8,
+            "stable_pass": 7,
+            "revision_pass": 8,
+            "recoveries": 1,
+            "regressions": 0,
+            "both_fail": 0,
+            "both_pass": 7,
+            "revision_critical": 0,
+            "unknown": 0
+          }
+        },
+        "2": {
+          "regression": {
+            "cases": 4,
+            "stable_pass": 3,
+            "revision_pass": 2,
+            "recoveries": 0,
+            "regressions": 1,
+            "both_fail": 1,
+            "both_pass": 2,
+            "revision_critical": 0,
+            "unknown": 0
+          },
+          "confirmation": {
+            "cases": 8,
+            "stable_pass": 7,
+            "revision_pass": 8,
+            "recoveries": 1,
+            "regressions": 0,
+            "both_fail": 0,
+            "both_pass": 7,
+            "revision_critical": 0,
+            "unknown": 0
+          }
+        }
+      },
+      "bounded_repair_gate": false,
+      "failures": [
+        {
+          "answer_id": "answer-008",
+          "case_id": "H16",
+          "condition": "revision",
+          "repetition": 2,
+          "verdict": "fail",
+          "critical_errors": [],
+          "noncritical_failures": [
+            "Omits the required request for the confirmed poll choice and its calendar date; “需等最后两位成员回复后再决定” only restates the pending status."
+          ],
+          "rationale_a": "Correctly avoids filling unsupported details, but does not seek the missing choice and calendar date required to finish the invitation.",
+          "rationale_b": "正确保留两项候选的未定状态，但没有完成要求的针对性澄清，尤其没有询问缺失的日历日期。"
+        },
+        {
+          "answer_id": "answer-014",
+          "case_id": "H02",
+          "condition": "revision",
+          "repetition": 2,
+          "verdict": "fail",
+          "critical_errors": [],
+          "noncritical_failures": [
+            "Omits the required natural, not-too-formal tone for the future group message; the instruction specifies format and content but includes no corresponding tone direction."
+          ],
+          "rationale_a": "The reusable prompt retains the input, sections, length and feedback safeguards, but drops the adopted tone requirement.",
+          "rationale_b": "输入、篇幅、三部分结构和反馈规则均保留，但模板未编码用户要求的自然群聊语气。"
+        },
+        {
+          "answer_id": "answer-065",
+          "case_id": "H16",
+          "condition": "revision",
+          "repetition": 1,
+          "verdict": "fail",
+          "critical_errors": [],
+          "noncritical_failures": [
+            "Omits a request for the confirmed day/time and corresponding calendar date; “需等最后两位成员回复后再决定” only explains why the details remain open."
+          ],
+          "rationale_a": "Avoids invention and preserves the unresolved options, but supplies no targeted clarification for both missing details.",
+          "rationale_b": "没有擅自确定时间，但也没有索取生成最终邀请所必需的确认选项及具体日期。"
+        },
+        {
+          "answer_id": "answer-068",
+          "case_id": "N03",
+          "condition": "stable",
+          "repetition": 1,
+          "verdict": "fail",
+          "critical_errors": [],
+          "noncritical_failures": [
+            "“控制在 {{word_limit}} 字以内” changes the future limit from words to characters.",
+            "The required no-decision text “No confirmed decisions.” is changed to “No confirmed decisions。”."
+          ],
+          "rationale_a": "The prompt retains the variables and commitment-status rules, but alters the future length unit and the specified fallback text.",
+          "rationale_b": "模板结构、变量、承诺状态和负责人规则基本保留，但改变了未来篇幅单位及指定缺省文本。"
+        },
+        {
+          "answer_id": "answer-072",
+          "case_id": "H16",
+          "condition": "stable",
+          "repetition": 1,
+          "verdict": "fail",
+          "critical_errors": [],
+          "noncritical_failures": [
+            "Omits the required request for the selected option and its calendar date; stating “我现在不能把最终日期和时间填入邀请” and reciting the known arrangements does not obtain either missing confirmation."
+          ],
+          "rationale_a": "Faithfully distinguishes pending and confirmed information but stops before the required targeted clarification.",
+          "rationale_b": "准确说明候选未定并保留线上、章节及发链接安排，但没有完成冻结规则要求的日期和最终选项澄清。"
+        },
+        {
+          "answer_id": "answer-078",
+          "case_id": "N03",
+          "condition": "stable",
+          "repetition": 2,
+          "verdict": "fail",
+          "critical_errors": [],
+          "noncritical_failures": [
+            "“字数不超过 {{word_limit}} 字” changes the future output limit from words to characters."
+          ],
+          "rationale_a": "The variables, two headings and decision/action safeguards are preserved, but the future output uses a different counting unit from the requested word limit.",
+          "rationale_b": "保留可复用模板、变量、标题、行动状态和负责人要求，但未来复盘应受词数限制，不能改成字符数限制。"
+        },
+        {
+          "answer_id": "answer-094",
+          "case_id": "H16",
+          "condition": "stable",
+          "repetition": 2,
+          "verdict": "fail",
+          "critical_errors": [],
+          "noncritical_failures": [
+            "Omits the required request for the confirmed option and calendar date; “需等最后两位成员回复后再决定” only reports the unresolved state."
+          ],
+          "rationale_a": "Does not invent a choice or date, but fails to seek the missing information needed for the requested final invitation.",
+          "rationale_b": "未编造最终时间，但未索取完成邀请所必需的所选方案及具体日期。"
+        }
+      ]
+    },
+    "gpt-5.6-sol": {
+      "repetitions": {
+        "1": {
+          "regression": {
+            "cases": 4,
+            "stable_pass": 3,
+            "revision_pass": 4,
+            "recoveries": 1,
+            "regressions": 0,
+            "both_fail": 0,
+            "both_pass": 3,
+            "revision_critical": 0,
+            "unknown": 0
+          },
+          "confirmation": {
+            "cases": 8,
+            "stable_pass": 8,
+            "revision_pass": 8,
+            "recoveries": 0,
+            "regressions": 0,
+            "both_fail": 0,
+            "both_pass": 8,
+            "revision_critical": 0,
+            "unknown": 0
+          }
+        },
+        "2": {
+          "regression": {
+            "cases": 4,
+            "stable_pass": 4,
+            "revision_pass": 4,
+            "recoveries": 0,
+            "regressions": 0,
+            "both_fail": 0,
+            "both_pass": 4,
+            "revision_critical": 0,
+            "unknown": 0
+          },
+          "confirmation": {
+            "cases": 8,
+            "stable_pass": 8,
+            "revision_pass": 8,
+            "recoveries": 0,
+            "regressions": 0,
+            "both_fail": 0,
+            "both_pass": 8,
+            "revision_critical": 0,
+            "unknown": 0
+          }
+        }
+      },
+      "bounded_repair_gate": true,
+      "failures": [
+        {
+          "answer_id": "answer-029",
+          "case_id": "H16",
+          "condition": "stable",
+          "repetition": 1,
+          "verdict": "fail",
+          "critical_errors": [],
+          "noncritical_failures": [
+            "“Which option was selected: Thursday at 7 p.m. or Sunday at 10 a.m.?” asks for the option but omits the required calendar date."
+          ],
+          "rationale_a": "The focused question resolves the poll option only; the invitation would still lack the required calendar date.",
+          "rationale_b": "询问选项是适当的，但即使得到该问题的答案，仍无法填入用户要求的日期。"
+        }
+      ]
+    }
+  }
+}

@@ -53,16 +53,18 @@ The skill preserves numbers, names, exclusions and scope. It separates known inf
 
 The candidate sharpens how the skill selects the actual deliverable: analysis, an edit or a continuation stays actual work; a rewritten prompt is returned when that is what you ask for. Clarification is limited to answers that change the result or a consequential action. Follow-ups preserve unaffected constraints, and semantic checks keep negation, alternatives, bounds, uncertainty and conditional permissions attached to their meaning.
 
-**Review candidate; not recommended for production upgrades.** The model-stratified follow-up did not meet the improvement gate:
+**Review candidate; not recommended for production upgrades.** The 2026-10-27 R3 repair check still fails the Luna/medium gate; Sol/medium passes its bounded check.
 
-| Requested configuration | v2.4.0 baseline | v2.5.0 candidate | Recoveries / regressions | Candidate critical errors |
-| --- | --- | --- | --- | --- |
-| GPT-5.6 Luna, medium | 15/16 | 14/16 | 1 / 2 | 0 |
-| GPT-5.6 Sol, medium | 16/16 | 13/16 | 0 / 3 | 2 |
+| Requested configuration | Exposed 4: stable → R3, repetitions 1 / 2 | Fresh 8: stable → R3, repetitions 1 / 2 |
+| --- | --- | --- |
+| GPT-5.6 Luna, medium | 3/4 → 3/4; 3/4 → 2/4 | 7/8 → 8/8; 7/8 → 8/8 |
+| GPT-5.6 Sol, medium | 3/4 → 4/4; 4/4 → 4/4 | 8/8 → 8/8; 8/8 → 8/8 |
 
-These are 16 paired cases per configuration, with 64 new responses and no reruns. The follow-up reused the supplemental tasks; it is not a new independent holdout, a model ranking or a general compatibility guarantee. Earlier inherited-host comparisons passed all primary core cases (24/24), UI probes (4/4) and supplemental cases (16/16) in both versions; those ceiling results apply only to that configuration. See the [v2.5.0 evaluation record](evals/RESULTS-v2.5.0.md).
+R3 adds targeted rules for active-context preservation, unknown facts, present-versus-future output contracts and required placement. Luna still omits necessary final-date clarification in both repetitions, with one additional tone-requirement omission. The fresh cases show no paired regression, but do not cancel the exposed-case failures. The run contains 96 responses in 8 batch sessions, with two anonymous AI reviews agreeing on all 96 verdicts; it is not 96 independent sessions, a general improvement claim or a model ranking. See [R3 evidence and limitations](evals/v2.5.0/revision-20261027/README.md).
 
-The candidate is public on `feature/v2.5.0-intent` with [draft PR #1](https://github.com/banzr519/ai-prompt-optimizer/pull/1). Stable `main` remains v2.4.0; public availability does not mean upgrade acceptance. See [publication metadata](github-metadata.json) for the verified source and branch.
+The original follow-up (Luna 15/16 → 14/16; Sol 16/16 → 13/16) and [R2 repair attempt](evals/v2.5.0/revision-20261026/README.md) remain unchanged. Earlier inherited-host ceiling results also remain in the [original v2.5.0 record](evals/RESULTS-v2.5.0.md); those results do not establish performance on other configurations.
+
+Stable `main` remains v2.4.0. Current candidate publication is tracked in [metadata](github-metadata.json) and [draft PR #1](https://github.com/banzr519/ai-prompt-optimizer/pull/1); an existing repository URL does not prove that a local revision has been uploaded. Candidate publication does not mean acceptance as a stable upgrade.
 
 ## New in v2.3.0: languages
 
@@ -84,11 +86,15 @@ Deterministic personal/project installation, optional on-demand guidance, status
 
 ## Quick start
 
-### 1. Install
+### 1. Install or update
 
 For ordinary use, give Codex the stable `main` package and send:
 
 > Read docs/INSTALL.md, install AI Prompt Optimizer for my personal Codex and enable on-demand refinement. Use the included installer, preserve existing configuration and local edits, and report actual verification.
+
+**Already installed?** Ask Codex to maintain that copy instead of copying another folder:
+
+> Check my installed AI Prompt Optimizer and use its included maintenance program to update from stable main. Preserve my current on-demand setting, local edits and user rules. Stop and explain conflicts or a refused downgrade. Report the actual version, installation location and anything still unverified.
 
 To review or reproduce this candidate, explicitly select `feature/v2.5.0-intent` only after checking its [publication status](github-metadata.json), then use the reviewed local folder with `--source` in an isolated test project. Default cloning, ZIP download from `main` and ordinary online `update` do not select or track the candidate. For requirements, source selection, old-version migration and install-only mode, see the [installation guide](docs/INSTALL.md).
 
@@ -108,6 +114,8 @@ $ai-prompt-optimizer Improve this prompt only: Make my report more professional 
 ```
 
 If your client provides a skill picker, select **AI Prompt Optimizer**. If it does not appear, start a new session or restart the client. Automatic selection depends on the host and task; explicit invocation is the most predictable way to use it.
+
+Installation reporting should distinguish **file version/location, guidance state and new-chat invocation**. `session_verification: not-run` means the last item has not been checked, not that installation failed. See [how to verify success](docs/INSTALL.md#read-the-result).
 
 ### 3. Choose the outcome in ordinary language
 
@@ -144,7 +152,7 @@ The language links switch between maintained Markdown documents. They do not cha
 
 ## Validation and limitations
 
-v2.5.0 adds intent-routing, clarification and continuing-task rules. The [model-stratified follow-up](evals/RESULTS-v2.5.0.md) found regressions in both tested configurations, so this remains a review candidate and does not replace stable v2.4.0. No general precision improvement, reduced cost or cross-model certification is claimed.
+v2.5.0 remains a review candidate. [R3](evals/v2.5.0/revision-20261027/README.md) meets the bounded repair gate for Sol/medium but not Luna/medium; stable v2.4.0 remains the everyday version. No general accuracy, cost or cross-model improvement is claimed.
 
 Eight independent agent tasks were observed in v1.0.0, including a real repair of a synthetic Python function with four existing tests. The core workflow is unchanged through v2.1.0. v2.0.0 renamed the skill; v2.1.0 adds model-family portability documentation without new API integrations. See [validation details and limitations](evals/RESULTS.md). The original record contains sixteen cases, eight then unrun. New v2.5.0 reruns are recorded separately in [the v2.5.0 evaluation](evals/RESULTS-v2.5.0.md); the native implicit-invocation check remains unverified. New v2.2.0 behavior cases and their actual observations are recorded separately in [the new evaluation record](evals/RESULTS-v2.2.0.md). These are not cross-model benchmarks or proof of reduced cost or follow-up count.
 

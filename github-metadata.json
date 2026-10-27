@@ -24,14 +24,19 @@
     "multilingual",
     "i18n"
   ],
-  "publication_status": "published",
-  "note": "Published only on the candidate review branch after unauthenticated public archive verification of all 181 project files. This is not a stable release: Luna/medium 15/16→14/16 (1 recovery, 2 regressions), Sol/medium 16/16→13/16 (0 recoveries, 3 regressions, 2 candidate critical cases); both practical gates failed. Main remains v2.4.0 and the active user skill is unchanged. Draft PR #1 preserves implementation and evidence; no tag or GitHub Release was created. The published_source_commit identifies the first verified source/evidence commit, before this publication-status update. Native plugin packaging remains an unvalidated preview.",
+  "publication_status": "prepared-not-published",
+  "note": "R3 is prepared but not yet publicly verified. Luna/medium fails the bounded repair gate (exposed cases 3/4 then 2/4); Sol/medium passes (4/4 in both repetitions). R3 fresh cases are 8/8 in both repetitions for each model. Both failed earlier revisions remain preserved. Stable main and the active user skill remain v2.4.0. No tag or GitHub Release was created; native plugin onboarding and new-chat invocation remain untested.",
   "repository_url": "https://github.com/banzr519/ai-prompt-optimizer",
-  "candidate_status": "not-accepted-regressions-observed",
+  "candidate_status": "not-accepted-r3-luna-gate-failed",
   "publication_channel": "candidate-branch",
   "publication_ref": "feature/v2.5.0-intent",
   "publication_url": "https://github.com/banzr519/ai-prompt-optimizer/tree/feature/v2.5.0-intent",
   "review_url": "https://github.com/banzr519/ai-prompt-optimizer/pull/1",
-  "published_source_commit": "515acf5cbbd3d32a554684ea5f9dc9ce8a8b2ac2",
-  "publication_verified_on": "2026-10-20"
+  "previous_publication": {
+    "published_source_commit": "515acf5cbbd3d32a554684ea5f9dc9ce8a8b2ac2",
+    "publication_verified_on": "2026-10-20",
+    "candidate_status": "not-accepted-regressions-observed"
+  },
+  "candidate_revision": "r3-20261027",
+  "evaluation_record": "evals/v2.5.0/revision-20261027/README.md"
 }

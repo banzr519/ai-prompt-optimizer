@@ -1,0 +1,94 @@
+[
+  {
+    "answer": {
+      "answer_id": "answer-012",
+      "case_id": "N02",
+      "response": "| 日期 | 主题 | 时间分配 |\n|---|---|---|\n| 周二 | 介绍一道喜欢的菜 | 准备3分钟，录音6分钟，回听3分钟（若当次放不下，顺延至下一次开始） |\n| 周四 | 推荐一本书 | 准备3分钟，录音6分钟，回听3分钟（若当次放不下，顺延至下一次开始） |\n| 周日 | 说明一个小游戏的玩法 | 准备3分钟，录音6分钟，回听3分钟（若当次放不下，顺延至下一次开始） |"
+    },
+    "review_a": {
+      "answer_id": "answer-012",
+      "verdict": "fail",
+      "critical_errors": [],
+      "noncritical_failures": [
+        "The deferral branch lacks a usable allocation within the next session’s 12-minute cap: every row already says “准备3分钟，录音6分钟，回听3分钟”, while “顺延至下一次开始” adds prior playback without specifying which next-session time is reduced or moved."
+      ],
+      "rationale": "The base rows total 12 minutes, but the optional playback deferral leaves its effect on the next row’s already full allocation unresolved."
+    },
+    "review_b": {
+      "answer_id": "answer-012",
+      "verdict": "pass",
+      "critical_errors": [],
+      "noncritical_failures": [],
+      "rationale": "完整三次表的日期和主题正确，每次基本安排3+6+3=12分钟且含录音和回听；条件性顺延明确放在下一次开始，未要求必须追加一次完整回听。"
+    }
+  },
+  {
+    "answer": {
+      "answer_id": "answer-051",
+      "case_id": "N04",
+      "response": "根据【素材】为【参观者】撰写校史展说明牌。先提供两个备选标题，每个标题不超过12个汉字；再提供一段60至90个汉字的正文。只能使用【素材】中已有的信息，不补写年代、人物经历或成就。若【参观者】未填写，按学生和家长为对象；若【语气】未填写，使用平实自然的语气，这两项无需追问。只有在【素材】不足以写出正文时，才先提出一个最关键的问题，等待补充后再写标题和正文。"
+    },
+    "review_a": {
+      "answer_id": "answer-051",
+      "verdict": "fail",
+      "critical_errors": [],
+      "noncritical_failures": [
+        "Omitted required use of the supplied tone. “若【语气】未填写，使用平实自然的语气” defines only the default; the template never directs use of a filled 【语气】."
+      ],
+      "rationale": "The template retains the tone placeholder only in its empty-input default; it never instructs the future writer to use a supplied tone."
+    },
+    "review_b": {
+      "answer_id": "answer-051",
+      "verdict": "pass",
+      "critical_errors": [],
+      "noncritical_failures": [],
+      "rationale": "交付可复制模板，保留三个占位符、两个标题及正文的长度范围、素材事实边界、受众和语气默认值，以及资料不足时先问一个关键问题的规则。"
+    }
+  },
+  {
+    "answer": {
+      "answer_id": "answer-060",
+      "case_id": "N04",
+      "response": "请根据【素材】为【参观者】撰写校史展说明牌。先提供两个备选标题，每个不超过12个汉字；再提供一段60到90个汉字的正文。只能使用【素材】中已有的信息，不得补写年代、人物经历或成就。若【参观者】未填写，按学生和家长作为目标读者；若【语气】未填写，使用平实自然的语气；这两项无需追问。只有当【素材】不足以写出正文时，才先提出一个最关键的问题，收到补充后再写标题和正文。"
+    },
+    "review_a": {
+      "answer_id": "answer-060",
+      "verdict": "fail",
+      "critical_errors": [],
+      "noncritical_failures": [
+        "Omitted required use of a filled 【语气】. The only tone instruction is “若【语气】未填写，使用平实自然的语气”, which addresses the blank-input case only."
+      ],
+      "rationale": "Although the tone placeholder remains in the default rule, the revised template omits the instruction to apply the supplied tone when it is filled."
+    },
+    "review_b": {
+      "answer_id": "answer-060",
+      "verdict": "pass",
+      "critical_errors": [],
+      "noncritical_failures": [],
+      "rationale": "交付可复制模板，保留三个占位符、两个标题及正文的长度范围、素材事实边界、受众和语气默认值，以及资料不足时先问一个关键问题的规则。"
+    }
+  },
+  {
+    "answer": {
+      "answer_id": "answer-081",
+      "case_id": "N02",
+      "response": "| 日期 | 主题 | 时间分配 |\n|---|---|---|\n| 周二 | 介绍一道喜欢的菜 | 准备3分钟，录音6分钟，回听3分钟 |\n| 周四 | 推荐一本书 | 准备3分钟，录音6分钟，回听3分钟 |\n| 周日 | 说明一个小游戏的玩法 | 准备3分钟，录音6分钟，回听3分钟 |\n\n如当次时间不足，回听可顺延到下一次练习开始时。"
+    },
+    "review_a": {
+      "answer_id": "answer-081",
+      "verdict": "fail",
+      "critical_errors": [],
+      "noncritical_failures": [
+        "The deferral branch does not account for previous-session playback inside the next 12-minute allocation. Each row already totals 12 minutes (“准备3分钟，录音6分钟，回听3分钟”), while “顺延到下一次练习开始时” gives no adjustment to those allocations."
+      ],
+      "rationale": "The base rows total 12 minutes, but its appended deferral instruction does not specify how prior playback fits the next already allocated session."
+    },
+    "review_b": {
+      "answer_id": "answer-081",
+      "verdict": "pass",
+      "critical_errors": [],
+      "noncritical_failures": [],
+      "rationale": "完整三次表的日期、主题、录音与回听均正确，每次3+6+3=12分钟；补充说明仅允许回听不足时顺延到下次开始，未强制安排额外回听时长。"
+    }
+  }
+]

@@ -2,9 +2,16 @@
 
 [简体中文](INSTALL.zh-CN.md) · [Home](../README.md)
 
-**v2.5.0 is for review and reproduction; production upgrades are not recommended.** The model-stratified follow-up found regressions and did not meet the improvement gate. Stable `main` remains v2.4.0. Check [publication metadata](../github-metadata.json) before expecting `feature/v2.5.0-intent` on GitHub; an existing repository URL alone does not establish its availability. Installation mechanics remain those introduced in v2.4.0, with no expansion of verified platform coverage. See [v2.5.0 evaluation status](../evals/RESULTS-v2.5.0.md).
+**v2.5.0 remains a review candidate.** The 2026-10-27 R3 check meets the bounded repair gate for Sol/medium but not Luna/medium; production upgrades are not recommended. Stable `main` remains v2.4.0. Check [publication metadata](../github-metadata.json) for the current candidate revision before downloading. Installation mechanics remain those introduced in v2.4.0. See [R3 semantic and installation evidence](../evals/v2.5.0/revision-20261027/README.md).
 
 ## Recommended: ask Codex
+
+| Situation | Shortest path |
+| --- | --- |
+| First installation | Provide stable `main` and copy the installation request below |
+| Already installed | Use the update request below to maintain the existing copy |
+| Only checking whether it works | Run `status`, then [verify invocation](#read-the-result) |
+| Reproducing a candidate | Use the [isolated-project steps](#review-the-candidate-in-an-isolated-project), keeping the everyday stable installation |
 
 For ordinary use, give local, filesystem-capable Codex the stable `main` project directory and send:
 
@@ -13,6 +20,12 @@ For ordinary use, give local, filesystem-capable Codex the stable `main` project
 On-demand guidance applies to ambiguous, complex or multi-constraint tasks and explicit prompt refinement/audit.
 Clear simple questions remain direct. Execution requests continue through completion; refine-only requests do not
 execute the embedded task. This is an agent-assisted installation request, not a registered install button.
+
+For an existing installation, use this request without downloading another copy first:
+
+> Locate my installed AI Prompt Optimizer and read its maintenance guidance. Run status, then use the existing maintenance program to update from stable main. Preserve my selected mode, user rules and local edits. Stop and explain duplicate copies, unknown folders or downgrade restrictions. Report version, path, guidance state and new-chat verification status. Do not install a second copy.
+
+For an offline update, provide a reviewed source folder and replace “from stable main” with “from this local folder”. Inspect existing installations when personal/project scope is unclear; do not expand it silently.
 
 ## Review the candidate in an isolated project
 
@@ -100,10 +113,24 @@ managed block. User-authored rules and backups remain, and may need separate rev
 
 ## Read the result
 
+- `version` / `path`: actual managed version and location; unmanaged legacy folders may have no version field.
+
 `installation` describes file management; `policy` describes guidance; `problems` and `warnings` expose issues.
 `session_verification: not-run` means no fresh-chat discovery/invocation trial has happened. Open a new chat,
 check discovery, then try an ambiguous task and a simple question. File checks are not behavior benchmarks.
 Exit `0`: operation completed (read warnings); `1`: failure/refusal; `2`: status found problems.
+
+A read-only request is enough: “Check AI Prompt Optimizer's actual version, location, duplicate copies, guidance state and pending issues. Do not update or reconfigure it yet.”
+
+In a new chat, explicitly invoke `$ai-prompt-optimizer` and ask “Refine only: make an email clearer, preserving facts and adding no promises.” Expect a reusable instruction, not an invented or sent email. Then try a simple question and check for a direct answer. Automatic selection without naming the skill needs a separate observation. These are local trial instructions, not completed model tests.
+
+| Status | Next step |
+| --- | --- |
+| `not-installed` | Use the recommended installation path; downloading is not installing |
+| `unmanaged` | Review provenance and local edits before migration |
+| `existing-user-guidance-review-needed` | Review preserved user rules; an exit code does not establish on-demand behavior |
+| `duplicate-installations` | Identify each copy and its customizations before resolving it; do not delete or overwrite blindly |
+| `session_verification: not-run`, with no file problems | Verify discovery and invocation in a new chat instead of repeatedly reinstalling |
 
 ## Plugin preview
 
@@ -113,3 +140,6 @@ plugin adds `ai-prompt-optimizer-setup` for first configuration. It calls the sa
 updates/removal belong to the host; maintainer `uninstall` only removes its tracked preference and state.
 Native client installation, automatic onboarding and marketplace registration have **not** been verified.
 No unverified install deep link or published-listing claim is provided.
+
+
+Host discovery paths and explicit/implicit invocation were checked against the [official Codex skills documentation](https://developers.openai.com/codex/skills) on 2026-10-27. That documentation check does not establish actual invocation in this user session.

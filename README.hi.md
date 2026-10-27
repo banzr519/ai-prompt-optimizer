@@ -8,7 +8,7 @@
 
 कोडिंग, डिज़ाइन, लेखन, शोध तथा चित्र और वीडियो संबंधी अनुरोधों के लिए। संख्याएँ, सीमाएँ और वेरिएबल सुरक्षित रखता है तथा तथ्यों को अनुमानों से अलग करता है। मूल काम केवल स्पष्ट अनुरोध पर करता है।
 
-**Install with Codex / 使用 Codex 安装:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md) · [v2.5.0 candidate: regressions observed / 候选版：已观察到回退](evals/RESULTS-v2.5.0.md)
+**Install, update and verify / 安装、更新与验证:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md) · [Candidate evidence / 候选验证](evals/v2.5.0/revision-20261027/README.md)
 
 ## स्थापना
 

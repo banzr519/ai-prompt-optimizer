@@ -8,7 +8,7 @@
 
 開発、デザイン、文章作成、調査、画像・動画の指示に利用できます。数値、制約、変数を保持し、事実と仮定を区別します。元の作業は明示的に依頼された場合だけ実行します。
 
-**Install with Codex / 使用 Codex 安装:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md) · [v2.5.0 candidate: regressions observed / 候选版：已观察到回退](evals/RESULTS-v2.5.0.md)
+**Install, update and verify / 安装、更新与验证:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md) · [Candidate evidence / 候选验证](evals/v2.5.0/revision-20261027/README.md)
 
 ## インストール
 

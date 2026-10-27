@@ -23,7 +23,7 @@
 
 ## Installation
 
-**v2.5.0 is a review candidate, not recommended for production upgrades:** the model-stratified follow-up found regressions and did not meet the improvement gate. Stable `main` remains v2.4.0. Start with [installation and configuration](INSTALL.md). For candidate reproduction, check [publication metadata](../github-metadata.json), explicitly select `feature/v2.5.0-intent` if public, and use its reviewed local folder with `--source` in an isolated test project. Manual copying/Git cloning below remains available and does not add default guidance.
+**v2.5.0 is a review candidate, not recommended for production upgrades:** the current R3 check passes the bounded Sol/medium gate but still fails the Luna/medium gate. Stable `main` remains v2.4.0. Start with [installation and configuration](INSTALL.md). For candidate reproduction, check [publication metadata](../github-metadata.json), explicitly select `feature/v2.5.0-intent` if public, and use its reviewed local folder with `--source` in an isolated test project. Manual copying/Git cloning below remains available and does not add default guidance.
 
 The repository root is the skill root: `SKILL.md`, `agents/` and `references/` are direct children. No Python, Node, pip, npm or model API key is required merely to load the skill. The host's account/access requirements still apply. Python is used by the optional installer, synthetic coding evaluation and localization maintenance script; the document renderer requires Python 3.9 or newer.
 
@@ -91,7 +91,7 @@ For small tasks the result may be a single sentence. A complex brief can include
 
 ## Intent fidelity in follow-ups
 
-v2.5.0 focuses on four instruction changes. The follow-up observed Luna medium at 15/16 → 14/16 and Sol medium at 16/16 → 13/16; the candidate did not meet the improvement gate. These reused tasks are diagnostic material, not a new independent holdout or a ranking of model capabilities. See [the version record](../evals/RESULTS-v2.5.0.md). These examples describe intended behavior, not evidence of superiority.
+v2.5.0 remains a review candidate. The [2026-10-27 R3 check](../evals/v2.5.0/revision-20261027/README.md) meets the bounded repair gate for Sol/medium but not Luna/medium; date clarification and one tone constraint still failed on Luna. The [original results](../evals/RESULTS-v2.5.0.md) remain intact. The examples below describe intended behavior, not a general performance guarantee.
 
 | Situation | Intended behavior |
 | --- | --- |
@@ -103,6 +103,10 @@ v2.5.0 focuses on four instruction changes. The follow-up observed Luna medium a
 A question about progress does not itself cancel the active task. A new instruction replaces only the requirements it changes; an explicit replacement of the goal retires the replaced requirements. An assistant's suggestion is not an agreed requirement until the user adopts it. Missing earlier agreements remain unknown. No persistent user profile or mandatory visible checklist is added.
 
 For relevant complex cases, the skill can load [intent and continuity guidance](../references/intent-and-continuity.md). If you ask what changed, it can briefly identify what was preserved, changed or remains provisional without requiring another approval for already-authorized work.
+
+A reusable prompt has two distinct deliverables. If you currently request “rewrite the template only; do not write the notice yet”, while the template asks a future model to “write a notice from {{event_details}}”, this response should be the template. The template must still ask its future executor for a notice, not end with a contradictory instruction to output another task description. Length and JSON requirements stay attached to the artifact they govern.
+
+Likewise, a tone change does not remove time/place details still needed in the result; leaving unknown facts blank does not permit asserting a guessed schedule before the blank; a missing final date may require both a chosen option and its calendar date. These are usage examples; actual observations are recorded separately in [the revision check](../evals/v2.5.0/revision-20261027/README.md).
 
 ## Multilingual use
 
@@ -224,4 +228,4 @@ Report the anonymized input, relevant context, mode, host/model if known, actual
 
 Use [cases.jsonl](../evals/cases.jsonl) with fresh conversations. Give the executor only the skill and the case's `prompt`, not its `checks` or recorded output. Review fidelity, invented facts, scope, execution boundaries, usefulness of checks and unnecessary length. Test file changes only in temporary fixtures. See [the evaluation record](../evals/RESULTS.md) for limitations and the reproducible coding case.
 
-To claim improvement, compare the same held-out tasks with and without the skill using fixed model/settings and report failures, variation, latency and output length. Include the previous version when claiming a version-to-version gain. Score the requested final deliverable, constraint fidelity, necessary and unnecessary questions, and unsupported additions; the presence of a keyword in a refined prompt alone is insufficient. See [v2.5.0 evaluation status](../evals/RESULTS-v2.5.0.md). Do not turn a small smoke test into a universal success-rate claim.
+To claim improvement, compare the same held-out tasks with and without the skill using fixed model/settings and report failures, variation, latency and output length. Include the previous version when claiming a version-to-version gain. Score the requested final deliverable, constraint fidelity, necessary and unnecessary questions, and unsupported additions; the presence of a keyword in a refined prompt alone is insufficient. See [current revision evidence](../evals/v2.5.0/revision-20261027/README.md). Do not turn a small smoke test into a universal success-rate claim.

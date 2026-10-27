@@ -8,7 +8,7 @@
 
 Do programowania, projektowania, pisania, badań oraz poleceń dotyczących obrazów i filmów. Zachowuje liczby, ograniczenia i zmienne oraz oddziela fakty od założeń. Właściwe zadanie wykonuje tylko na wyraźną prośbę.
 
-**Install with Codex / 使用 Codex 安装:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md) · [v2.5.0 candidate: regressions observed / 候选版：已观察到回退](evals/RESULTS-v2.5.0.md)
+**Install, update and verify / 安装、更新与验证:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md) · [Candidate evidence / 候选验证](evals/v2.5.0/revision-20261027/README.md)
 
 ## Instalacja
 

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "release_version": "2.5.0",
-  "last_updated": "2026-10-20",
+  "last_updated": "2026-10-27",
   "scope": "Documentation entries include languages and regional/script variants; not a runtime allowlist or a guarantee of model proficiency.",
   "locales": [
     {
@@ -1131,9 +1131,9 @@
     }
   ],
   "installation_entry": {
-    "label": "Install with Codex / 使用 Codex 安装",
-    "readme_links": "[English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md) · [v2.5.0 candidate: regressions observed / 候选版：已观察到回退](evals/RESULTS-v2.5.0.md)",
-    "guide_links": "[English](INSTALL.md) · [简体中文](INSTALL.zh-CN.md) · [v2.5.0 candidate: regressions observed / 候选版：已观察到回退](../evals/RESULTS-v2.5.0.md)",
+    "label": "Install, update and verify / 安装、更新与验证",
+    "readme_links": "[English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md) · [Candidate evidence / 候选验证](evals/v2.5.0/revision-20261027/README.md)",
+    "guide_links": "[English](INSTALL.md) · [简体中文](INSTALL.zh-CN.md) · [Candidate evidence / 候选验证](../evals/v2.5.0/revision-20261027/README.md)",
     "coverage": "English/Simplified Chinese fallback; not newly translated into all locales."
   }
 }

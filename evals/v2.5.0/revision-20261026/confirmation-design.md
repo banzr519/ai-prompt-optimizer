@@ -1,0 +1,11 @@
+# Independent confirmation-set design note
+
+This set contains exactly eight freshly authored synthetic cases: two Chinese multi-turn revisions, two reusable-prompt/meta tasks (one English and one Chinese), two cases with a missing fact that affects whether a final answer can be justified, and two concise direct-answer controls. Contexts cover community reading, solo language practice, proposal selection, exhibit writing, rehearsal scheduling, customer support, translation, and simple inventory arithmetic.
+
+Relationships tested include upper bounds versus exact quantities, replacement of earlier constraints, preservation of unaffected instructions, alternative outcomes, conditional deferral, explicit fallback defaults, and the distinction between rewriting an instruction and executing its future output contract. Full-artifact requirements are present only where the user explicitly requests a complete notice, a complete three-session table, or a reusable template. The rubrics separate necessary content from optional reminders and accept semantically equivalent wording.
+
+The two missing-information cases accept a bounded question or an explicitly conditional useful result. They do not require invented values, additional authority, calendar dates, or time-zone information. The simple controls are intended to expose unnecessary clarification or prompt-optimization ceremony.
+
+All task facts needed for reasoning are provided in the case text, except the deliberately unresolved facts whose absence is itself the test. No case requires network access, tools, external actions, current-world facts, or specialist factual knowledge. Prior assistant turns are synthetic context, not external evidence.
+
+Limitations: eight cases are a small confirmation set, not a broad benchmark. Categories overlap intentionally in the intent relationships they exercise, and outcomes alone will not establish which internal process caused an error. The set emphasizes written Chinese and English tasks and does not evaluate tool use, long-document editing, retrieval, or factual research. Tight length constraints should be judged consistently using visible characters rather than implementation-specific byte counts. No target implementation or prior test/output files were inspected in authoring this set.

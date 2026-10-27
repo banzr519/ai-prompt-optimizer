@@ -8,7 +8,7 @@
 
 Voor programmeren, ontwerp, schrijven, onderzoek en verzoeken voor beeld of video. Behoudt getallen, beperkingen en variabelen en scheidt feiten van aannames. De oorspronkelijke taak wordt alleen op uitdrukkelijk verzoek uitgevoerd.
 
-**Install with Codex / 使用 Codex 安装:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md) · [v2.5.0 candidate: regressions observed / 候选版：已观察到回退](evals/RESULTS-v2.5.0.md)
+**Install, update and verify / 安装、更新与验证:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md) · [Candidate evidence / 候选验证](evals/v2.5.0/revision-20261027/README.md)
 
 ## Installatie
 

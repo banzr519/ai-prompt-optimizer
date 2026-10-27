@@ -8,7 +8,7 @@
 
 Para programação, design, escrita, investigação e pedidos de imagens ou vídeos. Preserva números, restrições e variáveis e distingue factos de pressupostos. A tarefa original só é executada quando explicitamente solicitada.
 
-**Install with Codex / 使用 Codex 安装:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md) · [v2.5.0 candidate: regressions observed / 候选版：已观察到回退](evals/RESULTS-v2.5.0.md)
+**Install, update and verify / 安装、更新与验证:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md) · [Candidate evidence / 候选验证](evals/v2.5.0/revision-20261027/README.md)
 
 ## Instalação
 

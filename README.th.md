@@ -8,7 +8,7 @@
 
 ใช้กับงานเขียนโปรแกรม ออกแบบ เขียนเนื้อหา ค้นคว้า และคำสั่งสร้างภาพหรือวิดีโอ รักษาตัวเลข ข้อจำกัด และตัวแปร พร้อมแยกข้อเท็จจริงจากสมมติฐาน จะทำงานต้นฉบับเมื่อผู้ใช้สั่งอย่างชัดเจนเท่านั้น
 
-**Install with Codex / 使用 Codex 安装:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md) · [v2.5.0 candidate: regressions observed / 候选版：已观察到回退](evals/RESULTS-v2.5.0.md)
+**Install, update and verify / 安装、更新与验证:** [English](docs/INSTALL.md) · [简体中文](docs/INSTALL.zh-CN.md) · [Candidate evidence / 候选验证](evals/v2.5.0/revision-20261027/README.md)
 
 ## การติดตั้ง
 

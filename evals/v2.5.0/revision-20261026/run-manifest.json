@@ -1,0 +1,191 @@
+{
+  "date": "2026-10-27",
+  "seed": 20261026,
+  "sessions": 8,
+  "case_responses_planned": 96,
+  "case_responses_are_not_independent_sessions": true,
+  "runs": [
+    {
+      "run_id": "run-01",
+      "requested_model": "gpt-5.6-luna",
+      "requested_reasoning_effort": "medium",
+      "condition": "stable",
+      "repetition": 2,
+      "case_order": [
+        "H02",
+        "N01",
+        "N07",
+        "N08",
+        "H16",
+        "N02",
+        "N06",
+        "N04",
+        "H01",
+        "H14",
+        "N03",
+        "N05"
+      ],
+      "packet_sha256": "8e974d95b107186585e7824b0b6e376bfdd83901e778d1150da0219c915c5658"
+    },
+    {
+      "run_id": "run-02",
+      "requested_model": "gpt-5.6-luna",
+      "requested_reasoning_effort": "medium",
+      "condition": "stable",
+      "repetition": 1,
+      "case_order": [
+        "N08",
+        "H16",
+        "N06",
+        "N03",
+        "N04",
+        "N07",
+        "N01",
+        "N02",
+        "H02",
+        "H14",
+        "H01",
+        "N05"
+      ],
+      "packet_sha256": "92b2c08043fc417c82d3f0de43684f5625c7dfa4844937a012e8e3a0ad2ad60d"
+    },
+    {
+      "run_id": "run-03",
+      "requested_model": "gpt-5.6-sol",
+      "requested_reasoning_effort": "medium",
+      "condition": "stable",
+      "repetition": 1,
+      "case_order": [
+        "H01",
+        "H14",
+        "N06",
+        "N02",
+        "N04",
+        "N01",
+        "N08",
+        "H16",
+        "N05",
+        "N07",
+        "H02",
+        "N03"
+      ],
+      "packet_sha256": "9565ad5ed9c8c80255d5e8db3f01560d78898cad3894e5ee989be89993ba5f80"
+    },
+    {
+      "run_id": "run-04",
+      "requested_model": "gpt-5.6-luna",
+      "requested_reasoning_effort": "medium",
+      "condition": "revision",
+      "repetition": 2,
+      "case_order": [
+        "H02",
+        "N01",
+        "N07",
+        "N08",
+        "H16",
+        "N02",
+        "N06",
+        "N04",
+        "H01",
+        "H14",
+        "N03",
+        "N05"
+      ],
+      "packet_sha256": "8e974d95b107186585e7824b0b6e376bfdd83901e778d1150da0219c915c5658"
+    },
+    {
+      "run_id": "run-05",
+      "requested_model": "gpt-5.6-sol",
+      "requested_reasoning_effort": "medium",
+      "condition": "revision",
+      "repetition": 1,
+      "case_order": [
+        "H01",
+        "H14",
+        "N06",
+        "N02",
+        "N04",
+        "N01",
+        "N08",
+        "H16",
+        "N05",
+        "N07",
+        "H02",
+        "N03"
+      ],
+      "packet_sha256": "9565ad5ed9c8c80255d5e8db3f01560d78898cad3894e5ee989be89993ba5f80"
+    },
+    {
+      "run_id": "run-06",
+      "requested_model": "gpt-5.6-sol",
+      "requested_reasoning_effort": "medium",
+      "condition": "revision",
+      "repetition": 2,
+      "case_order": [
+        "N02",
+        "N05",
+        "H01",
+        "N03",
+        "N06",
+        "H14",
+        "N01",
+        "N04",
+        "N08",
+        "H16",
+        "N07",
+        "H02"
+      ],
+      "packet_sha256": "a041de073523a8f3dc29966e51eaf5b0f47713cde4dfa5e12c337f832e50241a"
+    },
+    {
+      "run_id": "run-07",
+      "requested_model": "gpt-5.6-sol",
+      "requested_reasoning_effort": "medium",
+      "condition": "stable",
+      "repetition": 2,
+      "case_order": [
+        "N02",
+        "N05",
+        "H01",
+        "N03",
+        "N06",
+        "H14",
+        "N01",
+        "N04",
+        "N08",
+        "H16",
+        "N07",
+        "H02"
+      ],
+      "packet_sha256": "a041de073523a8f3dc29966e51eaf5b0f47713cde4dfa5e12c337f832e50241a"
+    },
+    {
+      "run_id": "run-08",
+      "requested_model": "gpt-5.6-luna",
+      "requested_reasoning_effort": "medium",
+      "condition": "revision",
+      "repetition": 1,
+      "case_order": [
+        "N08",
+        "H16",
+        "N06",
+        "N03",
+        "N04",
+        "N07",
+        "N01",
+        "N02",
+        "H02",
+        "H14",
+        "H01",
+        "N05"
+      ],
+      "packet_sha256": "92b2c08043fc417c82d3f0de43684f5625c7dfa4844937a012e8e3a0ad2ad60d"
+    }
+  ],
+  "input_hashes": {
+    "PROTOCOL.md": "61b077f5e78be12ca10e134b3645bf44379594e6b7cc71433fd0b62d9344b573",
+    "runtime-manifest.json": "83669e7fc574d6c5ec3efc79c06cef752c5fec140c264fec7d1a7888627731f3",
+    "cases.jsonl": "f77a4993e725f6fa77c3316db92fd1e570874a856bbfcd5f8b111e449a580160",
+    "rubrics.jsonl": "fe756f1c9923ba24a26d3e9e82d40d3b90177dcfc405c30e696493a405ec8722"
+  }
+}

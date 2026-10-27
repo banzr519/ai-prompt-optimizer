@@ -1,0 +1,50 @@
+[
+  {
+    "id": "N02",
+    "response": "| 日期 | 主题 | 时间分配 | 练习方式 |\n|---|---|---|---|\n| 周二 | 介绍一道喜欢的菜 | 准备3分钟，录音6分钟，回听3分钟 | 仅用手机独自练习 |\n| 周四 | 推荐一本书 | 准备3分钟，录音6分钟，回听3分钟 | 仅用手机独自练习 |\n| 周日 | 说明一个小游戏的玩法 | 准备3分钟，录音6分钟，回听3分钟 | 仅用手机独自练习 |"
+  },
+  {
+    "id": "N05",
+    "response": "请先确认林的到场时间；他最晚必须在18:20前到场，否则三个片段无法在19:00前完成。到场时间未确认前，无法排出最终起止时间表。"
+  },
+  {
+    "id": "H01",
+    "response": "小林，你们家两位大人和一位孩子已经登记好了。11月7日14:00—16:00，西门活动室见～提醒一下，每家最多带3本书。"
+  },
+  {
+    "id": "N03",
+    "response": "Review {{proposals}} against {{budget_limit}} using only the supplied proposal IDs and stated costs. Do not infer or invent any missing value.\n\nClassify every input proposal into exactly one of these groups:\n- selected: Choose no more than three proposals. Consider proposals with known costs in ascending order of stated cost, preserving their original input order when costs tie, and select a proposal only if adding it keeps the cumulative selected cost within {{budget_limit}}.\n- deferred: Include proposals whose affordability can be determined but that are not selected, including those excluded by the three-proposal limit or because adding them would exceed the budget.\n- needs_context: Include any proposal whose affordability cannot be determined because its cost is missing. If {{budget_limit}} is missing, place every proposal in needs_context.\n\nReturn only a valid JSON object with exactly these keys in this order: selected, deferred, needs_context. Each value must be an array. Each array item must contain exactly two keys, id and reason; reason must be one sentence. Do not include Markdown, commentary, additional keys, or proposals not present in {{proposals}}."
+  },
+  {
+    "id": "N06",
+    "response": "您好，非常抱歉，我们误将您购买的灰色收纳袋发成了蓝色，相关费用由我们承担。目前可处理为：全额退回商品款且无需寄回，或免费补寄灰色款且无需寄回。具体方案确认后我们会尽快告知您，再次向您致歉。"
+  },
+  {
+    "id": "H14",
+    "response": "# 欢迎加入\n\n很高兴你加入我们，接下来一起愉快共事！\n\n## 认识团队\n\n先和身边的伙伴打个招呼，熟悉大家负责的工作。\n\n新人导师：________\n\n## 第一周安排\n\n认识工作环境，了解基本流程，并和团队成员逐步对接。遇到不清楚的地方，随时提问。\n\n## 常见问题\n\n常用资料在哪里？日常协作怎么进行？需要找谁沟通？这些问题都可以先问团队伙伴。\n\n团队邮箱：________"
+  },
+  {
+    "id": "N01",
+    "response": "青禾读书交换会来啦！周日下午两点，社区活动室见，限12人。每人最多带3本非教材书，也欢迎空手参加。请私信我姓名报名，收到我的确认回复后才算报名成功。室内活动，下雨照常举行。"
+  },
+  {
+    "id": "N04",
+    "response": "请根据【素材】，面向【参观者】撰写一块校史展说明牌，整体采用【语气】。\n\n输出要求：\n1. 先提供两个备选标题，每个不超过12个汉字。\n2. 再提供一段60—90个汉字的正文。\n3. 只能使用【素材】中已有的信息，不得补写年代、人物经历或成就。\n4. 如果【参观者】未填写，默认面向学生和家长；如果【语气】未填写，默认使用平实自然的语气，这两项无需追问。\n5. 只有当【素材】不足以支持正文写作时，先提出一个最关键的问题，并等待补充；收到补充后再写标题和正文。"
+  },
+  {
+    "id": "N08",
+    "response": "5"
+  },
+  {
+    "id": "H16",
+    "response": "Which option did you choose after the last two replies: Thursday at 7 p.m. or Sunday at 10 a.m.? Once that is confirmed, I can fill in the final invitation without guessing."
+  },
+  {
+    "id": "N07",
+    "response": "你最多可以提交两张草图，或者改为发送一张照片。"
+  },
+  {
+    "id": "H02",
+    "response": "请根据以下{{复盘记录}}，整理一则可直接发布到群里的培训复盘消息，全文250—350字，语气自然，不要过于正式。内容分为“参加情况”“大家反馈”“下次安排”三个部分，并且只使用记录中已有的信息。涉及个人评价时，只保留记录里已经匿名的原话，不补写、改写或推断个人评价；如果没有反馈，写“本次未收集到反馈”，不要自行总结好评。\n\n{{复盘记录}}"
+  }
+]
